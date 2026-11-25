@@ -1,4 +1,5 @@
 # nsga2_coopt.py
+import json
 import os
 import pickle
 import re
@@ -65,14 +66,7 @@ def mzi_2x2(theta, phi):
 
 
 def build_clements_4x4(thetas, phis):
-    """
-    4x4 Clements rectangular MZI mesh (6 MZIs, 12 phase shifters).
-    Layer layout:
-      Col 0: MZI(0,1), MZI(2,3)
-      Col 1: MZI(1,2)
-      Col 2: MZI(0,1), MZI(2,3)
-      Col 3: MZI(1,2)
-    """
+    """4x4 Clements rectangular MZI mesh (6 MZIs, 12 phase shifters)."""
     pairs = [(0, 1), (2, 3), (1, 2), (0, 1), (2, 3), (1, 2)]
     U = np.eye(4, dtype=np.complex128)
     for k, (i, j) in enumerate(pairs):
@@ -87,18 +81,16 @@ def build_clements_4x4(thetas, phis):
 def evaluate_mesh_infidelity(target_configs, dac_bits, xt_coeff):
     """
     Evaluate mean unitary infidelity (1 - F) across target 4x4 mesh configs
-    under DAC phase quantization and nearest-neighbor thermal crosstalk.
+    under DAC phase quantization and Lumerical-fitted nearest-neighbor thermal crosstalk.
     """
     n_levels = 2.0 ** dac_bits
     step = 2.0 * np.pi / n_levels
     infidelities = []
 
     for thetas, phis, U_ideal in target_configs:
-        # 1. DAC quantization of programmed phases (0 to 2*pi)
         th_q = np.round(thetas / step) * step
         ph_q = np.round(phis / step) * step
 
-        # 2. Thermal crosstalk from adjacent MZIs (proportional to neighbor phase/power)
         th_actual = th_q.copy()
         ph_actual = ph_q.copy()
         for k in range(6):
@@ -117,40 +109,29 @@ def evaluate_mesh_infidelity(target_configs, dac_bits, xt_coeff):
 class MeshCoOptProblem(Problem):
     """
     Joint Device + Driver + 4x4 MZI Mesh Co-Optimization Problem.
-    Decision variables (7):
-      x[0]: wg_width_nm     [400, 600]
-      x[1]: wg_height_nm    [200, 260]
-      x[2]: heater_width_nm [800, 2000]
-      x[3]: heater_gap_nm   [600, 1500]
-      x[4]: length_um       [50, 250]
-      x[5]: pitch_um        [15, 60]
-      x[6]: dac_bits        [6, 12] (rounded to integer)
-    Objectives (3):
-      f[0]: Total Mesh + Driver Power (mW)
-      f[1]: Mean Unitary Infidelity (%)
-      f[2]: Active Mesh Footprint (mm^2)
-    Constraint (1):
-      g[0]: T_max_2pi_K - 450.0 <= 0  (Thermal reliability limit)
+    Uses Lumerical-fitted lateral thermal crosstalk model.
     """
-    def __init__(self, bundle, target_configs):
+    def __init__(self, bundle, xt_params, target_configs):
         super().__init__(
             n_var=7,
             n_obj=3,
             n_ieq_constr=1,
-            xl=np.array([400.0, 200.0, 800.0, 600.0, 50.0, 15.0, 6.0]),
-            xu=np.array([600.0, 260.0, 2000.0, 1500.0, 250.0, 60.0, 12.0])
+            xl=np.array([400.0, 200.0, 800.0, 600.0, 50.0, 10.0, 6.0]),
+            xu=np.array([600.0, 260.0, 2000.0, 1500.0, 250.0, 40.0, 12.0])
         )
         self.scaler = bundle["scaler"]
         self.gp_dneff = bundle["gp_dneff"]
         self.gp_tmax = bundle["gp_tmax"]
         self.wavelength_um = bundle["wavelength_um"]
+        self.xt_A = xt_params["A"]
+        self.xt_L0 = xt_params["L0_um"]
+        self.xt_L1 = xt_params["L1_um_per_um"]
         self.target_configs = target_configs
 
     def _evaluate(self, X, out, *args, **kwargs):
         n = X.shape[0]
-        p_ref = 25.0  # Reference power (mW) for linear scaling
+        p_ref = 25.0
 
-        # Query GP compact model at P_ref
         X_query = np.column_stack([X[:, 0], X[:, 1], X[:, 2], X[:, 3], np.full(n, p_ref)])
         X_q_s = self.scaler.transform(X_query)
         dneff_ref = np.maximum(self.gp_dneff.predict(X_q_s) * 1e-3, 1e-6)
@@ -161,34 +142,27 @@ class MeshCoOptProblem(Problem):
         f3_area  = np.zeros(n)
         g1_temp  = np.zeros(n)
 
-        n_shifters = 12  # 4x4 Clements mesh has 6 MZIs x 2 shifters
+        n_shifters = 12
 
         for i in range(n):
-            gap_nm   = X[i, 3]
+            gap_um   = X[i, 3] / 1000.0
             length_u = X[i, 4]
             pitch_u  = X[i, 5]
             dac_bits = int(np.round(X[i, 6]))
 
-            # Required delta_neff for pi phase shift: dneff_pi = lambda / (2 * L)
             dneff_pi = self.wavelength_um / (2.0 * length_u)
             p_pi_mW = p_ref * (dneff_pi / dneff_ref[i])
-
-            # Peak temperature at full 2*pi tuning (P_2pi = 2 * P_pi)
             T_max_2pi_K = 300.0 + dT_max_ref[i] * (2.0 * p_pi_mW / p_ref)
 
-            # Driver power model per channel (mW):
-            # Static DAC/bias overhead grows with resolution + linear regulator headroom
             p_dac_per_ch = 0.8 + 0.04 * (2.0 ** (dac_bits - 6)) + 0.15 * p_pi_mW
             total_power_mW = n_shifters * (p_pi_mW + p_dac_per_ch)
 
-            # Lateral thermal crosstalk coefficient decays exponentially with pitch
-            # Wider oxide gap slightly increases lateral spreading length
-            L_th_um = 11.0 + 2.5 * (gap_nm / 1000.0)
-            xt_coeff = 0.18 * np.exp(-pitch_u / L_th_um)
+            # Lumerical HEAT-fitted lateral thermal crosstalk
+            L_th_um = max(self.xt_L0 + self.xt_L1 * gap_um, 1.0)
+            xt_coeff = self.xt_A * np.exp(-pitch_u / L_th_um)
 
             infid_pct = 100.0 * evaluate_mesh_infidelity(self.target_configs, dac_bits, xt_coeff)
 
-            # Active mesh footprint (4 columns x 4 waveguide lanes) in mm^2
             mesh_len_mm = (4.0 * (length_u + 40.0)) * 1e-3
             mesh_wid_mm = (4.0 * pitch_u) * 1e-3
             area_mm2 = mesh_len_mm * mesh_wid_mm
@@ -221,15 +195,20 @@ def main():
 
     try:
         print(f"{CLR_CYAN}" + "=" * 72)
-        print(f" {CLR_BOLD}[CO-OPT]{CLR_RESET} {CLR_CYAN}Phase 4: Device-Driver-Mesh NSGA-II Co-Optimization (4x4 MZI){CLR_RESET}")
+        print(f" {CLR_BOLD}[CO-OPT]{CLR_RESET} {CLR_CYAN}Phase 4: NSGA-II Co-Optimization (Lumerical Crosstalk Model){CLR_RESET}")
         print(f"{CLR_CYAN}" + "=" * 72 + f"{CLR_RESET}")
 
         bundle_path = os.path.join(project_root, "models", "compact_model_bundle.pkl")
         with open(bundle_path, "rb") as f:
             bundle = pickle.load(f)
-        print(f"{CLR_GREEN}[LOAD]{CLR_RESET}   Loaded compact model bundle -> {CLR_GRAY}{bundle_path}{CLR_RESET}")
 
-        # Generate 12 deterministic random target 4x4 unitary mesh configurations
+        xt_path = os.path.join(project_root, "models", "crosstalk_model.json")
+        with open(xt_path, "r", encoding="utf-8") as f:
+            xt_params = json.load(f)
+
+        print(f"{CLR_GREEN}[LOAD]{CLR_RESET}   Compact model   -> {CLR_GRAY}{bundle_path}{CLR_RESET}")
+        print(f"{CLR_GREEN}[LOAD]{CLR_RESET}   Crosstalk model -> A={xt_params['A']:.4f}, L0={xt_params['L0_um']:.3f}um, L1={xt_params['L1_um_per_um']:.3f}")
+
         rng = np.random.default_rng(42)
         target_configs = []
         for _ in range(12):
@@ -237,7 +216,7 @@ def main():
             ph = rng.uniform(0.0, 2.0 * np.pi, size=6)
             target_configs.append((th, ph, build_clements_4x4(th, ph)))
 
-        problem = MeshCoOptProblem(bundle, target_configs)
+        problem = MeshCoOptProblem(bundle, xt_params, target_configs)
         algorithm = NSGA2(
             pop_size=80,
             sampling=LHS(),
@@ -252,12 +231,9 @@ def main():
         elapsed = time.time() - t0
         print(f"  {CLR_GRAY}|--{CLR_RESET} Optimization finished in {CLR_BOLD}{elapsed:.2f} s{CLR_RESET}")
 
-        # Extract feasible Pareto front
         X_opt = res.X
         F_opt = res.F
-        G_opt = res.G.flatten()
 
-        # Recompute P_pi and T_max for clean CSV reporting
         p_ref = 25.0
         X_q = np.column_stack([X_opt[:, 0], X_opt[:, 1], X_opt[:, 2], X_opt[:, 3], np.full(len(X_opt), p_ref)])
         X_q_s = bundle["scaler"].transform(X_q)
@@ -292,12 +268,12 @@ def main():
         print(
             f"  {CLR_GRAY}|--{CLR_RESET} Min Power    : "
             f"{pareto_df['total_mesh_power_mW'].min():.1f} mW "
-            f"(Infid={pareto_df.loc[pareto_df['total_mesh_power_mW'].idxmin(), 'mesh_infidelity_pct']:.3f}%, "
+            f"(Infid={pareto_df.loc[pareto_df['total_mesh_power_mW'].idxmin(), 'mesh_infidelity_pct']:.4f}%, "
             f"DAC={pareto_df.loc[pareto_df['total_mesh_power_mW'].idxmin(), 'dac_bits']}b)"
         )
         print(
             f"  {CLR_GRAY}|--{CLR_RESET} Min Infidel  : "
-            f"{pareto_df['mesh_infidelity_pct'].min():.4f}% "
+            f"{pareto_df['mesh_infidelity_pct'].min():.5f}% "
             f"(Power={pareto_df.loc[pareto_df['mesh_infidelity_pct'].idxmin(), 'total_mesh_power_mW']:.1f} mW, "
             f"DAC={pareto_df.loc[pareto_df['mesh_infidelity_pct'].idxmin(), 'dac_bits']}b)"
         )
@@ -308,7 +284,6 @@ def main():
             f"Infid={pareto_df.loc[pareto_df['footprint_mm2'].idxmin(), 'mesh_infidelity_pct']:.3f}%)"
         )
 
-        # Plot 3-panel Pareto trade-offs
         fig, axes = plt.subplots(1, 3, figsize=(15.5, 4.6))
 
         sc0 = axes[0].scatter(

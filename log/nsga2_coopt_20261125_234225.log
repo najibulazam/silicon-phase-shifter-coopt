@@ -1,0 +1,17 @@
+========================================================================
+ [CO-OPT] Phase 4: NSGA-II Co-Optimization (Lumerical Crosstalk Model)
+========================================================================
+[LOAD]   Compact model   -> C:\Users\najib\Desktop\silicon-phase-shifter-coopt\models\compact_model_bundle.pkl
+[LOAD]   Crosstalk model -> A=1.4108, L0=4.167um, L1=0.000
+[NSGA2]  Running 80 pop x 60 generations (4,800 system evaluations)...
+  |-- Optimization finished in 5.83 s
+------------------------------------------------------------------------
+[PARETO] Found 80 feasible Pareto-optimal designs:
+  |-- Min Power    : 312.4 mW (Infid=0.6218%, DAC=7b)
+  |-- Min Infidel  : 0.00000% (Power=344.3 mW, DAC=12b)
+  |-- Min Area     : 0.0236 mm^2 (Power=720.7 mW, Infid=7.886%)
+========================================================================
+[DONE]   Pareto CSV  -> C:\Users\najib\Desktop\silicon-phase-shifter-coopt\results\pareto_front.csv
+[DONE]   Pareto Plot -> C:\Users\najib\Desktop\silicon-phase-shifter-coopt\results\pareto_coopt_tradeoffs.png
+[LOG]    Log saved   -> C:\Users\najib\Desktop\silicon-phase-shifter-coopt\log\nsga2_coopt_20261125_234225.log
+========================================================================

@@ -1,0 +1,30 @@
+========================================================================
+ [CROSSTALK] Lumerical HEAT Lateral Thermal Crosstalk Extraction
+========================================================================
+[HEAT]   Launching persistent HEAT session (15 runs)...
+  |-- Expanded HEAT simulation region x span -> 90.0 um
+------------------------------------------------------------------------
+[RUN 01/15] Gap= 600.0nm, Hw= 800.0nm | dT0=17.88K | XT(15um)=0.0391 | XT(30um)=0.0012 | 5.20s
+[RUN 02/15] Gap= 600.0nm, Hw=1400.0nm | dT0=17.88K | XT(15um)=0.0391 | XT(30um)=0.0012 | 5.36s
+[RUN 03/15] Gap= 600.0nm, Hw=2000.0nm | dT0=17.88K | XT(15um)=0.0391 | XT(30um)=0.0012 | 4.55s
+[RUN 04/15] Gap= 800.0nm, Hw= 800.0nm | dT0=17.88K | XT(15um)=0.0391 | XT(30um)=0.0012 | 4.26s
+[RUN 05/15] Gap= 800.0nm, Hw=1400.0nm | dT0=17.88K | XT(15um)=0.0391 | XT(30um)=0.0012 | 5.33s
+[RUN 06/15] Gap= 800.0nm, Hw=2000.0nm | dT0=17.88K | XT(15um)=0.0391 | XT(30um)=0.0012 | 4.68s
+[RUN 07/15] Gap=1000.0nm, Hw= 800.0nm | dT0=17.88K | XT(15um)=0.0391 | XT(30um)=0.0012 | 4.29s
+[RUN 08/15] Gap=1000.0nm, Hw=1400.0nm | dT0=17.88K | XT(15um)=0.0391 | XT(30um)=0.0012 | 5.17s
+[RUN 09/15] Gap=1000.0nm, Hw=2000.0nm | dT0=17.88K | XT(15um)=0.0391 | XT(30um)=0.0012 | 4.69s
+[RUN 10/15] Gap=1250.0nm, Hw= 800.0nm | dT0=17.88K | XT(15um)=0.0391 | XT(30um)=0.0012 | 5.36s
+[RUN 11/15] Gap=1250.0nm, Hw=1400.0nm | dT0=17.88K | XT(15um)=0.0391 | XT(30um)=0.0012 | 4.68s
+[RUN 12/15] Gap=1250.0nm, Hw=2000.0nm | dT0=17.88K | XT(15um)=0.0391 | XT(30um)=0.0012 | 4.35s
+[RUN 13/15] Gap=1500.0nm, Hw= 800.0nm | dT0=17.88K | XT(15um)=0.0391 | XT(30um)=0.0012 | 5.13s
+[RUN 14/15] Gap=1500.0nm, Hw=1400.0nm | dT0=17.88K | XT(15um)=0.0391 | XT(30um)=0.0012 | 4.57s
+[RUN 15/15] Gap=1500.0nm, Hw=2000.0nm | dT0=17.88K | XT(15um)=0.0391 | XT(30um)=0.0012 | 4.28s
+------------------------------------------------------------------------
+[FIT]    Fitted Lumerical Crosstalk Model: XT = 1.4108 * exp(-pitch / (4.167 + 0.000*gap_um))
+  |-- Fit Quality: RMSE=0.00030 | R2=1.00000
+========================================================================
+[DONE]   Crosstalk CSV   -> C:\Users\najib\Desktop\silicon-phase-shifter-coopt\data\raw\to_crosstalk.csv
+[DONE]   Model JSON      -> C:\Users\najib\Desktop\silicon-phase-shifter-coopt\models\crosstalk_model.json
+[DONE]   Crosstalk Plot  -> C:\Users\najib\Desktop\silicon-phase-shifter-coopt\results\lumerical_crosstalk_fit.png
+[LOG]    Log saved       -> C:\Users\najib\Desktop\silicon-phase-shifter-coopt\log\extract_crosstalk_20261125_233653.log
+========================================================================

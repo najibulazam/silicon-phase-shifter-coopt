@@ -1,4 +1,5 @@
 # optical_ai_benchmark.py
+import json
 import os
 import re
 import sys
@@ -73,10 +74,6 @@ def build_clements_torch(thetas, phis):
 
 
 class PhotonicMZIClassifier(nn.Module):
-    """
-    4-input Optical Neural Network using two cascaded 4x4 Clements MZI meshes
-    with photodetector intensity nonlinearity (|E|^2) and 4->3 readout.
-    """
     def __init__(self):
         super().__init__()
         self.theta1 = nn.Parameter(torch.rand(6) * np.pi)
@@ -96,7 +93,7 @@ class PhotonicMZIClassifier(nn.Module):
 
         x_c = x.to(torch.complex64)
         h1 = torch.matmul(x_c, U1.T)
-        h1_det = torch.abs(h1) ** 2  # Photodetector intensity nonlinearity
+        h1_det = torch.abs(h1) ** 2
 
         h2 = torch.matmul(h1_det.to(torch.complex64), U2.T)
         h2_det = torch.abs(h2) ** 2
@@ -139,10 +136,13 @@ def main():
 
     try:
         print(f"{CLR_CYAN}" + "=" * 72)
-        print(f" {CLR_BOLD}[OPTICAL AI]{CLR_RESET} {CLR_CYAN}4x4 Clements MZI Mesh Classification Benchmark (Iris){CLR_RESET}")
+        print(f" {CLR_BOLD}[OPTICAL AI]{CLR_RESET} {CLR_CYAN}4x4 Clements MZI Mesh Benchmark (Lumerical Crosstalk){CLR_RESET}")
         print(f"{CLR_CYAN}" + "=" * 72 + f"{CLR_RESET}")
 
-        # 1. Load & normalize Iris dataset (4 features -> matches 4x4 MZI mesh)
+        xt_path = os.path.join(project_root, "models", "crosstalk_model.json")
+        with open(xt_path, "r", encoding="utf-8") as f:
+            xt_params = json.load(f)
+
         iris = load_iris()
         X_tr, X_te, y_tr, y_te = train_test_split(
             iris.data, iris.target, test_size=0.30, random_state=42, stratify=iris.target
@@ -153,7 +153,6 @@ def main():
         y_tr_t = torch.tensor(y_tr, dtype=torch.long)
         y_te_t = torch.tensor(y_te, dtype=torch.long)
 
-        # 2. Train ideal photonic MZI classifier
         print(f"{CLR_MAGENTA}[TRAIN]{CLR_RESET}  Training ideal 4x4 Clements MZI classifier (400 epochs)...")
         t0 = time.time()
         model = PhotonicMZIClassifier()
@@ -174,7 +173,6 @@ def main():
             ideal_acc = float((ideal_preds == y_te_t).float().mean().item() * 100.0)
         print(f"  {CLR_GRAY}|--{CLR_RESET} Ideal Software Accuracy: {CLR_GREEN}{ideal_acc:.2f}%{CLR_RESET} ({time.time() - t0:.2f} s)")
 
-        # 3. Deploy onto all 80 Pareto-optimal hardware designs
         pareto_csv = os.path.join(results_dir, "pareto_front.csv")
         pareto_df = pd.read_csv(pareto_csv)
 
@@ -188,11 +186,11 @@ def main():
         with torch.no_grad():
             for _, row in pareto_df.iterrows():
                 dac_bits = int(row["dac_bits"])
-                gap_nm   = float(row["heater_gap_nm"])
+                gap_um   = float(row["heater_gap_nm"]) / 1000.0
                 pitch_u  = float(row["pitch_um"])
 
-                L_th_um  = 11.0 + 2.5 * (gap_nm / 1000.0)
-                xt_coeff = 0.18 * np.exp(-pitch_u / L_th_um)
+                L_th_um  = max(xt_params["L0_um"] + xt_params["L1_um_per_um"] * gap_um, 1.0)
+                xt_coeff = xt_params["A"] * np.exp(-pitch_u / L_th_um)
 
                 th1_hw = apply_hardware_impairments(model.theta1, dac_bits, xt_coeff)
                 ph1_hw = apply_hardware_impairments(model.phi1,   dac_bits, xt_coeff * 0.5)
@@ -213,10 +211,8 @@ def main():
         csv_out = os.path.join(results_dir, "optical_ai_results.csv")
         pareto_df.to_csv(csv_out, index=False)
 
-        # Summary highlights
         best_acc_row = pareto_df.loc[pareto_df["hw_accuracy_pct"].idxmax()]
         worst_acc_row = pareto_df.loc[pareto_df["hw_accuracy_pct"].idxmin()]
-        # Best power design that maintains zero accuracy drop (or within 2.5% of ideal)
         high_acc_df = pareto_df[pareto_df["accuracy_drop_pct"] <= 2.5]
         opt_eff_row = high_acc_df.loc[high_acc_df["total_mesh_power_mW"].idxmin()] if len(high_acc_df) > 0 else best_acc_row
 
@@ -224,7 +220,6 @@ def main():
         print(f"  {CLR_GRAY}|--{CLR_RESET} Worst HW Accuracy    : {CLR_YELLOW}{worst_acc_row['hw_accuracy_pct']:.2f}%{CLR_RESET} (PID={int(worst_acc_row['pareto_id']):02d}, Power={worst_acc_row['total_mesh_power_mW']:.1f}mW, DAC={int(worst_acc_row['dac_bits'])}b, Pitch={worst_acc_row['pitch_um']:.1f}um)")
         print(f"  {CLR_GRAY}|--{CLR_RESET} Optimal Sweet-Spot   : {CLR_CYAN}{opt_eff_row['hw_accuracy_pct']:.2f}%{CLR_RESET} (PID={int(opt_eff_row['pareto_id']):02d}, Power={opt_eff_row['total_mesh_power_mW']:.1f}mW, Area={opt_eff_row['footprint_mm2']:.4f}mm^2, DAC={int(opt_eff_row['dac_bits'])}b)")
 
-        # 4. Plot 2-panel Optical AI Trade-off figure
         fig, axes = plt.subplots(1, 2, figsize=(12.5, 4.8))
 
         sc0 = axes[0].scatter(
@@ -246,7 +241,7 @@ def main():
         axes[1].axhline(ideal_acc, color="r", linestyle="--", lw=1.3, label=f"Ideal Software ({ideal_acc:.1f}%)")
         axes[1].set_xlabel("Active Mesh Footprint (mm^2)")
         axes[1].set_ylabel("Optical AI Test Accuracy (%)")
-        axes[1].set_title("Classification Accuracy vs. Chip Area (Crosstalk Effect)")
+        axes[1].set_title("Classification Accuracy vs. Chip Area (Lumerical Crosstalk)")
         axes[1].grid(True, alpha=0.3)
         axes[1].legend(loc="lower right")
         plt.colorbar(sc1, ax=axes[1], label="Heater Pitch (um)")
