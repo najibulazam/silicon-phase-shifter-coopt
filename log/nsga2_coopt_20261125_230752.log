@@ -1,0 +1,16 @@
+========================================================================
+ [CO-OPT] Phase 4: Device-Driver-Mesh NSGA-II Co-Optimization (4x4 MZI)
+========================================================================
+[LOAD]   Loaded compact model bundle -> C:\Users\najib\Desktop\silicon-phase-shifter-coopt\models\compact_model_bundle.pkl
+[NSGA2]  Running 80 pop x 60 generations (4,800 system evaluations)...
+  |-- Optimization finished in 5.88 s
+------------------------------------------------------------------------
+[PARETO] Found 80 feasible Pareto-optimal designs:
+  |-- Min Power    : 312.3 mW (Infid=0.894%, DAC=6b)
+  |-- Min Infidel  : 0.0011% (Power=330.3 mW, DAC=11b)
+  |-- Min Area     : 0.0353 mm^2 (Power=721.7 mW, Infid=1.418%)
+========================================================================
+[DONE]   Pareto CSV  -> C:\Users\najib\Desktop\silicon-phase-shifter-coopt\results\pareto_front.csv
+[DONE]   Pareto Plot -> C:\Users\najib\Desktop\silicon-phase-shifter-coopt\results\pareto_coopt_tradeoffs.png
+[LOG]    Log saved   -> C:\Users\najib\Desktop\silicon-phase-shifter-coopt\log\nsga2_coopt_20261125_230752.log
+========================================================================
