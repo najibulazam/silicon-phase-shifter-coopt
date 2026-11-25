@@ -1,7 +1,7 @@
-# Phase 4: Device-Driver-Mesh System-Level Co-Optimization and Verification
+# Phase 4: Device-Driver-Mesh Co-Optimization, Verification, and Optical AI Case Study
 
 ## Objective
-Address **RQ3** by jointly co-optimizing silicon thermo-optic phase shifter geometry, electronic driver resolution (DAC bits), and 4x4 Clements MZI mesh layout using the circuit-ready compact model, followed by full Lumerical ground-truth re-simulation of the Pareto front.
+Address **RQ3** by jointly co-optimizing silicon thermo-optic phase shifter geometry, electronic driver resolution (DAC bits), and 4x4 Clements MZI mesh layout using the circuit-ready compact model, verifying the Pareto front via Lumerical ground-truth re-simulation, and evaluating end-to-end hardware accuracy on an optical neural network (ONN) classification task.
 
 ## System Model and Optimization Setup (`system_coopt/nsga2_coopt.py`)
 - **Architecture:** 4x4 Clements rectangular MZI mesh (6 MZIs, 12 phase shifters), evaluated across 12 deterministic random target 4x4 unitary matrices.
@@ -41,7 +41,22 @@ Address **RQ3** by jointly co-optimizing silicon thermo-optic phase shifter geom
 - **Mean Verification Error:** `0.0339%`
 - **Max Verification Error:** `0.0892%`
 
+## Optical AI Classification Case Study (`system_coopt/optical_ai_benchmark.py`)
+- **Task:** 3-class Iris classification (4 input features mapped directly to a 4-port optical waveguide array; 70/30 stratified train/test split).
+- **Architecture:** Two cascaded 4x4 Clements rectangular MZI meshes (`2 x 12 = 24` thermo-optic phase shifters) with photodetector intensity nonlinearity (`|E|^2`) between layers and a `4 -> 3` linear electronic readout.
+- **Hardware Impairment Injection:** Trained continuous phases are quantized to each Pareto design's `dac_bits` (`6-12 bit`) and perturbed by nearest-neighbor thermal crosstalk (`xt_coeff`) determined by `heater_gap_nm` and `pitch_um`.
+
+### Optical AI Benchmark Results
+- **Ideal Software Accuracy:** `88.89%` (400 epochs, `5.77 s`)
+- **Best Hardware Accuracy (`PID=07`):** `88.89%` (`0.00%` drop) at `330.3 mW` total power, `11-bit DAC`, `60.0 um` pitch.
+- **Worst Hardware Accuracy (`PID=02`):** `66.67%` (`22.22%` drop) at `313.6 mW` total power, `7-bit DAC`, `15.0 um` pitch (dominated by severe lateral thermal crosstalk).
+- **Low-Bit Sweet Spot (`PID=05`):** `86.67%` (`2.22%` drop) at `324.8 mW` total power, `6-bit DAC`, `0.2675 mm^2` footprint.
+
+### Key System-Level Insight
+Tightly packed meshes (`pitch < 30 um`, footprint `< 0.10 mm^2`) suffer up to `22.2%` classification accuracy degradation due to thermal crosstalk, even when high-resolution DACs are used. Increasing heater pitch to `>= 45 um` suppresses crosstalk sufficiently to recover full software-equivalent accuracy (`88.89%`) with minimal power overhead (`~17 mW` increase over the minimum-power design).
+
 ## Artifacts Generated
-- `system_coopt/nsga2_coopt.py`, `sim_scripts/verify_pareto.py`
+- `system_coopt/nsga2_coopt.py`, `sim_scripts/verify_pareto.py`, `system_coopt/optical_ai_benchmark.py`
 - `results/pareto_front.csv`, `results/pareto_coopt_tradeoffs.png`
 - `results/pareto_verified.csv`, `results/pareto_verification.png`
+- `results/optical_ai_results.csv`, `results/optical_ai_accuracy_tradeoff.png`

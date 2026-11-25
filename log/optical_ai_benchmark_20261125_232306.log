@@ -1,0 +1,15 @@
+========================================================================
+ [OPTICAL AI] 4x4 Clements MZI Mesh Classification Benchmark (Iris)
+========================================================================
+[TRAIN]  Training ideal 4x4 Clements MZI classifier (400 epochs)...
+  |-- Ideal Software Accuracy: 88.89% (5.77 s)
+------------------------------------------------------------------------
+[DEPLOY] Evaluating trained phases across 80 Pareto hardware designs...
+  |-- Best HW Accuracy     : 88.89% (PID=07, Power=330.3mW, DAC=11b, Pitch=60.0um)
+  |-- Worst HW Accuracy    : 66.67% (PID=02, Power=313.6mW, DAC=7b, Pitch=15.0um)
+  |-- Optimal Sweet-Spot   : 86.67% (PID=05, Power=324.8mW, Area=0.2675mm^2, DAC=6b)
+========================================================================
+[DONE]   Optical AI CSV  -> C:\Users\najib\Desktop\silicon-phase-shifter-coopt\results\optical_ai_results.csv
+[DONE]   Optical AI Plot -> C:\Users\najib\Desktop\silicon-phase-shifter-coopt\results\optical_ai_accuracy_tradeoff.png
+[LOG]    Log saved       -> C:\Users\najib\Desktop\silicon-phase-shifter-coopt\log\optical_ai_benchmark_20261125_232306.log
+========================================================================
