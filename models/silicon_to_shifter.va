@@ -1,0 +1,80 @@
+// ============================================================================
+// Circuit-Ready Compact Model: Silicon Thermo-Optic Phase Shifter
+// Auto-generated from Physics-Informed Surrogate Framework
+// Compatible with Cadence Spectre / Ansys Lumerical INTERCONNECT
+// ============================================================================
+`include "constants.vams"
+`include "disciplines.vams"
+
+module silicon_to_phase_shifter(v_pos, v_neg, phi_out, temp_max_out);
+    inout v_pos, v_neg;
+    output phi_out, temp_max_out;
+    electrical v_pos, v_neg, phi_out, temp_max_out;
+
+    // Geometric & Material Parameters
+    parameter real wg_width_nm     = 450.0  from (300.0:700.0);
+    parameter real wg_height_nm    = 220.0  from (180.0:300.0);
+    parameter real heater_width_nm = 1200.0 from (600.0:2500.0);
+    parameter real heater_gap_nm   = 900.0  from (400.0:2000.0);
+    parameter real length_um       = 100.0  from (10.0:1000.0);
+    parameter real r_heater_ohm    = 100.0  from (10.0:10000.0);
+    parameter real tau_th_us       = 12.0   from (1.0:200.0);
+    parameter real wavelength_um   = 1.55;
+    parameter real t_ambient_k     = 300.0;
+
+    // Fitted Surrogate Scaling Coefficients (Log-Power Law)
+    localparam real C0   = -9.69587502e+00;
+    localparam real C_W  = -3.15129811e-02;
+    localparam real C_H  = 1.85905311e-01;
+    localparam real C_HW = -7.25610239e-04;
+    localparam real C_G  = -7.27896651e-04;
+    localparam real C_P  = 1.00000779e+00;
+
+    localparam real T0   = 3.73856710e-01;
+    localparam real T_W  = -2.02804337e-07;
+    localparam real T_H  = 8.16290446e-07;
+    localparam real T_HW = -2.75463515e-07;
+    localparam real T_G  = -2.71208881e-07;
+    localparam real T_P  = 9.99999909e-01;
+
+    real v_drive, p_inst_mw, p_eff_mw;
+    real delta_neff, delta_phi_rad, dT_max;
+
+    analog begin
+        // Electrical heater resistance
+        v_drive = V(v_pos, v_neg);
+        I(v_pos, v_neg) <+ v_drive / r_heater_ohm;
+
+        // Instantaneous power (mW) with first-order thermal low-pass response
+        p_inst_mw = (v_drive * v_drive / r_heater_ohm) * 1.0e3;
+        p_eff_mw  = laplace_nd(p_inst_mw, {1.0}, {1.0, tau_th_us * 1.0e-6});
+
+        if (p_eff_mw > 1.0e-9) begin
+            delta_neff = exp(
+                C0
+                + C_W  * ln(wg_width_nm)
+                + C_H  * ln(wg_height_nm)
+                + C_HW * ln(heater_width_nm)
+                + C_G  * ln(heater_gap_nm)
+                + C_P  * ln(p_eff_mw)
+            );
+            dT_max = exp(
+                T0
+                + T_W  * ln(wg_width_nm)
+                + T_H  * ln(wg_height_nm)
+                + T_HW * ln(heater_width_nm)
+                + T_G  * ln(heater_gap_nm)
+                + T_P  * ln(p_eff_mw)
+            );
+        end else begin
+            delta_neff = 0.0;
+            dT_max     = 0.0;
+        end
+
+        // Optical phase shift (rad): dphi = 2 * pi * L * dneff / lambda
+        delta_phi_rad = (2.0 * `M_PI * length_um * delta_neff) / wavelength_um;
+
+        V(phi_out)      <+ delta_phi_rad;
+        V(temp_max_out) <+ t_ambient_k + dT_max;
+    end
+endmodule

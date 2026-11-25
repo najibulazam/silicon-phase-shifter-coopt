@@ -1,0 +1,16 @@
+========================================================================
+ [COMPACT] Phase 3: Circuit-Ready Compact Model Export & Benchmark
+========================================================================
+[PLOT]   Combined learning curves -> C:\Users\najib\Desktop\silicon-phase-shifter-coopt\results\combined_learning_curves.png
+[FIT]    Fitting high-accuracy GP compact models (N=800)...
+  |-- Saved Python bundle -> C:\Users\najib\Desktop\silicon-phase-shifter-coopt\models\compact_model_bundle.pkl
+  |-- Exported Verilog-A  -> C:\Users\najib\Desktop\silicon-phase-shifter-coopt\models\silicon_to_shifter.va
+------------------------------------------------------------------------
+[BENCH]  Evaluating Fidelity & Inference Speedup vs Lumerical (~8.00 s/eval)
+  |-- GP Compact   : MAPE=0.032% (R2=0.999999) | 0.0155 ms/eval | Speedup=520,986x
+  |-- Verilog-A    : MAPE=0.347% (R2=0.999892) | 0.088 us/eval | Speedup=92,261,064x
+  |-- Field-PINN 2D: 64x64 T(x,y) field | 0.0981 ms/eval | Speedup=82,602x
+========================================================================
+[DONE]   Phase 3 complete. Ready for Phase 4 MZI Mesh Co-Optimization.
+[LOG]    Log saved -> C:\Users\najib\Desktop\silicon-phase-shifter-coopt\log\export_compact_model_20261125_225806.log
+========================================================================
