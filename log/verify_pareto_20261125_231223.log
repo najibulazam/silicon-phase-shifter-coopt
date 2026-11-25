@@ -1,0 +1,21 @@
+========================================================================
+ [VERIFY] Phase 4: Lumerical Ground-Truth Re-Simulation of Pareto Front
+========================================================================
+[SELECT] Re-simulating 10 representative Pareto designs at predicted P_pi...
+------------------------------------------------------------------------
+[POINT 01/10] PID=00 | P_pi=21.90mW, L=249.7um | dphi=1.0001*pi | Err=0.005% | 7.49s
+[POINT 02/10] PID=07 | P_pi=22.12mW, L=248.8um | dphi=0.9999*pi | Err=0.008% | 7.62s
+[POINT 03/10] PID=08 | P_pi=22.78mW, L=240.3um | dphi=0.9999*pi | Err=0.010% | 6.94s
+[POINT 04/10] PID=17 | P_pi=26.78mW, L=205.9um | dphi=1.0009*pi | Err=0.089% | 7.22s
+[POINT 05/10] PID=26 | P_pi=28.12mW, L=195.9um | dphi=1.0005*pi | Err=0.047% | 6.93s
+[POINT 06/10] PID=35 | P_pi=31.39mW, L=176.7um | dphi=0.9999*pi | Err=0.007% | 7.17s
+[POINT 07/10] PID=43 | P_pi=35.06mW, L=156.2um | dphi=1.0004*pi | Err=0.038% | 6.93s
+[POINT 08/10] PID=52 | P_pi=38.70mW, L=141.5um | dphi=1.0008*pi | Err=0.077% | 7.33s
+[POINT 09/10] PID=61 | P_pi=41.86mW, L=132.2um | dphi=1.0000*pi | Err=0.001% | 6.99s
+[POINT 10/10] PID=76 | P_pi=51.46mW, L=106.4um | dphi=1.0006*pi | Err=0.058% | 8.07s
+========================================================================
+[SUMMARY] Mean Verification Error: 0.0339% | Max Error: 0.0892%
+[DONE]    Verified CSV  -> C:\Users\najib\Desktop\silicon-phase-shifter-coopt\results\pareto_verified.csv
+[DONE]    Verified Plot -> C:\Users\najib\Desktop\silicon-phase-shifter-coopt\results\pareto_verification.png
+[LOG]     Log saved     -> C:\Users\najib\Desktop\silicon-phase-shifter-coopt\log\verify_pareto_20261125_231223.log
+========================================================================
