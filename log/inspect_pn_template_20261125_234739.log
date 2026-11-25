@@ -1,0 +1,21 @@
+[OK]     Loaded lumapi from: C:\Program Files\Lumerical\v241\api\python
+====================================================================
+ [PHASE 5] PN Carrier-Depletion Template & Timing Verification
+====================================================================
+[FILES]  CHARGE : PN_phase_shifter.ldev
+         MODE   : PN_phase_shifter.lms
+--------------------------------------------------------------------
+[CHARGE] Launching solver and inspecting objects...
+  |-- Top-level : ['materials', 'geometry', 'CHARGE simulation region', 'CHARGE']
+  |-- Geometry  : ['pad', 'waveguide', 'buried oxide', 'source', 'drain', 'surface oxide']
+  |-- CHARGE    : ['doping', 'monitor_charge', 'boundary conditions']
+  |-- BCs       : ['drain', 'source', 'surface_recombination']
+  |-- Status    : Completed in 106.15 s
+--------------------------------------------------------------------
+[MODE]   Launching solver and inspecting objects...
+  |-- Objects   : ['FDE', 'mesh', 'mesh', 'box', 'source', 'drain', 'surface oxide', 'Wg', 'Pad', 'np']
+  |-- Status    : Completed in 13.12 s
+====================================================================
+[DONE]   Total single-pass runtime: 119.26 s
+[LOG]    Saved to: C:\Users\najib\Desktop\silicon-phase-shifter-coopt\log\inspect_pn_template_20261125_234739.log
+====================================================================
