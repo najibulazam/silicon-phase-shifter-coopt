@@ -1,0 +1,20 @@
+====================================================================
+ [SANITY] Dataset Integrity & Perturbation Layer Verification
+====================================================================
+[CHECK]  Evaluating In-Distribution (ID) dataset...
+  |-- Samples  : CSV=1200, H5=1200, Grid=64x64
+  |-- Integrity: CSV_NaN=0, T_NaN=0, E2_NaN=0, NonPos_dneff=0
+  |-- Ranges   : dneff=[6.745e-04, 8.408e-03] | T_max=[307.3K, 387.2K]
+  |-- Perturbation Layer vs Lumerical FDE:
+        MAE=1.6219e-03 | RMSE=1.8208e-03 | MAPE=36.50% | R2=0.304162 | Ratio(True/Pert)=1.5876
+--------------------------------------------------------------------
+[CHECK]  Evaluating Out-of-Distribution (OOD) dataset...
+  |-- Samples  : CSV=200, H5=200, Grid=64x64
+  |-- Integrity: CSV_NaN=0, T_NaN=0, E2_NaN=0, NonPos_dneff=0
+  |-- Ranges   : dneff=[7.267e-04, 1.266e-02] | T_max=[308.0K, 430.6K]
+  |-- Perturbation Layer vs Lumerical FDE:
+        MAE=2.6978e-03 | RMSE=3.0073e-03 | MAPE=36.84% | R2=0.226809 | Ratio(True/Pert)=1.6025
+====================================================================
+[DONE]   Diagnostic plot saved to: C:\Users\najib\Desktop\silicon-phase-shifter-coopt\results\dataset_sanity_check.png
+[LOG]    Saved to: C:\Users\najib\Desktop\silicon-phase-shifter-coopt\log\check_dataset_20261125_223327.log
+====================================================================
