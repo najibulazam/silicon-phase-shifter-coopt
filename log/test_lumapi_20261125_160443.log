@@ -1,0 +1,19 @@
+[OK]     Loaded lumapi from: C:\Program Files\Lumerical\v241\api\python
+============================================================
+ [INSPECT] Lumerical Template & Timing Verification
+============================================================
+[FILES]  HEAT : waveguide_heat.ldev
+         MODE : waveguide_fde.lms
+------------------------------------------------------------
+[HEAT]   Launching solver and inspecting objects...
+  |-- Geometry : ['substrate', 'wg', 'oxide', 'gas', 'wire']
+  |-- HEAT     : ['wg_monitor', 'boundary conditions', 'uniform heat', 'wg_monitor_1']
+  |-- Status   : Completed in 11.55 s
+------------------------------------------------------------
+[MODE]   Launching solver and inspecting objects...
+  |-- Objects  : ['oxide', 'silicon', 'wg', 'FDE', 'temperature', 'mesh']
+  |-- Status   : Completed in 5.07 s
+============================================================
+[DONE]   Total single-pass runtime: 16.62 s
+[LOG]    Saved to: C:\Users\najib\Desktop\silicon-phase-shifter-coopt\log\test_lumapi_20261125_160443.log
+============================================================

@@ -1,0 +1,26 @@
+project:
+  name: "silicon-phase-shifter-coopt"
+  log_dir: "log"
+
+templates:
+  heat_ldev: "templates/to_phase_shifter/waveguide_heat.ldev"
+  mode_lms: "templates/to_phase_shifter/waveguide_fde.lms"
+
+dataset:
+  num_samples: 500
+  seed: 42
+  scalars_csv: "data/raw/to_scalars.csv"
+  fields_h5: "data/raw/to_fields.h5"
+  temp_mat_file: "data/raw/tmp_thermal_map.mat"
+
+sweep_bounds:
+  wg_width_nm: [400.0, 600.0]
+  wg_height_nm: [200.0, 260.0]
+  heater_width_nm: [800.0, 2000.0]
+  heater_gap_nm: [600.0, 1500.0]
+  heater_power_mW: [5.0, 60.0]
+
+simulation:
+  wavelength_um: 1.55
+  dn_dT_si: 1.86e-4
+  dn_dT_sio2: 1.0e-5
