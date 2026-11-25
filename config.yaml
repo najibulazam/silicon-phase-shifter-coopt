@@ -7,7 +7,7 @@ templates:
   mode_lms: "templates/to_phase_shifter/waveguide_fde.lms"
 
 dataset:
-  num_samples: 500
+  num_samples: 1200
   seed: 42
   scalars_csv: "data/raw/to_scalars.csv"
   fields_h5: "data/raw/to_fields.h5"

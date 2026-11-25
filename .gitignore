@@ -2,3 +2,4 @@ docs/
 papers/
 venv/
 templates/
+*.h5

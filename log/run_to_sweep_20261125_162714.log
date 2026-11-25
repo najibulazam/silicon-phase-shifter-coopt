@@ -1,0 +1,2410 @@
+====================================================================
+ [SWEEP] Thermo-Optic Silicon Phase Shifter - Automated LHS Sweep
+====================================================================
+[INIT]   Starting fresh LHS sweep (1200 samples, seed=42).
+[SOLVER] Launching persistent HEAT and MODE sessions...
+--------------------------------------------------------------------
+[RUN]    Sample 1/1200 | W=408.2nm, H=258.5nm, Hw=1668.1nm, Gap=735.2nm, P=34.97mW
+  |-- Saved | dneff=4.946424e-03 | T_wg=325.08K | T_max=350.82K | 7.43s
+[RUN]    Sample 2/1200 | W=502.7nm, H=234.7nm, Hw=1192.2nm, Gap=863.2nm, P=56.27mW
+  |-- Saved | dneff=7.804209e-03 | T_wg=340.25K | T_max=381.77K | 8.01s
+[RUN]    Sample 3/1200 | W=503.1nm, H=254.7nm, Hw=1092.4nm, Gap=711.9nm, P=15.11mW
+  |-- Saved | dneff=2.117464e-03 | T_wg=310.84K | T_max=321.96K | 8.00s
+[RUN]    Sample 4/1200 | W=526.6nm, H=236.8nm, Hw=1755.9nm, Gap=696.9nm, P=10.98mW
+  |-- Saved | dneff=1.519871e-03 | T_wg=307.85K | T_max=315.95K | 8.05s
+[RUN]    Sample 5/1200 | W=592.5nm, H=215.3nm, Hw=986.0nm, Gap=804.8nm, P=32.24mW
+  |-- Saved | dneff=4.355602e-03 | T_wg=323.04K | T_max=346.85K | 8.00s
+[RUN]    Sample 6/1200 | W=531.5nm, H=214.3nm, Hw=1533.0nm, Gap=810.6nm, P=24.08mW
+  |-- Saved | dneff=3.276303e-03 | T_wg=317.22K | T_max=335.00K | 8.00s
+[RUN]    Sample 7/1200 | W=586.4nm, H=239.4nm, Hw=1866.7nm, Gap=1024.2nm, P=57.46mW
+  |-- Saved | dneff=7.893548e-03 | T_wg=341.09K | T_max=383.50K | 8.02s
+[RUN]    Sample 8/1200 | W=431.6nm, H=208.2nm, Hw=1086.5nm, Gap=1427.8nm, P=45.72mW
+  |-- Saved | dneff=6.166510e-03 | T_wg=332.69K | T_max=366.44K | 8.03s
+[RUN]    Sample 9/1200 | W=591.9nm, H=210.9nm, Hw=850.3nm, Gap=733.3nm, P=45.16mW
+  |-- Saved | dneff=6.077813e-03 | T_wg=332.28K | T_max=365.63K | 8.06s
+[RUN]    Sample 10/1200 | W=530.2nm, H=241.6nm, Hw=1611.7nm, Gap=1336.7nm, P=26.72mW
+  |-- Saved | dneff=3.705586e-03 | T_wg=319.11K | T_max=338.83K | 7.98s
+[RUN]    Sample 11/1200 | W=578.3nm, H=205.5nm, Hw=1182.2nm, Gap=1146.3nm, P=27.47mW
+  |-- Saved | dneff=3.689841e-03 | T_wg=319.64K | T_max=339.93K | 8.03s
+[RUN]    Sample 12/1200 | W=463.7nm, H=222.3nm, Hw=1195.4nm, Gap=1231.4nm, P=44.18mW
+  |-- Saved | dneff=6.087078e-03 | T_wg=331.60K | T_max=364.21K | 8.01s
+[RUN]    Sample 13/1200 | W=592.4nm, H=253.7nm, Hw=1160.4nm, Gap=1171.7nm, P=20.69mW
+  |-- Saved | dneff=2.857514e-03 | T_wg=314.84K | T_max=330.07K | 8.01s
+[RUN]    Sample 14/1200 | W=527.7nm, H=216.4nm, Hw=1394.7nm, Gap=882.7nm, P=14.10mW
+  |-- Saved | dneff=1.923528e-03 | T_wg=310.08K | T_max=320.49K | 8.01s
+[RUN]    Sample 15/1200 | W=555.8nm, H=213.5nm, Hw=1797.1nm, Gap=794.8nm, P=55.51mW
+  |-- Saved | dneff=7.525172e-03 | T_wg=339.68K | T_max=380.67K | 8.14s
+[RUN]    Sample 16/1200 | W=403.1nm, H=239.5nm, Hw=983.3nm, Gap=1329.3nm, P=38.42mW
+  |-- Saved | dneff=5.344328e-03 | T_wg=327.48K | T_max=355.84K | 7.99s
+[RUN]    Sample 17/1200 | W=472.1nm, H=208.8nm, Hw=1616.2nm, Gap=1123.4nm, P=53.31mW
+  |-- Saved | dneff=7.244309e-03 | T_wg=338.12K | T_max=377.47K | 8.05s
+[RUN]    Sample 18/1200 | W=420.5nm, H=237.0nm, Hw=1716.5nm, Gap=1378.4nm, P=24.59mW
+  |-- Saved | dneff=3.429241e-03 | T_wg=317.59K | T_max=335.74K | 8.04s
+[RUN]    Sample 19/1200 | W=548.0nm, H=251.3nm, Hw=1141.6nm, Gap=1391.0nm, P=47.98mW
+  |-- Saved | dneff=6.665144e-03 | T_wg=334.31K | T_max=369.73K | 8.01s
+[RUN]    Sample 20/1200 | W=597.4nm, H=250.2nm, Hw=1124.9nm, Gap=719.2nm, P=57.30mW
+  |-- Saved | dneff=7.897822e-03 | T_wg=340.98K | T_max=383.27K | 8.07s
+[RUN]    Sample 21/1200 | W=474.0nm, H=227.1nm, Hw=987.7nm, Gap=967.5nm, P=38.47mW
+  |-- Saved | dneff=5.324202e-03 | T_wg=327.52K | T_max=355.91K | 7.98s
+[RUN]    Sample 22/1200 | W=421.0nm, H=258.1nm, Hw=1186.7nm, Gap=992.9nm, P=29.57mW
+  |-- Saved | dneff=4.188833e-03 | T_wg=321.21K | T_max=342.98K | 7.99s
+[RUN]    Sample 23/1200 | W=568.1nm, H=254.6nm, Hw=1438.7nm, Gap=1015.8nm, P=51.15mW
+  |-- Saved | dneff=7.097400e-03 | T_wg=336.68K | T_max=374.33K | 8.03s
+[RUN]    Sample 24/1200 | W=473.0nm, H=239.8nm, Hw=989.3nm, Gap=654.4nm, P=10.61mW
+  |-- Saved | dneff=1.481444e-03 | T_wg=307.59K | T_max=315.42K | 8.02s
+[RUN]    Sample 25/1200 | W=552.1nm, H=232.4nm, Hw=1749.9nm, Gap=772.2nm, P=39.28mW
+  |-- Saved | dneff=5.400328e-03 | T_wg=328.09K | T_max=357.09K | 7.99s
+[RUN]    Sample 26/1200 | W=416.4nm, H=241.0nm, Hw=1757.9nm, Gap=1034.9nm, P=45.35mW
+  |-- Saved | dneff=6.339341e-03 | T_wg=332.44K | T_max=365.91K | 8.03s
+[RUN]    Sample 27/1200 | W=516.5nm, H=252.9nm, Hw=1158.4nm, Gap=890.0nm, P=33.21mW
+  |-- Saved | dneff=4.643873e-03 | T_wg=323.82K | T_max=348.26K | 8.01s
+[RUN]    Sample 28/1200 | W=535.7nm, H=208.2nm, Hw=1486.5nm, Gap=902.4nm, P=57.84mW
+  |-- Saved | dneff=7.814859e-03 | T_wg=341.36K | T_max=384.06K | 8.00s
+[RUN]    Sample 29/1200 | W=592.8nm, H=233.7nm, Hw=1281.1nm, Gap=817.8nm, P=37.29mW
+  |-- Saved | dneff=5.100790e-03 | T_wg=326.67K | T_max=354.20K | 8.06s
+[RUN]    Sample 30/1200 | W=514.6nm, H=238.4nm, Hw=847.5nm, Gap=678.4nm, P=36.26mW
+  |-- Saved | dneff=5.031922e-03 | T_wg=325.93K | T_max=352.69K | 8.19s
+[RUN]    Sample 31/1200 | W=434.7nm, H=222.5nm, Hw=1436.9nm, Gap=629.6nm, P=18.93mW
+  |-- Saved | dneff=2.599566e-03 | T_wg=313.54K | T_max=327.51K | 7.80s
+[RUN]    Sample 32/1200 | W=457.7nm, H=215.9nm, Hw=1911.3nm, Gap=1007.5nm, P=38.84mW
+  |-- Saved | dneff=5.315122e-03 | T_wg=327.77K | T_max=356.44K | 8.04s
+[RUN]    Sample 33/1200 | W=476.6nm, H=252.5nm, Hw=1094.8nm, Gap=811.5nm, P=12.22mW
+  |-- Saved | dneff=1.718154e-03 | T_wg=308.74K | T_max=317.75K | 8.14s
+[RUN]    Sample 34/1200 | W=569.3nm, H=227.0nm, Hw=814.2nm, Gap=972.5nm, P=58.40mW
+  |-- Saved | dneff=7.986757e-03 | T_wg=341.77K | T_max=384.87K | 11.34s
+[RUN]    Sample 35/1200 | W=414.8nm, H=252.8nm, Hw=1986.7nm, Gap=684.0nm, P=50.00mW
+  |-- Saved | dneff=7.054987e-03 | T_wg=335.77K | T_max=372.67K | 7.94s
+[RUN]    Sample 36/1200 | W=405.0nm, H=233.8nm, Hw=950.0nm, Gap=1211.3nm, P=49.56mW
+  |-- Saved | dneff=6.856024e-03 | T_wg=335.45K | T_max=372.03K | 7.99s
+[RUN]    Sample 37/1200 | W=417.4nm, H=256.5nm, Hw=1250.5nm, Gap=822.5nm, P=5.84mW
+  |-- Saved | dneff=8.251416e-04 | T_wg=304.19K | T_max=308.48K | 8.10s
+[RUN]    Sample 38/1200 | W=465.7nm, H=223.5nm, Hw=1728.9nm, Gap=729.9nm, P=50.50mW
+  |-- Saved | dneff=6.967739e-03 | T_wg=336.12K | T_max=373.39K | 8.00s
+[RUN]    Sample 39/1200 | W=524.3nm, H=251.1nm, Hw=897.9nm, Gap=802.6nm, P=25.02mW
+  |-- Saved | dneff=3.493157e-03 | T_wg=317.90K | T_max=336.37K | 7.97s
+[RUN]    Sample 40/1200 | W=446.0nm, H=256.9nm, Hw=1576.1nm, Gap=1221.6nm, P=25.75mW
+  |-- Saved | dneff=3.633327e-03 | T_wg=318.47K | T_max=337.42K | 8.03s
+[RUN]    Sample 41/1200 | W=491.2nm, H=217.1nm, Hw=1078.5nm, Gap=1448.1nm, P=32.64mW
+  |-- Saved | dneff=4.461664e-03 | T_wg=323.34K | T_max=347.43K | 7.99s
+[RUN]    Sample 42/1200 | W=520.3nm, H=208.5nm, Hw=1454.3nm, Gap=1340.2nm, P=45.49mW
+  |-- Saved | dneff=6.164233e-03 | T_wg=332.53K | T_max=366.12K | 8.09s
+[RUN]    Sample 43/1200 | W=512.6nm, H=231.1nm, Hw=1838.8nm, Gap=1454.4nm, P=6.80mW
+  |-- Saved | dneff=9.391188e-04 | T_wg=304.86K | T_max=309.88K | 7.98s
+[RUN]    Sample 44/1200 | W=486.7nm, H=222.1nm, Hw=1708.9nm, Gap=1089.8nm, P=33.54mW
+  |-- Saved | dneff=4.608341e-03 | T_wg=323.99K | T_max=348.74K | 8.00s
+[RUN]    Sample 45/1200 | W=567.3nm, H=243.4nm, Hw=813.3nm, Gap=960.8nm, P=14.29mW
+  |-- Saved | dneff=1.972539e-03 | T_wg=310.22K | T_max=320.77K | 8.03s
+[RUN]    Sample 46/1200 | W=578.5nm, H=212.9nm, Hw=820.4nm, Gap=1271.5nm, P=6.28mW
+  |-- Saved | dneff=8.486085e-04 | T_wg=304.49K | T_max=309.12K | 7.98s
+[RUN]    Sample 47/1200 | W=518.3nm, H=232.0nm, Hw=964.0nm, Gap=630.3nm, P=36.90mW
+  |-- Saved | dneff=5.098823e-03 | T_wg=326.40K | T_max=353.63K | 7.98s
+[RUN]    Sample 48/1200 | W=576.2nm, H=251.9nm, Hw=1153.2nm, Gap=1224.7nm, P=12.88mW
+  |-- Saved | dneff=1.783557e-03 | T_wg=309.21K | T_max=318.72K | 8.00s
+[RUN]    Sample 49/1200 | W=497.2nm, H=253.9nm, Hw=1832.8nm, Gap=1297.9nm, P=53.10mW
+  |-- Saved | dneff=7.442749e-03 | T_wg=338.08K | T_max=377.17K | 8.00s
+[RUN]    Sample 50/1200 | W=412.5nm, H=204.5nm, Hw=1027.6nm, Gap=1184.0nm, P=38.67mW
+  |-- Saved | dneff=5.149180e-03 | T_wg=327.65K | T_max=356.20K | 7.98s
+[RUN]    Sample 51/1200 | W=425.2nm, H=218.5nm, Hw=1779.5nm, Gap=1414.3nm, P=9.98mW
+  |-- Saved | dneff=1.365375e-03 | T_wg=307.14K | T_max=314.51K | 7.99s
+[RUN]    Sample 52/1200 | W=575.9nm, H=258.3nm, Hw=1057.9nm, Gap=642.7nm, P=57.54mW
+  |-- Saved | dneff=7.988542e-03 | T_wg=341.27K | T_max=383.63K | 8.09s
+[RUN]    Sample 53/1200 | W=451.0nm, H=231.0nm, Hw=1859.7nm, Gap=1223.1nm, P=16.55mW
+  |-- Saved | dneff=2.296067e-03 | T_wg=311.84K | T_max=324.06K | 8.00s
+[RUN]    Sample 54/1200 | W=589.1nm, H=204.7nm, Hw=1694.8nm, Gap=1022.9nm, P=5.59mW
+  |-- Saved | dneff=7.493127e-04 | T_wg=304.00K | T_max=308.13K | 8.00s
+[RUN]    Sample 55/1200 | W=425.2nm, H=245.0nm, Hw=1332.9nm, Gap=674.6nm, P=53.00mW
+  |-- Saved | dneff=7.445208e-03 | T_wg=337.91K | T_max=377.03K | 7.98s
+[RUN]    Sample 56/1200 | W=540.8nm, H=233.6nm, Hw=859.5nm, Gap=613.6nm, P=53.82mW
+  |-- Saved | dneff=7.413202e-03 | T_wg=338.49K | T_max=378.22K | 7.96s
+[RUN]    Sample 57/1200 | W=492.0nm, H=221.1nm, Hw=1132.8nm, Gap=666.6nm, P=7.36mW
+  |-- Saved | dneff=1.009051e-03 | T_wg=305.26K | T_max=310.69K | 7.96s
+[RUN]    Sample 58/1200 | W=554.1nm, H=227.7nm, Hw=821.6nm, Gap=1354.1nm, P=17.74mW
+  |-- Saved | dneff=2.429882e-03 | T_wg=312.69K | T_max=325.78K | 7.97s
+[RUN]    Sample 59/1200 | W=486.9nm, H=258.5nm, Hw=1893.1nm, Gap=1106.9nm, P=18.99mW
+  |-- Saved | dneff=2.670093e-03 | T_wg=313.62K | T_max=327.59K | 7.98s
+[RUN]    Sample 60/1200 | W=482.2nm, H=206.9nm, Hw=1613.2nm, Gap=621.2nm, P=7.95mW
+  |-- Saved | dneff=1.075958e-03 | T_wg=305.68K | T_max=311.55K | 7.95s
+[RUN]    Sample 61/1200 | W=423.5nm, H=229.8nm, Hw=1085.5nm, Gap=1084.9nm, P=50.61mW
+  |-- Saved | dneff=7.012438e-03 | T_wg=336.20K | T_max=373.55K | 7.98s
+[RUN]    Sample 62/1200 | W=560.4nm, H=206.8nm, Hw=858.4nm, Gap=1424.1nm, P=55.32mW
+  |-- Saved | dneff=7.449577e-03 | T_wg=339.55K | T_max=380.40K | 8.00s
+[RUN]    Sample 63/1200 | W=516.3nm, H=217.9nm, Hw=872.8nm, Gap=1400.0nm, P=50.72mW
+  |-- Saved | dneff=6.937062e-03 | T_wg=336.27K | T_max=373.72K | 7.98s
+[RUN]    Sample 64/1200 | W=532.8nm, H=215.7nm, Hw=934.3nm, Gap=925.3nm, P=26.27mW
+  |-- Saved | dneff=3.577378e-03 | T_wg=318.78K | T_max=338.18K | 8.06s
+[RUN]    Sample 65/1200 | W=456.2nm, H=237.9nm, Hw=1520.7nm, Gap=872.6nm, P=13.21mW
+  |-- Saved | dneff=1.843594e-03 | T_wg=309.45K | T_max=319.20K | 7.96s
+[RUN]    Sample 66/1200 | W=550.6nm, H=236.2nm, Hw=1119.5nm, Gap=1489.0nm, P=15.67mW
+  |-- Saved | dneff=2.158879e-03 | T_wg=311.20K | T_max=322.77K | 7.96s
+[RUN]    Sample 67/1200 | W=510.2nm, H=209.0nm, Hw=1328.3nm, Gap=1318.6nm, P=48.49mW
+  |-- Saved | dneff=6.575837e-03 | T_wg=334.67K | T_max=370.47K | 8.08s
+[RUN]    Sample 68/1200 | W=501.1nm, H=240.5nm, Hw=1939.3nm, Gap=1416.7nm, P=16.37mW
+  |-- Saved | dneff=2.276974e-03 | T_wg=311.71K | T_max=323.79K | 7.96s
+[RUN]    Sample 69/1200 | W=591.3nm, H=215.8nm, Hw=1812.2nm, Gap=1207.8nm, P=55.93mW
+  |-- Saved | dneff=7.563457e-03 | T_wg=339.98K | T_max=381.29K | 7.97s
+[RUN]    Sample 70/1200 | W=405.9nm, H=225.0nm, Hw=880.7nm, Gap=1237.1nm, P=21.68mW
+  |-- Saved | dneff=2.968746e-03 | T_wg=315.51K | T_max=331.51K | 7.96s
+[RUN]    Sample 71/1200 | W=545.2nm, H=215.2nm, Hw=1827.4nm, Gap=1249.8nm, P=44.95mW
+  |-- Saved | dneff=6.104845e-03 | T_wg=332.13K | T_max=365.32K | 7.95s
+[RUN]    Sample 72/1200 | W=406.7nm, H=239.9nm, Hw=908.2nm, Gap=676.1nm, P=59.29mW
+  |-- Saved | dneff=8.259304e-03 | T_wg=342.41K | T_max=386.16K | 7.97s
+[RUN]    Sample 73/1200 | W=469.5nm, H=231.3nm, Hw=1603.9nm, Gap=1334.2nm, P=10.10mW
+  |-- Saved | dneff=1.402260e-03 | T_wg=307.23K | T_max=314.68K | 7.95s
+[RUN]    Sample 74/1200 | W=589.6nm, H=225.0nm, Hw=1298.3nm, Gap=1206.5nm, P=46.21mW
+  |-- Saved | dneff=6.293387e-03 | T_wg=333.05K | T_max=367.16K | 8.00s
+[RUN]    Sample 75/1200 | W=516.5nm, H=255.3nm, Hw=1490.6nm, Gap=1455.5nm, P=17.32mW
+  |-- Saved | dneff=2.424429e-03 | T_wg=312.42K | T_max=325.17K | 7.96s
+[RUN]    Sample 76/1200 | W=458.1nm, H=259.0nm, Hw=1354.6nm, Gap=838.2nm, P=13.35mW
+  |-- Saved | dneff=1.886953e-03 | T_wg=309.58K | T_max=319.41K | 7.96s
+[RUN]    Sample 77/1200 | W=416.2nm, H=238.8nm, Hw=1043.2nm, Gap=938.6nm, P=5.40mW
+  |-- Saved | dneff=7.524004e-04 | T_wg=303.86K | T_max=307.84K | 7.96s
+[RUN]    Sample 78/1200 | W=411.5nm, H=208.8nm, Hw=1302.0nm, Gap=860.9nm, P=11.42mW
+  |-- Saved | dneff=1.530246e-03 | T_wg=308.17K | T_max=316.60K | 7.94s
+[RUN]    Sample 79/1200 | W=593.1nm, H=207.0nm, Hw=1286.4nm, Gap=1269.2nm, P=42.95mW
+  |-- Saved | dneff=5.759310e-03 | T_wg=330.70K | T_max=362.42K | 7.96s
+[RUN]    Sample 80/1200 | W=574.8nm, H=223.0nm, Hw=1700.7nm, Gap=1076.7nm, P=10.85mW
+  |-- Saved | dneff=1.478022e-03 | T_wg=307.76K | T_max=315.76K | 7.94s
+[RUN]    Sample 81/1200 | W=573.1nm, H=251.6nm, Hw=1023.2nm, Gap=965.2nm, P=11.19mW
+  |-- Saved | dneff=1.549690e-03 | T_wg=308.00K | T_max=316.26K | 7.97s
+[RUN]    Sample 82/1200 | W=409.9nm, H=210.7nm, Hw=1226.2nm, Gap=1118.2nm, P=53.49mW
+  |-- Saved | dneff=7.187016e-03 | T_wg=338.25K | T_max=377.74K | 8.07s
+[RUN]    Sample 83/1200 | W=431.4nm, H=248.5nm, Hw=1622.9nm, Gap=848.3nm, P=26.22mW
+  |-- Saved | dneff=3.690291e-03 | T_wg=318.76K | T_max=338.11K | 7.97s
+[RUN]    Sample 84/1200 | W=506.0nm, H=224.1nm, Hw=974.2nm, Gap=671.9nm, P=27.83mW
+  |-- Saved | dneff=3.828196e-03 | T_wg=319.91K | T_max=340.44K | 7.95s
+[RUN]    Sample 85/1200 | W=508.6nm, H=207.7nm, Hw=1083.0nm, Gap=885.0nm, P=55.76mW
+  |-- Saved | dneff=7.551682e-03 | T_wg=339.87K | T_max=381.03K | 7.98s
+[RUN]    Sample 86/1200 | W=491.0nm, H=231.3nm, Hw=1306.2nm, Gap=867.0nm, P=30.86mW
+  |-- Saved | dneff=4.267990e-03 | T_wg=322.07K | T_max=344.85K | 7.95s
+[RUN]    Sample 87/1200 | W=592.8nm, H=202.4nm, Hw=1103.3nm, Gap=781.6nm, P=47.58mW
+  |-- Saved | dneff=6.350405e-03 | T_wg=334.01K | T_max=369.15K | 7.95s
+[RUN]    Sample 88/1200 | W=560.1nm, H=207.6nm, Hw=1837.5nm, Gap=1472.4nm, P=9.55mW
+  |-- Saved | dneff=1.286979e-03 | T_wg=306.83K | T_max=313.89K | 7.93s
+[RUN]    Sample 89/1200 | W=496.0nm, H=259.9nm, Hw=1053.3nm, Gap=1295.9nm, P=13.88mW
+  |-- Saved | dneff=1.950376e-03 | T_wg=309.96K | T_max=320.17K | 8.00s
+[RUN]    Sample 90/1200 | W=492.7nm, H=201.7nm, Hw=1016.4nm, Gap=981.7nm, P=12.35mW
+  |-- Saved | dneff=1.658952e-03 | T_wg=308.83K | T_max=317.95K | 7.98s
+[RUN]    Sample 91/1200 | W=436.8nm, H=238.1nm, Hw=1831.3nm, Gap=1025.9nm, P=10.27mW
+  |-- Saved | dneff=1.430710e-03 | T_wg=307.34K | T_max=314.92K | 7.93s
+[RUN]    Sample 92/1200 | W=441.8nm, H=256.9nm, Hw=1923.5nm, Gap=625.7nm, P=9.14mW
+  |-- Saved | dneff=1.289682e-03 | T_wg=306.56K | T_max=313.29K | 7.98s
+[RUN]    Sample 93/1200 | W=529.6nm, H=212.0nm, Hw=1724.1nm, Gap=1070.0nm, P=49.89mW
+  |-- Saved | dneff=6.776068e-03 | T_wg=335.67K | T_max=372.51K | 7.94s
+[RUN]    Sample 94/1200 | W=515.1nm, H=221.7nm, Hw=1203.1nm, Gap=1179.6nm, P=49.11mW
+  |-- Saved | dneff=6.737786e-03 | T_wg=335.13K | T_max=371.38K | 8.00s
+[RUN]    Sample 95/1200 | W=579.3nm, H=202.6nm, Hw=1743.9nm, Gap=1370.9nm, P=30.20mW
+  |-- Saved | dneff=4.042267e-03 | T_wg=321.59K | T_max=343.88K | 7.95s
+[RUN]    Sample 96/1200 | W=412.3nm, H=249.7nm, Hw=1111.4nm, Gap=1373.5nm, P=30.05mW
+  |-- Saved | dneff=4.231609e-03 | T_wg=321.50K | T_max=343.68K | 7.96s
+[RUN]    Sample 97/1200 | W=523.3nm, H=232.7nm, Hw=1379.4nm, Gap=1029.5nm, P=22.37mW
+  |-- Saved | dneff=3.090261e-03 | T_wg=316.00K | T_max=332.51K | 8.04s
+[RUN]    Sample 98/1200 | W=510.9nm, H=209.7nm, Hw=1004.8nm, Gap=1054.8nm, P=53.24mW
+  |-- Saved | dneff=7.225521e-03 | T_wg=338.07K | T_max=377.37K | 7.95s
+[RUN]    Sample 99/1200 | W=450.0nm, H=229.5nm, Hw=963.3nm, Gap=1484.0nm, P=41.36mW
+  |-- Saved | dneff=5.731112e-03 | T_wg=329.58K | T_max=360.10K | 7.96s
+[RUN]    Sample 100/1200 | W=444.9nm, H=246.9nm, Hw=1080.4nm, Gap=1241.7nm, P=56.17mW
+  |-- Saved | dneff=7.884789e-03 | T_wg=340.18K | T_max=381.64K | 7.91s
+[RUN]    Sample 101/1200 | W=519.2nm, H=235.4nm, Hw=881.1nm, Gap=601.9nm, P=20.01mW
+  |-- Saved | dneff=2.771746e-03 | T_wg=314.31K | T_max=329.08K | 7.95s
+[RUN]    Sample 102/1200 | W=482.9nm, H=240.5nm, Hw=1138.2nm, Gap=1057.1nm, P=30.84mW
+  |-- Saved | dneff=4.299795e-03 | T_wg=322.06K | T_max=344.83K | 7.93s
+[RUN]    Sample 103/1200 | W=433.8nm, H=220.3nm, Hw=860.9nm, Gap=848.0nm, P=30.01mW
+  |-- Saved | dneff=4.111308e-03 | T_wg=321.46K | T_max=343.61K | 8.04s
+[RUN]    Sample 104/1200 | W=553.0nm, H=236.4nm, Hw=1689.3nm, Gap=1499.2nm, P=14.50mW
+  |-- Saved | dneff=1.997770e-03 | T_wg=310.37K | T_max=321.07K | 7.94s
+[RUN]    Sample 105/1200 | W=513.9nm, H=259.6nm, Hw=1411.8nm, Gap=1191.3nm, P=21.08mW
+  |-- Saved | dneff=2.957051e-03 | T_wg=315.12K | T_max=330.64K | 7.94s
+[RUN]    Sample 106/1200 | W=527.9nm, H=241.7nm, Hw=894.0nm, Gap=877.7nm, P=8.61mW
+  |-- Saved | dneff=1.194193e-03 | T_wg=306.16K | T_max=312.51K | 7.92s
+[RUN]    Sample 107/1200 | W=566.7nm, H=226.4nm, Hw=1109.6nm, Gap=1360.0nm, P=42.58mW
+  |-- Saved | dneff=5.822776e-03 | T_wg=330.46K | T_max=361.89K | 7.96s
+[RUN]    Sample 108/1200 | W=495.3nm, H=238.5nm, Hw=1585.8nm, Gap=920.9nm, P=26.32mW
+  |-- Saved | dneff=3.657321e-03 | T_wg=318.83K | T_max=338.25K | 7.92s
+[RUN]    Sample 109/1200 | W=487.8nm, H=231.5nm, Hw=1881.2nm, Gap=1018.5nm, P=28.60mW
+  |-- Saved | dneff=3.958325e-03 | T_wg=320.46K | T_max=341.56K | 7.92s
+[RUN]    Sample 110/1200 | W=549.8nm, H=239.5nm, Hw=1573.9nm, Gap=687.2nm, P=37.16mW
+  |-- Saved | dneff=5.128706e-03 | T_wg=326.57K | T_max=354.00K | 7.92s
+[RUN]    Sample 111/1200 | W=462.3nm, H=212.7nm, Hw=1003.8nm, Gap=1179.8nm, P=17.69mW
+  |-- Saved | dneff=2.412291e-03 | T_wg=312.65K | T_max=325.71K | 7.93s
+[RUN]    Sample 112/1200 | W=513.0nm, H=255.8nm, Hw=1912.5nm, Gap=1331.6nm, P=38.53mW
+  |-- Saved | dneff=5.395968e-03 | T_wg=327.63K | T_max=355.99K | 8.03s
+[RUN]    Sample 113/1200 | W=492.3nm, H=240.2nm, Hw=1503.2nm, Gap=1120.8nm, P=15.24mW
+  |-- Saved | dneff=2.119306e-03 | T_wg=310.90K | T_max=322.14K | 7.94s
+[RUN]    Sample 114/1200 | W=444.4nm, H=218.3nm, Hw=1882.9nm, Gap=973.2nm, P=8.05mW
+  |-- Saved | dneff=1.100295e-03 | T_wg=305.75K | T_max=311.69K | 7.92s
+[RUN]    Sample 115/1200 | W=478.4nm, H=259.9nm, Hw=1071.5nm, Gap=1142.4nm, P=32.05mW
+  |-- Saved | dneff=4.521026e-03 | T_wg=322.99K | T_max=346.58K | 7.93s
+[RUN]    Sample 116/1200 | W=469.9nm, H=253.3nm, Hw=1399.4nm, Gap=934.6nm, P=30.65mW
+  |-- Saved | dneff=4.317024e-03 | T_wg=321.99K | T_max=344.55K | 7.93s
+[RUN]    Sample 117/1200 | W=573.4nm, H=224.8nm, Hw=1307.9nm, Gap=1080.5nm, P=31.13mW
+  |-- Saved | dneff=4.250955e-03 | T_wg=322.26K | T_max=345.24K | 7.93s
+[RUN]    Sample 118/1200 | W=561.1nm, H=224.8nm, Hw=1434.7nm, Gap=644.9nm, P=52.34mW
+  |-- Saved | dneff=7.156052e-03 | T_wg=337.44K | T_max=376.07K | 7.91s
+[RUN]    Sample 119/1200 | W=526.8nm, H=203.8nm, Hw=955.7nm, Gap=1499.6nm, P=54.87mW
+  |-- Saved | dneff=7.395840e-03 | T_wg=339.23K | T_max=379.74K | 7.94s
+[RUN]    Sample 120/1200 | W=536.5nm, H=251.0nm, Hw=1707.4nm, Gap=736.5nm, P=40.95mW
+  |-- Saved | dneff=5.699957e-03 | T_wg=329.29K | T_max=359.51K | 7.91s
+[RUN]    Sample 121/1200 | W=514.4nm, H=248.1nm, Hw=1965.1nm, Gap=699.2nm, P=56.52mW
+  |-- Saved | dneff=7.892860e-03 | T_wg=340.43K | T_max=382.14K | 7.92s
+[RUN]    Sample 122/1200 | W=481.0nm, H=215.2nm, Hw=1864.9nm, Gap=1417.7nm, P=14.65mW
+  |-- Saved | dneff=2.002669e-03 | T_wg=310.48K | T_max=321.29K | 7.91s
+[RUN]    Sample 123/1200 | W=540.1nm, H=237.8nm, Hw=1145.0nm, Gap=1433.3nm, P=53.43mW
+  |-- Saved | dneff=7.378711e-03 | T_wg=338.22K | T_max=377.66K | 7.88s
+[RUN]    Sample 124/1200 | W=582.0nm, H=210.6nm, Hw=1451.7nm, Gap=1092.7nm, P=11.92mW
+  |-- Saved | dneff=1.606813e-03 | T_wg=308.52K | T_max=317.32K | 7.93s
+[RUN]    Sample 125/1200 | W=550.9nm, H=207.9nm, Hw=1872.0nm, Gap=1216.2nm, P=50.93mW
+  |-- Saved | dneff=6.868654e-03 | T_wg=336.41K | T_max=374.01K | 7.90s
+[RUN]    Sample 126/1200 | W=562.4nm, H=213.5nm, Hw=849.9nm, Gap=967.1nm, P=37.55mW
+  |-- Saved | dneff=5.086978e-03 | T_wg=326.84K | T_max=354.57K | 7.90s
+[RUN]    Sample 127/1200 | W=598.0nm, H=233.1nm, Hw=918.0nm, Gap=782.7nm, P=56.65mW
+  |-- Saved | dneff=7.738057e-03 | T_wg=340.52K | T_max=382.33K | 8.10s
+[RUN]    Sample 128/1200 | W=440.1nm, H=242.4nm, Hw=1248.3nm, Gap=1099.7nm, P=21.74mW
+  |-- Saved | dneff=3.037761e-03 | T_wg=315.55K | T_max=331.59K | 7.92s
+[RUN]    Sample 129/1200 | W=529.9nm, H=218.4nm, Hw=959.0nm, Gap=1487.8nm, P=7.72mW
+  |-- Saved | dneff=1.054203e-03 | T_wg=305.52K | T_max=311.22K | 7.93s
+[RUN]    Sample 130/1200 | W=567.4nm, H=233.7nm, Hw=979.5nm, Gap=1129.0nm, P=41.94mW
+  |-- Saved | dneff=5.761108e-03 | T_wg=330.00K | T_max=360.95K | 7.89s
+[RUN]    Sample 131/1200 | W=512.1nm, H=251.5nm, Hw=1747.3nm, Gap=1205.8nm, P=13.30mW
+  |-- Saved | dneff=1.860019e-03 | T_wg=309.52K | T_max=319.33K | 7.92s
+[RUN]    Sample 132/1200 | W=470.9nm, H=209.2nm, Hw=926.7nm, Gap=858.3nm, P=54.71mW
+  |-- Saved | dneff=7.437465e-03 | T_wg=339.13K | T_max=379.51K | 7.88s
+[RUN]    Sample 133/1200 | W=505.8nm, H=214.2nm, Hw=1127.8nm, Gap=1464.7nm, P=9.34mW
+  |-- Saved | dneff=1.273560e-03 | T_wg=306.68K | T_max=313.57K | 7.89s
+[RUN]    Sample 134/1200 | W=406.9nm, H=202.0nm, Hw=1621.0nm, Gap=683.0nm, P=49.53mW
+  |-- Saved | dneff=6.535875e-03 | T_wg=335.42K | T_max=371.99K | 7.89s
+[RUN]    Sample 135/1200 | W=416.8nm, H=255.7nm, Hw=1957.0nm, Gap=1261.0nm, P=18.95mW
+  |-- Saved | dneff=2.678719e-03 | T_wg=313.59K | T_max=327.54K | 7.90s
+[RUN]    Sample 136/1200 | W=583.4nm, H=203.0nm, Hw=1220.5nm, Gap=955.4nm, P=47.33mW
+  |-- Saved | dneff=6.336380e-03 | T_wg=333.84K | T_max=368.79K | 7.91s
+[RUN]    Sample 137/1200 | W=590.7nm, H=229.6nm, Hw=1429.0nm, Gap=1236.4nm, P=49.02mW
+  |-- Saved | dneff=6.690246e-03 | T_wg=335.06K | T_max=371.24K | 7.90s
+[RUN]    Sample 138/1200 | W=577.3nm, H=222.0nm, Hw=1628.0nm, Gap=1105.7nm, P=8.78mW
+  |-- Saved | dneff=1.195033e-03 | T_wg=306.28K | T_max=312.76K | 7.85s
+[RUN]    Sample 139/1200 | W=566.6nm, H=258.9nm, Hw=1516.8nm, Gap=1496.0nm, P=30.72mW
+  |-- Saved | dneff=4.270432e-03 | T_wg=322.03K | T_max=344.64K | 7.87s
+[RUN]    Sample 140/1200 | W=413.9nm, H=225.6nm, Hw=1482.4nm, Gap=928.0nm, P=41.15mW
+  |-- Saved | dneff=5.659885e-03 | T_wg=329.43K | T_max=359.80K | 7.89s
+[RUN]    Sample 141/1200 | W=546.5nm, H=204.8nm, Hw=1506.8nm, Gap=1386.1nm, P=17.82mW
+  |-- Saved | dneff=2.396152e-03 | T_wg=312.74K | T_max=325.90K | 7.92s
+[RUN]    Sample 142/1200 | W=411.1nm, H=208.6nm, Hw=1345.2nm, Gap=1351.2nm, P=12.82mW
+  |-- Saved | dneff=1.716789e-03 | T_wg=309.16K | T_max=318.63K | 8.01s
+[RUN]    Sample 143/1200 | W=566.2nm, H=230.8nm, Hw=1312.2nm, Gap=738.1nm, P=20.23mW
+  |-- Saved | dneff=2.772903e-03 | T_wg=314.47K | T_max=329.40K | 8.44s
+[RUN]    Sample 144/1200 | W=548.1nm, H=239.2nm, Hw=1917.9nm, Gap=667.0nm, P=26.50mW
+  |-- Saved | dneff=3.657036e-03 | T_wg=318.95K | T_max=338.51K | 7.87s
+[RUN]    Sample 145/1200 | W=532.4nm, H=254.3nm, Hw=1906.0nm, Gap=876.8nm, P=27.73mW
+  |-- Saved | dneff=3.867100e-03 | T_wg=319.89K | T_max=340.30K | 7.87s
+[RUN]    Sample 146/1200 | W=485.5nm, H=219.8nm, Hw=877.9nm, Gap=1058.7nm, P=48.88mW
+  |-- Saved | dneff=6.704728e-03 | T_wg=334.96K | T_max=371.05K | 7.91s
+[RUN]    Sample 147/1200 | W=402.1nm, H=248.8nm, Hw=1260.9nm, Gap=1468.2nm, P=9.86mW
+  |-- Saved | dneff=1.383171e-03 | T_wg=307.05K | T_max=314.32K | 7.89s
+[RUN]    Sample 148/1200 | W=592.1nm, H=215.1nm, Hw=953.7nm, Gap=1305.5nm, P=18.14mW
+  |-- Saved | dneff=2.450158e-03 | T_wg=312.96K | T_max=326.36K | 7.92s
+[RUN]    Sample 149/1200 | W=454.7nm, H=220.0nm, Hw=1413.1nm, Gap=855.0nm, P=11.81mW
+  |-- Saved | dneff=1.621024e-03 | T_wg=308.44K | T_max=317.16K | 7.89s
+[RUN]    Sample 150/1200 | W=553.6nm, H=254.2nm, Hw=1823.6nm, Gap=657.2nm, P=43.60mW
+  |-- Saved | dneff=6.059284e-03 | T_wg=331.27K | T_max=363.36K | 7.93s
+[RUN]    Sample 151/1200 | W=430.6nm, H=212.3nm, Hw=1896.8nm, Gap=998.6nm, P=52.41mW
+  |-- Saved | dneff=7.112047e-03 | T_wg=337.48K | T_max=376.16K | 7.86s
+[RUN]    Sample 152/1200 | W=512.0nm, H=205.7nm, Hw=1916.1nm, Gap=1362.7nm, P=21.98mW
+  |-- Saved | dneff=2.971174e-03 | T_wg=315.72K | T_max=331.95K | 8.04s
+[RUN]    Sample 153/1200 | W=431.7nm, H=223.3nm, Hw=1881.0nm, Gap=1156.4nm, P=56.57mW
+  |-- Saved | dneff=7.783235e-03 | T_wg=340.46K | T_max=382.21K | 8.00s
+[RUN]    Sample 154/1200 | W=581.7nm, H=250.1nm, Hw=1757.0nm, Gap=1207.4nm, P=52.78mW
+  |-- Saved | dneff=7.301468e-03 | T_wg=337.75K | T_max=376.70K | 8.03s
+[RUN]    Sample 155/1200 | W=537.1nm, H=252.8nm, Hw=1625.4nm, Gap=827.4nm, P=32.41mW
+  |-- Saved | dneff=4.512191e-03 | T_wg=323.18K | T_max=347.10K | 8.00s
+[RUN]    Sample 156/1200 | W=499.9nm, H=247.6nm, Hw=1151.8nm, Gap=703.7nm, P=19.67mW
+  |-- Saved | dneff=2.750280e-03 | T_wg=314.07K | T_max=328.59K | 8.01s
+[RUN]    Sample 157/1200 | W=500.5nm, H=203.3nm, Hw=844.5nm, Gap=916.8nm, P=36.44mW
+  |-- Saved | dneff=4.910880e-03 | T_wg=326.06K | T_max=352.96K | 8.14s
+[RUN]    Sample 158/1200 | W=521.8nm, H=202.6nm, Hw=1152.7nm, Gap=922.7nm, P=38.25mW
+  |-- Saved | dneff=5.147768e-03 | T_wg=327.35K | T_max=355.59K | 8.00s
+[RUN]    Sample 159/1200 | W=548.3nm, H=232.0nm, Hw=1352.7nm, Gap=842.9nm, P=34.56mW
+  |-- Saved | dneff=4.749456e-03 | T_wg=324.72K | T_max=350.23K | 8.03s
+[RUN]    Sample 160/1200 | W=430.8nm, H=245.4nm, Hw=1215.8nm, Gap=1189.0nm, P=43.70mW
+  |-- Saved | dneff=6.133711e-03 | T_wg=331.26K | T_max=363.51K | 7.99s
+[RUN]    Sample 161/1200 | W=505.2nm, H=232.9nm, Hw=1349.1nm, Gap=1018.1nm, P=56.97mW
+  |-- Saved | dneff=7.887484e-03 | T_wg=340.75K | T_max=382.79K | 8.01s
+[RUN]    Sample 162/1200 | W=493.8nm, H=238.1nm, Hw=1582.8nm, Gap=853.9nm, P=34.38mW
+  |-- Saved | dneff=4.776936e-03 | T_wg=324.59K | T_max=349.96K | 8.05s
+[RUN]    Sample 163/1200 | W=501.7nm, H=213.4nm, Hw=945.0nm, Gap=1446.3nm, P=14.80mW
+  |-- Saved | dneff=2.017155e-03 | T_wg=310.58K | T_max=321.51K | 8.01s
+[RUN]    Sample 164/1200 | W=423.7nm, H=210.5nm, Hw=1347.5nm, Gap=1103.5nm, P=6.91mW
+  |-- Saved | dneff=9.339857e-04 | T_wg=304.94K | T_max=310.05K | 8.01s
+[RUN]    Sample 165/1200 | W=530.5nm, H=215.8nm, Hw=1688.7nm, Gap=990.3nm, P=59.32mW
+  |-- Saved | dneff=8.084961e-03 | T_wg=342.42K | T_max=386.21K | 8.02s
+[RUN]    Sample 166/1200 | W=447.7nm, H=218.8nm, Hw=1930.8nm, Gap=1095.8nm, P=11.73mW
+  |-- Saved | dneff=1.606061e-03 | T_wg=308.39K | T_max=317.04K | 8.02s
+[RUN]    Sample 167/1200 | W=501.7nm, H=210.7nm, Hw=884.6nm, Gap=1490.5nm, P=44.43mW
+  |-- Saved | dneff=6.036982e-03 | T_wg=331.77K | T_max=364.57K | 8.00s
+[RUN]    Sample 168/1200 | W=414.2nm, H=228.1nm, Hw=1509.0nm, Gap=845.7nm, P=6.58mW
+  |-- Saved | dneff=9.071628e-04 | T_wg=304.71K | T_max=309.56K | 8.01s
+[RUN]    Sample 169/1200 | W=586.8nm, H=223.4nm, Hw=1851.5nm, Gap=679.9nm, P=54.40mW
+  |-- Saved | dneff=7.403729e-03 | T_wg=338.91K | T_max=379.07K | 8.03s
+[RUN]    Sample 170/1200 | W=494.5nm, H=256.6nm, Hw=1759.3nm, Gap=1485.6nm, P=47.12mW
+  |-- Saved | dneff=6.612236e-03 | T_wg=333.80K | T_max=368.48K | 7.98s
+[RUN]    Sample 171/1200 | W=574.3nm, H=246.1nm, Hw=1502.1nm, Gap=1453.6nm, P=8.43mW
+  |-- Saved | dneff=1.164064e-03 | T_wg=306.03K | T_max=312.25K | 8.05s
+[RUN]    Sample 172/1200 | W=543.1nm, H=227.3nm, Hw=1200.1nm, Gap=797.7nm, P=15.01mW
+  |-- Saved | dneff=2.057775e-03 | T_wg=310.74K | T_max=321.82K | 8.10s
+[RUN]    Sample 173/1200 | W=473.9nm, H=248.9nm, Hw=1115.2nm, Gap=1246.8nm, P=54.77mW
+  |-- Saved | dneff=7.702195e-03 | T_wg=339.18K | T_max=379.60K | 8.01s
+[RUN]    Sample 174/1200 | W=599.3nm, H=238.2nm, Hw=909.2nm, Gap=1287.7nm, P=40.88mW
+  |-- Saved | dneff=5.596386e-03 | T_wg=329.24K | T_max=359.41K | 8.02s
+[RUN]    Sample 175/1200 | W=413.2nm, H=200.1nm, Hw=845.0nm, Gap=1040.0nm, P=49.75mW
+  |-- Saved | dneff=6.569190e-03 | T_wg=335.57K | T_max=372.30K | 8.04s
+[RUN]    Sample 176/1200 | W=583.9nm, H=257.9nm, Hw=1937.7nm, Gap=1408.8nm, P=52.55mW
+  |-- Saved | dneff=7.283384e-03 | T_wg=337.69K | T_max=376.37K | 7.99s
+[RUN]    Sample 177/1200 | W=459.8nm, H=202.2nm, Hw=1948.1nm, Gap=1282.1nm, P=27.22mW
+  |-- Saved | dneff=3.659336e-03 | T_wg=319.47K | T_max=339.56K | 8.03s
+[RUN]    Sample 178/1200 | W=509.1nm, H=244.6nm, Hw=1800.9nm, Gap=1184.9nm, P=39.34mW
+  |-- Saved | dneff=5.483247e-03 | T_wg=328.14K | T_max=357.18K | 8.00s
+[RUN]    Sample 179/1200 | W=424.3nm, H=232.3nm, Hw=1392.8nm, Gap=1490.2nm, P=50.57mW
+  |-- Saved | dneff=7.026746e-03 | T_wg=336.17K | T_max=373.49K | 8.01s
+[RUN]    Sample 180/1200 | W=465.5nm, H=201.8nm, Hw=1738.8nm, Gap=916.4nm, P=31.61mW
+  |-- Saved | dneff=4.250578e-03 | T_wg=322.60K | T_max=345.93K | 8.01s
+[RUN]    Sample 181/1200 | W=400.8nm, H=237.0nm, Hw=1306.0nm, Gap=788.6nm, P=15.96mW
+  |-- Saved | dneff=2.211334e-03 | T_wg=311.41K | T_max=323.19K | 7.95s
+[RUN]    Sample 182/1200 | W=481.9nm, H=201.2nm, Hw=1144.9nm, Gap=1285.3nm, P=34.50mW
+  |-- Saved | dneff=4.636213e-03 | T_wg=324.67K | T_max=350.14K | 8.04s
+[RUN]    Sample 183/1200 | W=436.4nm, H=228.6nm, Hw=1787.1nm, Gap=723.0nm, P=45.98mW
+  |-- Saved | dneff=6.354967e-03 | T_wg=332.89K | T_max=366.82K | 7.99s
+[RUN]    Sample 184/1200 | W=523.3nm, H=206.2nm, Hw=1237.9nm, Gap=665.8nm, P=38.57mW
+  |-- Saved | dneff=5.214566e-03 | T_wg=327.58K | T_max=356.06K | 8.03s
+[RUN]    Sample 185/1200 | W=523.2nm, H=216.0nm, Hw=817.4nm, Gap=829.8nm, P=42.35mW
+  |-- Saved | dneff=5.780334e-03 | T_wg=330.28K | T_max=361.54K | 8.00s
+[RUN]    Sample 186/1200 | W=415.1nm, H=234.1nm, Hw=1877.1nm, Gap=768.3nm, P=33.02mW
+  |-- Saved | dneff=4.585126e-03 | T_wg=323.62K | T_max=347.98K | 7.99s
+[RUN]    Sample 187/1200 | W=561.3nm, H=226.3nm, Hw=1900.6nm, Gap=997.7nm, P=55.06mW
+  |-- Saved | dneff=7.533657e-03 | T_wg=339.38K | T_max=380.02K | 8.13s
+[RUN]    Sample 188/1200 | W=529.8nm, H=232.5nm, Hw=1338.9nm, Gap=1140.1nm, P=56.42mW
+  |-- Saved | dneff=7.784833e-03 | T_wg=340.36K | T_max=382.00K | 8.03s
+[RUN]    Sample 189/1200 | W=486.5nm, H=201.7nm, Hw=973.8nm, Gap=1431.4nm, P=32.30mW
+  |-- Saved | dneff=4.340429e-03 | T_wg=323.09K | T_max=346.94K | 8.01s
+[RUN]    Sample 190/1200 | W=497.8nm, H=205.8nm, Hw=1682.1nm, Gap=772.6nm, P=43.30mW
+  |-- Saved | dneff=5.852653e-03 | T_wg=330.96K | T_max=362.93K | 7.99s
+[RUN]    Sample 191/1200 | W=572.4nm, H=204.9nm, Hw=1017.8nm, Gap=1405.4nm, P=50.10mW
+  |-- Saved | dneff=6.732169e-03 | T_wg=335.82K | T_max=372.82K | 8.00s
+[RUN]    Sample 192/1200 | W=464.7nm, H=234.7nm, Hw=1556.5nm, Gap=1001.6nm, P=13.68mW
+  |-- Saved | dneff=1.904993e-03 | T_wg=309.79K | T_max=319.89K | 7.98s
+[RUN]    Sample 193/1200 | W=518.6nm, H=219.5nm, Hw=1719.9nm, Gap=1217.9nm, P=56.47mW
+  |-- Saved | dneff=7.732129e-03 | T_wg=340.38K | T_max=382.07K | 7.98s
+[RUN]    Sample 194/1200 | W=572.1nm, H=250.6nm, Hw=1626.8nm, Gap=1270.1nm, P=30.11mW
+  |-- Saved | dneff=4.170282e-03 | T_wg=321.53K | T_max=343.76K | 8.02s
+[RUN]    Sample 195/1200 | W=577.8nm, H=212.5nm, Hw=1940.9nm, Gap=793.6nm, P=17.86mW
+  |-- Saved | dneff=2.413632e-03 | T_wg=312.77K | T_max=325.96K | 7.97s
+[RUN]    Sample 196/1200 | W=571.7nm, H=245.8nm, Hw=1362.6nm, Gap=1318.1nm, P=34.00mW
+  |-- Saved | dneff=4.697952e-03 | T_wg=324.32K | T_max=349.42K | 8.01s
+[RUN]    Sample 197/1200 | W=451.0nm, H=202.3nm, Hw=1967.3nm, Gap=840.4nm, P=33.91mW
+  |-- Saved | dneff=4.552399e-03 | T_wg=324.25K | T_max=349.29K | 7.96s
+[RUN]    Sample 198/1200 | W=472.7nm, H=223.7nm, Hw=995.9nm, Gap=1448.7nm, P=40.99mW
+  |-- Saved | dneff=5.656694e-03 | T_wg=329.32K | T_max=359.57K | 7.99s
+[RUN]    Sample 199/1200 | W=420.9nm, H=208.1nm, Hw=1762.2nm, Gap=1215.6nm, P=12.61mW
+  |-- Saved | dneff=1.696013e-03 | T_wg=309.02K | T_max=318.33K | 7.99s
+[RUN]    Sample 200/1200 | W=499.1nm, H=246.3nm, Hw=1489.0nm, Gap=1108.5nm, P=49.08mW
+  |-- Saved | dneff=6.854904e-03 | T_wg=335.11K | T_max=371.33K | 8.01s
+[RUN]    Sample 201/1200 | W=548.7nm, H=220.2nm, Hw=1886.9nm, Gap=1289.1nm, P=37.83mW
+  |-- Saved | dneff=5.156776e-03 | T_wg=327.05K | T_max=354.98K | 7.98s
+[RUN]    Sample 202/1200 | W=569.6nm, H=211.2nm, Hw=1174.7nm, Gap=879.2nm, P=58.83mW
+  |-- Saved | dneff=7.948466e-03 | T_wg=342.06K | T_max=385.50K | 8.12s
+[RUN]    Sample 203/1200 | W=534.1nm, H=246.2nm, Hw=1423.5nm, Gap=1482.0nm, P=13.83mW
+  |-- Saved | dneff=1.921107e-03 | T_wg=309.89K | T_max=320.10K | 7.98s
+[RUN]    Sample 204/1200 | W=585.8nm, H=223.7nm, Hw=1191.2nm, Gap=813.7nm, P=12.73mW
+  |-- Saved | dneff=1.732356e-03 | T_wg=309.10K | T_max=318.49K | 8.02s
+[RUN]    Sample 205/1200 | W=512.2nm, H=203.4nm, Hw=1407.0nm, Gap=730.9nm, P=18.40mW
+  |-- Saved | dneff=2.479032e-03 | T_wg=313.16K | T_max=326.74K | 7.98s
+[RUN]    Sample 206/1200 | W=585.6nm, H=258.1nm, Hw=1966.6nm, Gap=1041.9nm, P=51.23mW
+  |-- Saved | dneff=7.099159e-03 | T_wg=336.74K | T_max=374.45K | 7.95s
+[RUN]    Sample 207/1200 | W=404.7nm, H=201.9nm, Hw=1665.5nm, Gap=1078.6nm, P=33.35mW
+  |-- Saved | dneff=4.390254e-03 | T_wg=323.85K | T_max=348.47K | 7.99s
+[RUN]    Sample 208/1200 | W=449.9nm, H=215.9nm, Hw=1198.6nm, Gap=1348.2nm, P=27.64mW
+  |-- Saved | dneff=3.778223e-03 | T_wg=319.76K | T_max=340.16K | 7.97s
+[RUN]    Sample 209/1200 | W=449.7nm, H=206.4nm, Hw=1720.3nm, Gap=974.5nm, P=57.25mW
+  |-- Saved | dneff=7.734134e-03 | T_wg=340.94K | T_max=383.20K | 8.01s
+[RUN]    Sample 210/1200 | W=423.9nm, H=256.8nm, Hw=1990.2nm, Gap=1048.6nm, P=53.76mW
+  |-- Saved | dneff=7.611202e-03 | T_wg=338.56K | T_max=378.12K | 7.98s
+[RUN]    Sample 211/1200 | W=552.6nm, H=257.8nm, Hw=1209.7nm, Gap=957.6nm, P=37.12mW
+  |-- Saved | dneff=5.166701e-03 | T_wg=326.62K | T_max=353.94K | 7.99s
+[RUN]    Sample 212/1200 | W=432.4nm, H=257.1nm, Hw=923.8nm, Gap=863.6nm, P=5.66mW
+  |-- Saved | dneff=7.990800e-04 | T_wg=304.06K | T_max=308.22K | 7.95s
+[RUN]    Sample 213/1200 | W=493.8nm, H=217.0nm, Hw=1744.7nm, Gap=1105.0nm, P=5.44mW
+  |-- Saved | dneff=7.438336e-04 | T_wg=303.89K | T_max=307.91K | 7.98s
+[RUN]    Sample 214/1200 | W=423.0nm, H=231.1nm, Hw=1430.3nm, Gap=1064.2nm, P=24.41mW
+  |-- Saved | dneff=3.385545e-03 | T_wg=317.46K | T_max=335.48K | 7.96s
+[RUN]    Sample 215/1200 | W=485.0nm, H=248.0nm, Hw=1473.6nm, Gap=1214.3nm, P=44.70mW
+  |-- Saved | dneff=6.261043e-03 | T_wg=331.97K | T_max=364.96K | 7.99s
+[RUN]    Sample 216/1200 | W=467.3nm, H=205.0nm, Hw=1656.5nm, Gap=1026.3nm, P=35.69mW
+  |-- Saved | dneff=4.826758e-03 | T_wg=325.52K | T_max=351.87K | 8.01s
+[RUN]    Sample 217/1200 | W=441.0nm, H=258.3nm, Hw=1405.1nm, Gap=1320.9nm, P=43.41mW
+  |-- Saved | dneff=6.131812e-03 | T_wg=331.14K | T_max=363.09K | 8.07s
+[RUN]    Sample 218/1200 | W=429.5nm, H=219.1nm, Hw=978.2nm, Gap=918.4nm, P=57.73mW
+  |-- Saved | dneff=7.904656e-03 | T_wg=341.29K | T_max=383.91K | 7.99s
+[RUN]    Sample 219/1200 | W=587.1nm, H=212.4nm, Hw=1375.7nm, Gap=1036.3nm, P=14.32mW
+  |-- Saved | dneff=1.932420e-03 | T_wg=310.24K | T_max=320.82K | 7.99s
+[RUN]    Sample 220/1200 | W=447.1nm, H=247.1nm, Hw=1223.2nm, Gap=1089.1nm, P=44.50mW
+  |-- Saved | dneff=6.249927e-03 | T_wg=331.83K | T_max=364.67K | 7.97s
+[RUN]    Sample 221/1200 | W=502.2nm, H=223.9nm, Hw=1401.2nm, Gap=875.4nm, P=44.36mW
+  |-- Saved | dneff=6.102769e-03 | T_wg=331.73K | T_max=364.48K | 7.97s
+[RUN]    Sample 222/1200 | W=486.2nm, H=226.2nm, Hw=875.6nm, Gap=1227.8nm, P=34.37mW
+  |-- Saved | dneff=4.740107e-03 | T_wg=324.58K | T_max=349.95K | 7.98s
+[RUN]    Sample 223/1200 | W=582.8nm, H=221.9nm, Hw=1189.4nm, Gap=930.1nm, P=49.78mW
+  |-- Saved | dneff=6.772739e-03 | T_wg=335.60K | T_max=372.35K | 7.99s
+[RUN]    Sample 224/1200 | W=498.3nm, H=223.9nm, Hw=985.2nm, Gap=1241.0nm, P=47.40mW
+  |-- Saved | dneff=6.521748e-03 | T_wg=333.91K | T_max=368.89K | 7.96s
+[RUN]    Sample 225/1200 | W=424.4nm, H=221.7nm, Hw=1242.2nm, Gap=636.6nm, P=40.91mW
+  |-- Saved | dneff=5.620378e-03 | T_wg=329.27K | T_max=359.46K | 8.00s
+[RUN]    Sample 226/1200 | W=438.7nm, H=229.0nm, Hw=1761.3nm, Gap=1165.8nm, P=37.18mW
+  |-- Saved | dneff=5.139478e-03 | T_wg=326.59K | T_max=354.03K | 7.99s
+[RUN]    Sample 227/1200 | W=599.8nm, H=200.2nm, Hw=1589.9nm, Gap=931.0nm, P=58.67mW
+  |-- Saved | dneff=7.802047e-03 | T_wg=341.94K | T_max=385.27K | 7.97s
+[RUN]    Sample 228/1200 | W=401.9nm, H=232.6nm, Hw=1293.6nm, Gap=1498.5nm, P=22.75mW
+  |-- Saved | dneff=3.137517e-03 | T_wg=316.28K | T_max=333.07K | 7.97s
+[RUN]    Sample 229/1200 | W=488.1nm, H=259.5nm, Hw=1998.2nm, Gap=1247.4nm, P=54.80mW
+  |-- Saved | dneff=7.709918e-03 | T_wg=339.31K | T_max=379.64K | 7.97s
+[RUN]    Sample 230/1200 | W=556.3nm, H=230.4nm, Hw=887.2nm, Gap=1303.9nm, P=6.75mW
+  |-- Saved | dneff=9.254726e-04 | T_wg=304.83K | T_max=309.80K | 7.94s
+[RUN]    Sample 231/1200 | W=454.8nm, H=256.3nm, Hw=1737.9nm, Gap=707.9nm, P=43.38mW
+  |-- Saved | dneff=6.124165e-03 | T_wg=331.12K | T_max=363.05K | 7.99s
+[RUN]    Sample 232/1200 | W=434.2nm, H=220.4nm, Hw=1811.0nm, Gap=1222.2nm, P=18.26mW
+  |-- Saved | dneff=2.500462e-03 | T_wg=313.06K | T_max=326.53K | 8.07s
+[RUN]    Sample 233/1200 | W=448.2nm, H=205.0nm, Hw=1629.2nm, Gap=661.4nm, P=8.93mW
+  |-- Saved | dneff=1.203621e-03 | T_wg=306.39K | T_max=312.99K | 7.96s
+[RUN]    Sample 234/1200 | W=407.2nm, H=219.2nm, Hw=1684.5nm, Gap=676.6nm, P=56.92mW
+  |-- Saved | dneff=7.742173e-03 | T_wg=340.71K | T_max=382.73K | 7.97s
+[RUN]    Sample 235/1200 | W=572.3nm, H=236.5nm, Hw=1826.7nm, Gap=1072.7nm, P=10.43mW
+  |-- Saved | dneff=1.434388e-03 | T_wg=307.46K | T_max=315.16K | 7.98s
+[RUN]    Sample 236/1200 | W=547.5nm, H=237.5nm, Hw=1480.6nm, Gap=960.6nm, P=21.49mW
+  |-- Saved | dneff=2.963558e-03 | T_wg=315.37K | T_max=331.23K | 7.95s
+[RUN]    Sample 237/1200 | W=534.7nm, H=203.3nm, Hw=992.9nm, Gap=1412.1nm, P=45.88mW
+  |-- Saved | dneff=6.168468e-03 | T_wg=332.80K | T_max=366.67K | 7.98s
+[RUN]    Sample 238/1200 | W=503.7nm, H=230.1nm, Hw=865.0nm, Gap=1332.6nm, P=38.89mW
+  |-- Saved | dneff=5.372070e-03 | T_wg=327.82K | T_max=356.52K | 7.93s
+[RUN]    Sample 239/1200 | W=566.4nm, H=245.2nm, Hw=1953.1nm, Gap=1195.5nm, P=52.95mW
+  |-- Saved | dneff=7.318939e-03 | T_wg=337.87K | T_max=376.95K | 7.95s
+[RUN]    Sample 240/1200 | W=553.8nm, H=200.4nm, Hw=1650.3nm, Gap=631.3nm, P=15.92mW
+  |-- Saved | dneff=2.128275e-03 | T_wg=311.38K | T_max=323.14K | 7.94s
+[RUN]    Sample 241/1200 | W=550.2nm, H=201.1nm, Hw=1012.2nm, Gap=1166.5nm, P=55.23mW
+  |-- Saved | dneff=7.394608e-03 | T_wg=339.48K | T_max=380.27K | 7.96s
+[RUN]    Sample 242/1200 | W=462.0nm, H=237.3nm, Hw=1685.5nm, Gap=1300.3nm, P=18.50mW
+  |-- Saved | dneff=2.580861e-03 | T_wg=313.23K | T_max=326.89K | 7.97s
+[RUN]    Sample 243/1200 | W=492.0nm, H=215.0nm, Hw=1554.4nm, Gap=1130.7nm, P=57.65mW
+  |-- Saved | dneff=7.871327e-03 | T_wg=341.22K | T_max=383.78K | 7.91s
+[RUN]    Sample 244/1200 | W=484.7nm, H=239.1nm, Hw=997.4nm, Gap=829.0nm, P=11.09mW
+  |-- Saved | dneff=1.544159e-03 | T_wg=307.93K | T_max=316.12K | 7.94s
+[RUN]    Sample 245/1200 | W=510.0nm, H=209.2nm, Hw=1264.1nm, Gap=1097.5nm, P=50.41mW
+  |-- Saved | dneff=6.838162e-03 | T_wg=336.05K | T_max=373.27K | 7.95s
+[RUN]    Sample 246/1200 | W=540.5nm, H=225.4nm, Hw=1202.5nm, Gap=612.0nm, P=28.92mW
+  |-- Saved | dneff=3.962419e-03 | T_wg=320.69K | T_max=342.03K | 7.95s
+[RUN]    Sample 247/1200 | W=573.6nm, H=255.4nm, Hw=1229.8nm, Gap=1462.7nm, P=29.97mW
+  |-- Saved | dneff=4.156864e-03 | T_wg=321.49K | T_max=343.56K | 8.07s
+[RUN]    Sample 248/1200 | W=457.3nm, H=237.2nm, Hw=1988.6nm, Gap=1194.6nm, P=10.08mW
+  |-- Saved | dneff=1.406160e-03 | T_wg=307.21K | T_max=314.65K | 7.97s
+[RUN]    Sample 249/1200 | W=449.7nm, H=237.2nm, Hw=1206.6nm, Gap=752.2nm, P=13.46mW
+  |-- Saved | dneff=1.877618e-03 | T_wg=309.63K | T_max=319.57K | 7.95s
+[RUN]    Sample 250/1200 | W=579.8nm, H=216.6nm, Hw=1385.8nm, Gap=850.6nm, P=25.17mW
+  |-- Saved | dneff=3.412967e-03 | T_wg=317.99K | T_max=336.58K | 7.93s
+[RUN]    Sample 251/1200 | W=498.5nm, H=227.7nm, Hw=907.9nm, Gap=1086.3nm, P=28.78mW
+  |-- Saved | dneff=3.969876e-03 | T_wg=320.59K | T_max=341.83K | 7.96s
+[RUN]    Sample 252/1200 | W=563.5nm, H=232.8nm, Hw=1449.2nm, Gap=1471.9nm, P=21.36mW
+  |-- Saved | dneff=2.933424e-03 | T_wg=315.28K | T_max=331.05K | 7.93s
+[RUN]    Sample 253/1200 | W=419.2nm, H=222.4nm, Hw=1361.7nm, Gap=1307.3nm, P=32.34mW
+  |-- Saved | dneff=4.437487e-03 | T_wg=323.13K | T_max=346.99K | 7.94s
+[RUN]    Sample 254/1200 | W=507.0nm, H=225.1nm, Hw=1090.0nm, Gap=716.6nm, P=40.59mW
+  |-- Saved | dneff=5.588860e-03 | T_wg=329.03K | T_max=358.99K | 7.94s
+[RUN]    Sample 255/1200 | W=426.2nm, H=217.2nm, Hw=1860.6nm, Gap=891.3nm, P=11.59mW
+  |-- Saved | dneff=1.583325e-03 | T_wg=308.29K | T_max=316.85K | 7.95s
+[RUN]    Sample 256/1200 | W=571.9nm, H=206.5nm, Hw=1710.9nm, Gap=1425.9nm, P=36.09mW
+  |-- Saved | dneff=4.854120e-03 | T_wg=325.80K | T_max=352.46K | 7.94s
+[RUN]    Sample 257/1200 | W=487.4nm, H=217.9nm, Hw=1952.6nm, Gap=1114.0nm, P=37.36mW
+  |-- Saved | dneff=5.113881e-03 | T_wg=326.72K | T_max=354.30K | 7.94s
+[RUN]    Sample 258/1200 | W=564.0nm, H=254.1nm, Hw=1513.7nm, Gap=1304.7nm, P=20.51mW
+  |-- Saved | dneff=2.846977e-03 | T_wg=314.71K | T_max=329.81K | 7.95s
+[RUN]    Sample 259/1200 | W=418.1nm, H=236.7nm, Hw=1608.4nm, Gap=1045.3nm, P=56.87mW
+  |-- Saved | dneff=7.928349e-03 | T_wg=340.68K | T_max=382.65K | 7.94s
+[RUN]    Sample 260/1200 | W=416.9nm, H=224.0nm, Hw=1130.8nm, Gap=1190.5nm, P=30.60mW
+  |-- Saved | dneff=4.204572e-03 | T_wg=321.89K | T_max=344.48K | 7.92s
+[RUN]    Sample 261/1200 | W=593.8nm, H=244.0nm, Hw=1276.2nm, Gap=1190.1nm, P=51.30mW
+  |-- Saved | dneff=7.052695e-03 | T_wg=336.69K | T_max=374.56K | 7.95s
+[RUN]    Sample 262/1200 | W=457.0nm, H=234.4nm, Hw=1271.3nm, Gap=945.0nm, P=5.96mW
+  |-- Saved | dneff=8.301226e-04 | T_wg=304.27K | T_max=308.67K | 8.03s
+[RUN]    Sample 263/1200 | W=519.8nm, H=203.9nm, Hw=878.4nm, Gap=1422.0nm, P=58.30mW
+  |-- Saved | dneff=7.864372e-03 | T_wg=341.69K | T_max=384.73K | 8.01s
+[RUN]    Sample 264/1200 | W=522.1nm, H=238.0nm, Hw=1911.0nm, Gap=1062.2nm, P=8.12mW
+  |-- Saved | dneff=1.126121e-03 | T_wg=305.81K | T_max=311.81K | 7.88s
+[RUN]    Sample 265/1200 | W=519.6nm, H=214.7nm, Hw=1163.0nm, Gap=1027.7nm, P=58.01mW
+  |-- Saved | dneff=7.913997e-03 | T_wg=341.48K | T_max=384.31K | 7.91s
+[RUN]    Sample 266/1200 | W=539.0nm, H=253.5nm, Hw=1484.4nm, Gap=1441.3nm, P=52.84mW
+  |-- Saved | dneff=7.356128e-03 | T_wg=337.90K | T_max=376.80K | 7.94s
+[RUN]    Sample 267/1200 | W=466.5nm, H=241.4nm, Hw=1536.5nm, Gap=1365.0nm, P=6.47mW
+  |-- Saved | dneff=9.043778e-04 | T_wg=304.63K | T_max=309.40K | 7.92s
+[RUN]    Sample 268/1200 | W=477.4nm, H=215.4nm, Hw=896.4nm, Gap=896.3nm, P=7.55mW
+  |-- Saved | dneff=1.032850e-03 | T_wg=305.40K | T_max=310.97K | 7.94s
+[RUN]    Sample 269/1200 | W=538.5nm, H=201.9nm, Hw=1414.5nm, Gap=1264.8nm, P=33.78mW
+  |-- Saved | dneff=4.531045e-03 | T_wg=324.16K | T_max=349.10K | 7.92s
+[RUN]    Sample 270/1200 | W=529.2nm, H=259.8nm, Hw=959.6nm, Gap=949.2nm, P=6.19mW
+  |-- Saved | dneff=8.655027e-04 | T_wg=304.44K | T_max=308.99K | 7.93s
+[RUN]    Sample 271/1200 | W=596.9nm, H=207.3nm, Hw=1246.7nm, Gap=1408.3nm, P=26.55mW
+  |-- Saved | dneff=3.557809e-03 | T_wg=318.98K | T_max=338.58K | 7.90s
+[RUN]    Sample 272/1200 | W=498.8nm, H=248.7nm, Hw=885.5nm, Gap=743.5nm, P=34.23mW
+  |-- Saved | dneff=4.789874e-03 | T_wg=324.49K | T_max=349.75K | 7.89s
+[RUN]    Sample 273/1200 | W=532.9nm, H=240.6nm, Hw=807.4nm, Gap=1115.2nm, P=40.13mW
+  |-- Saved | dneff=5.558655e-03 | T_wg=328.71K | T_max=358.33K | 7.95s
+[RUN]    Sample 274/1200 | W=525.6nm, H=223.1nm, Hw=1739.9nm, Gap=691.4nm, P=24.37mW
+  |-- Saved | dneff=3.344381e-03 | T_wg=317.43K | T_max=335.42K | 7.95s
+[RUN]    Sample 275/1200 | W=558.5nm, H=243.2nm, Hw=1070.6nm, Gap=994.6nm, P=44.28mW
+  |-- Saved | dneff=6.118857e-03 | T_wg=331.67K | T_max=364.35K | 7.88s
+[RUN]    Sample 276/1200 | W=539.8nm, H=240.6nm, Hw=921.1nm, Gap=1435.8nm, P=54.48mW
+  |-- Saved | dneff=7.533830e-03 | T_wg=338.96K | T_max=379.18K | 7.92s
+[RUN]    Sample 277/1200 | W=428.3nm, H=207.4nm, Hw=1125.5nm, Gap=1061.3nm, P=41.07mW
+  |-- Saved | dneff=5.533751e-03 | T_wg=329.37K | T_max=359.69K | 8.03s
+[RUN]    Sample 278/1200 | W=505.0nm, H=225.9nm, Hw=1790.7nm, Gap=1111.6nm, P=26.91mW
+  |-- Saved | dneff=3.706860e-03 | T_wg=319.25K | T_max=339.10K | 7.91s
+[RUN]    Sample 279/1200 | W=453.2nm, H=211.5nm, Hw=1580.9nm, Gap=1462.5nm, P=42.68mW
+  |-- Saved | dneff=5.805602e-03 | T_wg=330.52K | T_max=362.03K | 7.89s
+[RUN]    Sample 280/1200 | W=571.1nm, H=209.4nm, Hw=1929.1nm, Gap=1434.3nm, P=42.89mW
+  |-- Saved | dneff=5.782661e-03 | T_wg=330.66K | T_max=362.33K | 7.92s
+[RUN]    Sample 281/1200 | W=576.6nm, H=239.6nm, Hw=946.0nm, Gap=764.0nm, P=20.12mW
+  |-- Saved | dneff=2.768270e-03 | T_wg=314.39K | T_max=329.24K | 7.93s
+[RUN]    Sample 282/1200 | W=522.8nm, H=236.5nm, Hw=1211.9nm, Gap=952.6nm, P=14.87mW
+  |-- Saved | dneff=2.059712e-03 | T_wg=310.63K | T_max=321.61K | 7.90s
+[RUN]    Sample 283/1200 | W=534.2nm, H=214.3nm, Hw=1651.2nm, Gap=1452.8nm, P=15.72mW
+  |-- Saved | dneff=2.137337e-03 | T_wg=311.24K | T_max=322.85K | 7.91s
+[RUN]    Sample 284/1200 | W=521.4nm, H=216.4nm, Hw=1009.5nm, Gap=799.6nm, P=57.94mW
+  |-- Saved | dneff=7.912137e-03 | T_wg=341.43K | T_max=384.20K | 7.90s
+[RUN]    Sample 285/1200 | W=489.7nm, H=208.6nm, Hw=1178.5nm, Gap=1483.2nm, P=56.09mW
+  |-- Saved | dneff=7.601797e-03 | T_wg=340.11K | T_max=381.51K | 7.88s
+[RUN]    Sample 286/1200 | W=532.1nm, H=221.3nm, Hw=835.9nm, Gap=761.4nm, P=41.19mW
+  |-- Saved | dneff=5.634570e-03 | T_wg=329.46K | T_max=359.86K | 7.92s
+[RUN]    Sample 287/1200 | W=547.0nm, H=241.5nm, Hw=1747.0nm, Gap=646.4nm, P=43.86mW
+  |-- Saved | dneff=6.060433e-03 | T_wg=331.37K | T_max=363.74K | 7.89s
+[RUN]    Sample 288/1200 | W=493.0nm, H=200.9nm, Hw=1386.5nm, Gap=954.0nm, P=50.65mW
+  |-- Saved | dneff=6.798308e-03 | T_wg=336.22K | T_max=373.61K | 7.92s
+[RUN]    Sample 289/1200 | W=463.1nm, H=201.6nm, Hw=1956.8nm, Gap=879.0nm, P=15.76mW
+  |-- Saved | dneff=2.117929e-03 | T_wg=311.27K | T_max=322.91K | 7.93s
+[RUN]    Sample 290/1200 | W=543.4nm, H=238.6nm, Hw=825.5nm, Gap=834.3nm, P=40.28mW
+  |-- Saved | dneff=5.561001e-03 | T_wg=328.81K | T_max=358.54K | 7.85s
+[RUN]    Sample 291/1200 | W=496.4nm, H=258.2nm, Hw=802.1nm, Gap=1081.5nm, P=8.65mW
+  |-- Saved | dneff=1.214445e-03 | T_wg=306.20K | T_max=312.57K | 7.89s
+[RUN]    Sample 292/1200 | W=518.5nm, H=253.8nm, Hw=1033.6nm, Gap=1329.8nm, P=28.22mW
+  |-- Saved | dneff=3.946328e-03 | T_wg=320.24K | T_max=341.01K | 8.03s
+[RUN]    Sample 293/1200 | W=489.9nm, H=254.1nm, Hw=947.8nm, Gap=1283.8nm, P=41.59mW
+  |-- Saved | dneff=5.834015e-03 | T_wg=329.83K | T_max=360.45K | 7.91s
+[RUN]    Sample 294/1200 | W=520.4nm, H=229.1nm, Hw=1951.8nm, Gap=609.2nm, P=32.17mW
+  |-- Saved | dneff=4.435555e-03 | T_wg=323.01K | T_max=346.76K | 7.90s
+[RUN]    Sample 295/1200 | W=565.8nm, H=225.8nm, Hw=805.9nm, Gap=1168.1nm, P=58.23mW
+  |-- Saved | dneff=7.962296e-03 | T_wg=341.65K | T_max=384.63K | 7.87s
+[RUN]    Sample 296/1200 | W=435.2nm, H=212.2nm, Hw=828.0nm, Gap=1264.1nm, P=13.92mW
+  |-- Saved | dneff=1.887047e-03 | T_wg=309.95K | T_max=320.22K | 7.88s
+[RUN]    Sample 297/1200 | W=408.8nm, H=225.8nm, Hw=1427.4nm, Gap=1139.1nm, P=46.50mW
+  |-- Saved | dneff=6.384825e-03 | T_wg=333.26K | T_max=367.57K | 7.91s
+[RUN]    Sample 298/1200 | W=590.3nm, H=237.1nm, Hw=1341.5nm, Gap=1046.3nm, P=51.96mW
+  |-- Saved | dneff=7.124464e-03 | T_wg=337.16K | T_max=375.51K | 7.88s
+[RUN]    Sample 299/1200 | W=466.0nm, H=249.5nm, Hw=1173.4nm, Gap=858.9nm, P=7.13mW
+  |-- Saved | dneff=1.003532e-03 | T_wg=305.10K | T_max=310.37K | 7.88s
+[RUN]    Sample 300/1200 | W=465.2nm, H=237.4nm, Hw=1088.4nm, Gap=1322.0nm, P=51.90mW
+  |-- Saved | dneff=7.243247e-03 | T_wg=337.13K | T_max=375.43K | 7.91s
+[RUN]    Sample 301/1200 | W=539.4nm, H=200.9nm, Hw=1978.6nm, Gap=1383.4nm, P=42.36mW
+  |-- Saved | dneff=5.673967e-03 | T_wg=330.29K | T_max=361.57K | 7.91s
+[RUN]    Sample 302/1200 | W=445.4nm, H=244.7nm, Hw=1852.5nm, Gap=663.6nm, P=58.55mW
+  |-- Saved | dneff=8.203637e-03 | T_wg=341.88K | T_max=385.09K | 8.01s
+[RUN]    Sample 303/1200 | W=430.1nm, H=236.1nm, Hw=1002.4nm, Gap=1317.2nm, P=49.46mW
+  |-- Saved | dneff=6.894511e-03 | T_wg=335.38K | T_max=371.89K | 8.02s
+[RUN]    Sample 304/1200 | W=441.5nm, H=207.5nm, Hw=1164.0nm, Gap=658.4nm, P=50.55mW
+  |-- Saved | dneff=6.817772e-03 | T_wg=336.15K | T_max=373.46K | 8.04s
+[RUN]    Sample 305/1200 | W=442.3nm, H=232.9nm, Hw=1899.1nm, Gap=701.4nm, P=54.51mW
+  |-- Saved | dneff=7.566860e-03 | T_wg=338.99K | T_max=379.23K | 8.01s
+[RUN]    Sample 306/1200 | W=410.3nm, H=255.5nm, Hw=1263.5nm, Gap=1132.4nm, P=36.75mW
+  |-- Saved | dneff=5.189461e-03 | T_wg=326.36K | T_max=353.41K | 8.04s
+[RUN]    Sample 307/1200 | W=565.4nm, H=201.8nm, Hw=952.4nm, Gap=1084.0nm, P=29.88mW
+  |-- Saved | dneff=3.999869e-03 | T_wg=321.36K | T_max=343.43K | 8.15s
+[RUN]    Sample 308/1200 | W=572.9nm, H=233.9nm, Hw=1764.3nm, Gap=825.1nm, P=54.25mW
+  |-- Saved | dneff=7.448603e-03 | T_wg=338.80K | T_max=378.84K | 7.98s
+[RUN]    Sample 309/1200 | W=546.5nm, H=242.5nm, Hw=1655.6nm, Gap=1101.6nm, P=29.36mW
+  |-- Saved | dneff=4.059496e-03 | T_wg=321.00K | T_max=342.67K | 8.02s
+[RUN]    Sample 310/1200 | W=549.9nm, H=243.0nm, Hw=1574.2nm, Gap=688.3nm, P=37.25mW
+  |-- Saved | dneff=5.151469e-03 | T_wg=326.64K | T_max=354.14K | 8.01s
+[RUN]    Sample 311/1200 | W=478.0nm, H=243.4nm, Hw=1221.7nm, Gap=744.5nm, P=55.59mW
+  |-- Saved | dneff=7.775846e-03 | T_wg=339.76K | T_max=380.79K | 8.05s
+[RUN]    Sample 312/1200 | W=434.5nm, H=219.7nm, Hw=1547.5nm, Gap=714.3nm, P=39.15mW
+  |-- Saved | dneff=5.360725e-03 | T_wg=328.00K | T_max=356.90K | 7.97s
+[RUN]    Sample 313/1200 | W=508.2nm, H=216.9nm, Hw=1425.1nm, Gap=608.3nm, P=19.63mW
+  |-- Saved | dneff=2.683124e-03 | T_wg=314.04K | T_max=328.53K | 8.02s
+[RUN]    Sample 314/1200 | W=580.1nm, H=238.7nm, Hw=1935.0nm, Gap=611.6nm, P=6.72mW
+  |-- Saved | dneff=9.238123e-04 | T_wg=304.81K | T_max=309.76K | 8.03s
+[RUN]    Sample 315/1200 | W=429.4nm, H=246.5nm, Hw=1289.4nm, Gap=650.4nm, P=23.51mW
+  |-- Saved | dneff=3.303524e-03 | T_wg=316.82K | T_max=334.17K | 7.99s
+[RUN]    Sample 316/1200 | W=439.6nm, H=202.8nm, Hw=1310.2nm, Gap=1154.3nm, P=9.45mW
+  |-- Saved | dneff=1.263922e-03 | T_wg=306.76K | T_max=313.74K | 8.03s
+[RUN]    Sample 317/1200 | W=565.2nm, H=252.1nm, Hw=1848.6nm, Gap=789.5nm, P=48.19mW
+  |-- Saved | dneff=6.684702e-03 | T_wg=334.47K | T_max=370.04K | 8.01s
+[RUN]    Sample 318/1200 | W=593.8nm, H=252.3nm, Hw=1904.4nm, Gap=727.3nm, P=51.10mW
+  |-- Saved | dneff=7.052973e-03 | T_wg=336.55K | T_max=374.27K | 8.00s
+[RUN]    Sample 319/1200 | W=458.5nm, H=222.0nm, Hw=823.1nm, Gap=605.7nm, P=47.27mW
+  |-- Saved | dneff=6.509042e-03 | T_wg=333.81K | T_max=368.69K | 8.00s
+[RUN]    Sample 320/1200 | W=405.1nm, H=242.5nm, Hw=1279.8nm, Gap=600.1nm, P=57.01mW
+  |-- Saved | dneff=7.957551e-03 | T_wg=340.78K | T_max=382.85K | 8.04s
+[RUN]    Sample 321/1200 | W=537.8nm, H=211.5nm, Hw=1788.3nm, Gap=1203.1nm, P=21.12mW
+  |-- Saved | dneff=2.860966e-03 | T_wg=315.10K | T_max=330.70K | 8.03s
+[RUN]    Sample 322/1200 | W=509.3nm, H=226.1nm, Hw=1702.7nm, Gap=1124.7nm, P=43.11mW
+  |-- Saved | dneff=5.938774e-03 | T_wg=330.84K | T_max=362.66K | 8.10s
+[RUN]    Sample 323/1200 | W=406.1nm, H=236.4nm, Hw=1452.2nm, Gap=1445.7nm, P=27.92mW
+  |-- Saved | dneff=3.877335e-03 | T_wg=319.97K | T_max=340.58K | 8.02s
+[RUN]    Sample 324/1200 | W=564.0nm, H=234.2nm, Hw=1252.4nm, Gap=1259.3nm, P=28.42mW
+  |-- Saved | dneff=3.906325e-03 | T_wg=320.33K | T_max=341.30K | 8.02s
+[RUN]    Sample 325/1200 | W=567.8nm, H=232.4nm, Hw=929.2nm, Gap=806.9nm, P=27.90mW
+  |-- Saved | dneff=3.828515e-03 | T_wg=319.95K | T_max=340.55K | 8.04s
+[RUN]    Sample 326/1200 | W=521.2nm, H=206.0nm, Hw=1339.8nm, Gap=985.4nm, P=31.93mW
+  |-- Saved | dneff=4.315567e-03 | T_wg=322.83K | T_max=346.41K | 8.01s
+[RUN]    Sample 327/1200 | W=597.9nm, H=249.2nm, Hw=1551.4nm, Gap=773.5nm, P=16.96mW
+  |-- Saved | dneff=2.337101e-03 | T_wg=312.13K | T_max=324.65K | 7.99s
+[RUN]    Sample 328/1200 | W=510.4nm, H=255.1nm, Hw=1204.1nm, Gap=1059.6nm, P=16.88mW
+  |-- Saved | dneff=2.364497e-03 | T_wg=312.11K | T_max=324.54K | 8.03s
+[RUN]    Sample 329/1200 | W=439.7nm, H=212.3nm, Hw=1213.5nm, Gap=1087.3nm, P=52.61mW
+  |-- Saved | dneff=7.141336e-03 | T_wg=337.62K | T_max=376.46K | 8.03s
+[RUN]    Sample 330/1200 | W=407.6nm, H=259.7nm, Hw=1255.2nm, Gap=732.1nm, P=15.05mW
+  |-- Saved | dneff=2.128991e-03 | T_wg=310.79K | T_max=321.87K | 8.00s
+[RUN]    Sample 331/1200 | W=493.6nm, H=227.9nm, Hw=1839.7nm, Gap=710.1nm, P=24.30mW
+  |-- Saved | dneff=3.351674e-03 | T_wg=317.38K | T_max=335.31K | 8.00s
+[RUN]    Sample 332/1200 | W=504.4nm, H=233.4nm, Hw=1031.2nm, Gap=1449.5nm, P=29.06mW
+  |-- Saved | dneff=4.024212e-03 | T_wg=320.79K | T_max=342.23K | 8.01s
+[RUN]    Sample 333/1200 | W=489.6nm, H=244.6nm, Hw=1046.2nm, Gap=1112.8nm, P=6.06mW
+  |-- Saved | dneff=8.453151e-04 | T_wg=304.33K | T_max=308.80K | 7.96s
+[RUN]    Sample 334/1200 | W=481.7nm, H=210.2nm, Hw=806.8nm, Gap=914.2nm, P=15.59mW
+  |-- Saved | dneff=2.118486e-03 | T_wg=311.15K | T_max=322.66K | 8.01s
+[RUN]    Sample 335/1200 | W=555.1nm, H=215.6nm, Hw=1400.2nm, Gap=1169.2nm, P=22.01mW
+  |-- Saved | dneff=2.989655e-03 | T_wg=315.74K | T_max=331.99K | 8.00s
+[RUN]    Sample 336/1200 | W=580.2nm, H=248.0nm, Hw=1441.6nm, Gap=1024.6nm, P=44.80mW
+  |-- Saved | dneff=6.194158e-03 | T_wg=332.04K | T_max=365.12K | 8.01s
+[RUN]    Sample 337/1200 | W=474.5nm, H=203.2nm, Hw=1887.3nm, Gap=1028.8nm, P=35.47mW
+  |-- Saved | dneff=4.786465e-03 | T_wg=325.37K | T_max=351.55K | 8.11s
+[RUN]    Sample 338/1200 | W=501.0nm, H=236.2nm, Hw=1798.5nm, Gap=1372.1nm, P=18.09mW
+  |-- Saved | dneff=2.511580e-03 | T_wg=312.94K | T_max=326.29K | 8.02s
+[RUN]    Sample 339/1200 | W=445.7nm, H=209.6nm, Hw=1261.8nm, Gap=696.2nm, P=45.53mW
+  |-- Saved | dneff=6.163424e-03 | T_wg=332.56K | T_max=366.17K | 8.01s
+[RUN]    Sample 340/1200 | W=581.4nm, H=250.0nm, Hw=1652.2nm, Gap=789.8nm, P=22.57mW
+  |-- Saved | dneff=3.121388e-03 | T_wg=316.14K | T_max=332.80K | 7.97s
+[RUN]    Sample 341/1200 | W=564.7nm, H=220.7nm, Hw=1725.6nm, Gap=1461.3nm, P=39.08mW
+  |-- Saved | dneff=5.321682e-03 | T_wg=327.94K | T_max=356.79K | 8.00s
+[RUN]    Sample 342/1200 | W=432.7nm, H=259.1nm, Hw=1687.6nm, Gap=1191.8nm, P=32.49mW
+  |-- Saved | dneff=4.596771e-03 | T_wg=323.30K | T_max=347.21K | 8.00s
+[RUN]    Sample 343/1200 | W=466.7nm, H=238.9nm, Hw=1146.0nm, Gap=1047.1nm, P=14.57mW
+  |-- Saved | dneff=2.033633e-03 | T_wg=310.42K | T_max=321.17K | 8.02s
+[RUN]    Sample 344/1200 | W=531.9nm, H=246.5nm, Hw=1208.4nm, Gap=1009.0nm, P=24.17mW
+  |-- Saved | dneff=3.359562e-03 | T_wg=317.29K | T_max=335.12K | 7.99s
+[RUN]    Sample 345/1200 | W=417.2nm, H=213.4nm, Hw=1122.3nm, Gap=1376.6nm, P=32.66mW
+  |-- Saved | dneff=4.425298e-03 | T_wg=323.36K | T_max=347.47K | 8.02s
+[RUN]    Sample 346/1200 | W=446.7nm, H=250.4nm, Hw=1161.1nm, Gap=1435.5nm, P=30.33mW
+  |-- Saved | dneff=4.267694e-03 | T_wg=321.69K | T_max=344.08K | 8.01s
+[RUN]    Sample 347/1200 | W=490.7nm, H=249.8nm, Hw=1842.3nm, Gap=617.8nm, P=27.97mW
+  |-- Saved | dneff=3.916448e-03 | T_wg=320.01K | T_max=340.65K | 7.99s
+[RUN]    Sample 348/1200 | W=415.2nm, H=215.5nm, Hw=1357.8nm, Gap=1486.9nm, P=27.06mW
+  |-- Saved | dneff=3.674982e-03 | T_wg=319.35K | T_max=339.32K | 7.99s
+[RUN]    Sample 349/1200 | W=558.0nm, H=221.0nm, Hw=1705.0nm, Gap=1293.8nm, P=55.70mW
+  |-- Saved | dneff=7.594683e-03 | T_wg=339.82K | T_max=380.96K | 7.99s
+[RUN]    Sample 350/1200 | W=561.4nm, H=259.1nm, Hw=1232.5nm, Gap=942.4nm, P=7.45mW
+  |-- Saved | dneff=1.037058e-03 | T_wg=305.35K | T_max=310.83K | 8.03s
+[RUN]    Sample 351/1200 | W=588.7nm, H=253.0nm, Hw=1909.1nm, Gap=744.9nm, P=46.28mW
+  |-- Saved | dneff=6.396232e-03 | T_wg=333.19K | T_max=367.26K | 8.02s
+[RUN]    Sample 352/1200 | W=477.2nm, H=223.6nm, Hw=868.0nm, Gap=1282.6nm, P=21.41mW
+  |-- Saved | dneff=2.951975e-03 | T_wg=315.32K | T_max=331.12K | 8.06s
+[RUN]    Sample 353/1200 | W=531.6nm, H=243.5nm, Hw=1843.8nm, Gap=1212.7nm, P=44.59mW
+  |-- Saved | dneff=6.189076e-03 | T_wg=331.90K | T_max=364.81K | 7.98s
+[RUN]    Sample 354/1200 | W=469.0nm, H=241.2nm, Hw=1792.9nm, Gap=637.4nm, P=15.37mW
+  |-- Saved | dneff=2.148113e-03 | T_wg=310.99K | T_max=322.33K | 8.00s
+[RUN]    Sample 355/1200 | W=446.1nm, H=221.3nm, Hw=1291.4nm, Gap=1090.6nm, P=23.07mW
+  |-- Saved | dneff=3.168034e-03 | T_wg=316.51K | T_max=333.54K | 7.99s
+[RUN]    Sample 356/1200 | W=525.7nm, H=220.0nm, Hw=1635.6nm, Gap=1069.2nm, P=40.41mW
+  |-- Saved | dneff=5.530712e-03 | T_wg=328.89K | T_max=358.73K | 7.99s
+[RUN]    Sample 357/1200 | W=485.6nm, H=224.6nm, Hw=1776.7nm, Gap=920.1nm, P=15.85mW
+  |-- Saved | dneff=2.183601e-03 | T_wg=311.34K | T_max=323.04K | 7.96s
+[RUN]    Sample 358/1200 | W=526.2nm, H=225.4nm, Hw=1342.3nm, Gap=1148.4nm, P=14.21mW
+  |-- Saved | dneff=1.952845e-03 | T_wg=310.16K | T_max=320.65K | 8.03s
+[RUN]    Sample 359/1200 | W=549.4nm, H=245.7nm, Hw=1072.8nm, Gap=1196.5nm, P=28.70mW
+  |-- Saved | dneff=3.975000e-03 | T_wg=320.53K | T_max=341.71K | 8.00s
+[RUN]    Sample 360/1200 | W=536.8nm, H=227.2nm, Hw=1207.7nm, Gap=640.1nm, P=7.81mW
+  |-- Saved | dneff=1.072098e-03 | T_wg=305.59K | T_max=311.36K | 7.98s
+[RUN]    Sample 361/1200 | W=489.4nm, H=220.1nm, Hw=1376.9nm, Gap=1220.5nm, P=36.32mW
+  |-- Saved | dneff=4.979177e-03 | T_wg=325.97K | T_max=352.78K | 7.99s
+[RUN]    Sample 362/1200 | W=594.4nm, H=257.3nm, Hw=1424.6nm, Gap=1402.9nm, P=18.75mW
+  |-- Saved | dneff=2.590951e-03 | T_wg=313.44K | T_max=327.24K | 7.98s
+[RUN]    Sample 363/1200 | W=422.6nm, H=230.3nm, Hw=1524.3nm, Gap=1067.1nm, P=24.85mW
+  |-- Saved | dneff=3.442457e-03 | T_wg=317.78K | T_max=336.12K | 7.96s
+[RUN]    Sample 364/1200 | W=428.4nm, H=218.3nm, Hw=1808.5nm, Gap=1351.9nm, P=9.65mW
+  |-- Saved | dneff=1.318570e-03 | T_wg=306.90K | T_max=314.02K | 8.00s
+[RUN]    Sample 365/1200 | W=422.3nm, H=234.1nm, Hw=1559.5nm, Gap=1311.3nm, P=57.17mW
+  |-- Saved | dneff=7.956281e-03 | T_wg=340.89K | T_max=383.09K | 7.98s
+[RUN]    Sample 366/1200 | W=468.8nm, H=255.4nm, Hw=1666.5nm, Gap=906.8nm, P=28.54mW
+  |-- Saved | dneff=4.023004e-03 | T_wg=320.47K | T_max=341.47K | 8.00s
+[RUN]    Sample 367/1200 | W=574.9nm, H=209.5nm, Hw=1316.5nm, Gap=856.4nm, P=52.06mW
+  |-- Saved | dneff=7.019261e-03 | T_wg=337.22K | T_max=375.66K | 8.12s
+[RUN]    Sample 368/1200 | W=401.2nm, H=222.6nm, Hw=1994.6nm, Gap=1382.4nm, P=6.30mW
+  |-- Saved | dneff=8.569603e-04 | T_wg=304.50K | T_max=309.15K | 7.99s
+[RUN]    Sample 369/1200 | W=424.7nm, H=215.7nm, Hw=1064.8nm, Gap=830.3nm, P=55.68mW
+  |-- Saved | dneff=7.599104e-03 | T_wg=339.82K | T_max=380.93K | 7.95s
+[RUN]    Sample 370/1200 | W=502.6nm, H=230.4nm, Hw=942.4nm, Gap=694.2nm, P=7.26mW
+  |-- Saved | dneff=1.002479e-03 | T_wg=305.19K | T_max=310.55K | 8.00s
+[RUN]    Sample 371/1200 | W=508.1nm, H=253.4nm, Hw=1133.5nm, Gap=1155.2nm, P=18.67mW
+  |-- Saved | dneff=2.613027e-03 | T_wg=313.39K | T_max=327.13K | 7.98s
+[RUN]    Sample 372/1200 | W=524.2nm, H=255.9nm, Hw=1891.7nm, Gap=1012.3nm, P=47.70mW
+  |-- Saved | dneff=6.671719e-03 | T_wg=334.22K | T_max=369.33K | 7.96s
+[RUN]    Sample 373/1200 | W=474.4nm, H=259.4nm, Hw=1099.0nm, Gap=1349.6nm, P=40.81mW
+  |-- Saved | dneff=5.762734e-03 | T_wg=329.27K | T_max=359.31K | 7.96s
+[RUN]    Sample 374/1200 | W=464.0nm, H=219.0nm, Hw=1894.8nm, Gap=1238.6nm, P=20.87mW
+  |-- Saved | dneff=2.864972e-03 | T_wg=314.92K | T_max=330.33K | 7.99s
+[RUN]    Sample 375/1200 | W=482.1nm, H=235.5nm, Hw=803.0nm, Gap=700.5nm, P=13.39mW
+  |-- Saved | dneff=1.861696e-03 | T_wg=309.58K | T_max=319.46K | 7.98s
+[RUN]    Sample 376/1200 | W=428.5nm, H=232.5nm, Hw=1740.7nm, Gap=648.3nm, P=48.01mW
+  |-- Saved | dneff=6.670069e-03 | T_wg=334.34K | T_max=369.78K | 7.94s
+[RUN]    Sample 377/1200 | W=599.1nm, H=254.8nm, Hw=1627.6nm, Gap=764.4nm, P=47.79mW
+  |-- Saved | dneff=6.594307e-03 | T_wg=334.28K | T_max=369.46K | 7.96s
+[RUN]    Sample 378/1200 | W=505.1nm, H=240.9nm, Hw=1824.8nm, Gap=989.4nm, P=16.85mW
+  |-- Saved | dneff=2.343803e-03 | T_wg=312.05K | T_max=324.49K | 7.96s
+[RUN]    Sample 379/1200 | W=575.8nm, H=228.2nm, Hw=1721.4nm, Gap=1325.2nm, P=19.74mW
+  |-- Saved | dneff=2.699461e-03 | T_wg=314.12K | T_max=328.69K | 7.98s
+[RUN]    Sample 380/1200 | W=484.1nm, H=216.3nm, Hw=1925.7nm, Gap=1160.2nm, P=48.77mW
+  |-- Saved | dneff=6.670344e-03 | T_wg=334.87K | T_max=370.88K | 7.95s
+[RUN]    Sample 381/1200 | W=569.9nm, H=211.2nm, Hw=1548.2nm, Gap=1164.6nm, P=54.61mW
+  |-- Saved | dneff=7.376201e-03 | T_wg=339.04K | T_max=379.37K | 7.99s
+[RUN]    Sample 382/1200 | W=584.8nm, H=201.6nm, Hw=1415.9nm, Gap=720.9nm, P=33.60mW
+  |-- Saved | dneff=4.489238e-03 | T_wg=324.02K | T_max=348.84K | 8.09s
+[RUN]    Sample 383/1200 | W=554.3nm, H=255.9nm, Hw=1278.1nm, Gap=1225.8nm, P=31.21mW
+  |-- Saved | dneff=4.340019e-03 | T_wg=322.38K | T_max=345.36K | 7.98s
+[RUN]    Sample 384/1200 | W=488.6nm, H=224.0nm, Hw=1510.3nm, Gap=937.8nm, P=36.17mW
+  |-- Saved | dneff=4.977815e-03 | T_wg=325.87K | T_max=352.57K | 7.97s
+[RUN]    Sample 385/1200 | W=598.9nm, H=225.7nm, Hw=1680.5nm, Gap=680.7nm, P=38.17mW
+  |-- Saved | dneff=5.189771e-03 | T_wg=327.30K | T_max=355.48K | 7.95s
+[RUN]    Sample 386/1200 | W=511.2nm, H=236.1nm, Hw=1512.3nm, Gap=1066.5nm, P=20.43mW
+  |-- Saved | dneff=2.832912e-03 | T_wg=314.61K | T_max=329.69K | 7.99s
+[RUN]    Sample 387/1200 | W=595.6nm, H=228.1nm, Hw=988.2nm, Gap=851.4nm, P=57.77mW
+  |-- Saved | dneff=7.869404e-03 | T_wg=341.32K | T_max=383.95K | 7.96s
+[RUN]    Sample 388/1200 | W=506.8nm, H=250.8nm, Hw=1366.4nm, Gap=1486.3nm, P=17.65mW
+  |-- Saved | dneff=2.468973e-03 | T_wg=312.62K | T_max=325.65K | 7.96s
+[RUN]    Sample 389/1200 | W=462.1nm, H=238.6nm, Hw=830.6nm, Gap=740.9nm, P=25.40mW
+  |-- Saved | dneff=3.546502e-03 | T_wg=318.17K | T_max=336.92K | 7.95s
+[RUN]    Sample 390/1200 | W=406.5nm, H=252.2nm, Hw=1367.1nm, Gap=1280.2nm, P=34.11mW
+  |-- Saved | dneff=4.803000e-03 | T_wg=324.40K | T_max=349.57K | 7.96s
+[RUN]    Sample 391/1200 | W=498.8nm, H=255.1nm, Hw=1299.2nm, Gap=1270.5nm, P=59.23mW
+  |-- Saved | dneff=8.306408e-03 | T_wg=342.48K | T_max=386.07K | 7.93s
+[RUN]    Sample 392/1200 | W=484.8nm, H=248.5nm, Hw=1496.9nm, Gap=1431.9nm, P=48.28mW
+  |-- Saved | dneff=6.766440e-03 | T_wg=334.54K | T_max=370.17K | 7.94s
+[RUN]    Sample 393/1200 | W=456.1nm, H=241.7nm, Hw=1304.4nm, Gap=1430.1nm, P=56.35mW
+  |-- Saved | dneff=7.884235e-03 | T_wg=340.30K | T_max=381.89K | 7.98s
+[RUN]    Sample 394/1200 | W=493.5nm, H=219.1nm, Hw=1051.2nm, Gap=898.1nm, P=27.25mW
+  |-- Saved | dneff=3.731480e-03 | T_wg=319.49K | T_max=339.61K | 7.95s
+[RUN]    Sample 395/1200 | W=480.6nm, H=212.8nm, Hw=1294.3nm, Gap=905.7nm, P=38.36mW
+  |-- Saved | dneff=5.231406e-03 | T_wg=327.43K | T_max=355.75K | 7.93s
+[RUN]    Sample 396/1200 | W=558.1nm, H=208.4nm, Hw=901.1nm, Gap=774.9nm, P=41.52mW
+  |-- Saved | dneff=5.600176e-03 | T_wg=329.68K | T_max=360.34K | 7.97s
+[RUN]    Sample 397/1200 | W=524.7nm, H=247.0nm, Hw=1462.1nm, Gap=1233.6nm, P=50.07mW
+  |-- Saved | dneff=6.977877e-03 | T_wg=335.82K | T_max=372.77K | 8.06s
+[RUN]    Sample 398/1200 | W=444.7nm, H=247.0nm, Hw=842.3nm, Gap=755.3nm, P=23.78mW
+  |-- Saved | dneff=3.338236e-03 | T_wg=317.01K | T_max=334.57K | 7.95s
+[RUN]    Sample 399/1200 | W=510.7nm, H=200.4nm, Hw=1898.7nm, Gap=1037.2nm, P=30.78mW
+  |-- Saved | dneff=4.131593e-03 | T_wg=322.01K | T_max=344.74K | 7.95s
+[RUN]    Sample 400/1200 | W=558.5nm, H=224.1nm, Hw=1283.7nm, Gap=1170.1nm, P=17.49mW
+  |-- Saved | dneff=2.389378e-03 | T_wg=312.51K | T_max=325.42K | 7.91s
+[RUN]    Sample 401/1200 | W=433.4nm, H=243.9nm, Hw=1243.0nm, Gap=748.8nm, P=19.57mW
+  |-- Saved | dneff=2.740712e-03 | T_wg=314.00K | T_max=328.44K | 7.93s
+[RUN]    Sample 402/1200 | W=523.7nm, H=210.2nm, Hw=1038.9nm, Gap=1230.6nm, P=56.67mW
+  |-- Saved | dneff=7.691090e-03 | T_wg=340.52K | T_max=382.36K | 7.96s
+[RUN]    Sample 403/1200 | W=462.7nm, H=234.8nm, Hw=1183.9nm, Gap=713.7nm, P=6.45mW
+  |-- Saved | dneff=8.977295e-04 | T_wg=304.61K | T_max=309.37K | 7.97s
+[RUN]    Sample 404/1200 | W=554.6nm, H=233.6nm, Hw=1335.0nm, Gap=1208.5nm, P=19.97mW
+  |-- Saved | dneff=2.746398e-03 | T_wg=314.28K | T_max=329.02K | 7.95s
+[RUN]    Sample 405/1200 | W=512.4nm, H=215.1nm, Hw=1092.0nm, Gap=1032.6nm, P=14.24mW
+  |-- Saved | dneff=1.942841e-03 | T_wg=310.18K | T_max=320.69K | 7.96s
+[RUN]    Sample 406/1200 | W=589.3nm, H=229.2nm, Hw=1395.6nm, Gap=1420.9nm, P=53.92mW
+  |-- Saved | dneff=7.360340e-03 | T_wg=338.57K | T_max=378.37K | 7.91s
+[RUN]    Sample 407/1200 | W=498.7nm, H=246.3nm, Hw=999.7nm, Gap=1492.9nm, P=20.07mW
+  |-- Saved | dneff=2.803154e-03 | T_wg=314.36K | T_max=329.17K | 7.93s
+[RUN]    Sample 408/1200 | W=504.5nm, H=251.6nm, Hw=967.0nm, Gap=1353.3nm, P=44.20mW
+  |-- Saved | dneff=6.186659e-03 | T_wg=331.61K | T_max=364.23K | 7.92s
+[RUN]    Sample 409/1200 | W=519.0nm, H=227.5nm, Hw=1507.4nm, Gap=1012.6nm, P=18.20mW
+  |-- Saved | dneff=2.506623e-03 | T_wg=313.02K | T_max=326.45K | 7.93s
+[RUN]    Sample 410/1200 | W=490.2nm, H=246.7nm, Hw=1924.5nm, Gap=970.4nm, P=39.86mW
+  |-- Saved | dneff=5.571907e-03 | T_wg=328.51K | T_max=357.94K | 7.95s
+[RUN]    Sample 411/1200 | W=486.0nm, H=224.5nm, Hw=1932.5nm, Gap=777.1nm, P=8.84mW
+  |-- Saved | dneff=1.216742e-03 | T_wg=306.32K | T_max=312.84K | 7.93s
+[RUN]    Sample 412/1200 | W=435.9nm, H=234.4nm, Hw=1343.5nm, Gap=711.7nm, P=32.04mW
+  |-- Saved | dneff=4.453907e-03 | T_wg=322.92K | T_max=346.56K | 8.02s
+[RUN]    Sample 413/1200 | W=430.2nm, H=204.8nm, Hw=1673.5nm, Gap=943.4nm, P=5.03mW
+  |-- Saved | dneff=6.745294e-04 | T_wg=303.59K | T_max=307.31K | 7.95s
+[RUN]    Sample 414/1200 | W=443.2nm, H=210.1nm, Hw=1296.0nm, Gap=674.1nm, P=5.89mW
+  |-- Saved | dneff=7.973387e-04 | T_wg=304.21K | T_max=308.57K | 7.89s
+[RUN]    Sample 415/1200 | W=426.4nm, H=218.0nm, Hw=1875.7nm, Gap=1011.1nm, P=23.96mW
+  |-- Saved | dneff=3.275363e-03 | T_wg=317.13K | T_max=334.82K | 7.91s
+[RUN]    Sample 416/1200 | W=578.1nm, H=246.0nm, Hw=1942.8nm, Gap=844.3nm, P=10.50mW
+  |-- Saved | dneff=1.449497e-03 | T_wg=307.51K | T_max=315.26K | 7.95s
+[RUN]    Sample 417/1200 | W=557.4nm, H=217.7nm, Hw=873.3nm, Gap=662.1nm, P=40.08mW
+  |-- Saved | dneff=5.449529e-03 | T_wg=328.65K | T_max=358.25K | 7.94s
+[RUN]    Sample 418/1200 | W=521.6nm, H=213.8nm, Hw=1114.7nm, Gap=958.0nm, P=41.74mW
+  |-- Saved | dneff=5.686550e-03 | T_wg=329.84K | T_max=360.66K | 7.92s
+[RUN]    Sample 419/1200 | W=527.4nm, H=229.9nm, Hw=981.4nm, Gap=762.6nm, P=51.53mW
+  |-- Saved | dneff=7.100353e-03 | T_wg=336.86K | T_max=374.88K | 7.94s
+[RUN]    Sample 420/1200 | W=534.9nm, H=243.2nm, Hw=1036.5nm, Gap=1035.7nm, P=37.07mW
+  |-- Saved | dneff=5.139782e-03 | T_wg=326.52K | T_max=353.88K | 7.95s
+[RUN]    Sample 421/1200 | W=443.9nm, H=223.0nm, Hw=1348.2nm, Gap=1366.5nm, P=6.39mW
+  |-- Saved | dneff=8.787981e-04 | T_wg=304.57K | T_max=309.29K | 7.91s
+[RUN]    Sample 422/1200 | W=478.0nm, H=248.4nm, Hw=1752.0nm, Gap=799.2nm, P=15.53mW
+  |-- Saved | dneff=2.180005e-03 | T_wg=311.11K | T_max=322.58K | 7.90s
+[RUN]    Sample 423/1200 | W=459.1nm, H=239.3nm, Hw=1443.8nm, Gap=911.5nm, P=55.46mW
+  |-- Saved | dneff=7.749161e-03 | T_wg=339.67K | T_max=380.60K | 7.89s
+[RUN]    Sample 424/1200 | W=402.5nm, H=238.7nm, Hw=1716.0nm, Gap=1188.7nm, P=22.13mW
+  |-- Saved | dneff=3.074111e-03 | T_wg=315.83K | T_max=332.16K | 7.93s
+[RUN]    Sample 425/1200 | W=503.5nm, H=204.3nm, Hw=1943.7nm, Gap=861.6nm, P=54.67mW
+  |-- Saved | dneff=7.378491e-03 | T_wg=339.09K | T_max=379.45K | 7.91s
+[RUN]    Sample 426/1200 | W=414.9nm, H=205.9nm, Hw=1128.7nm, Gap=1439.9nm, P=54.22mW
+  |-- Saved | dneff=7.252310e-03 | T_wg=338.78K | T_max=378.80K | 7.92s
+[RUN]    Sample 427/1200 | W=544.3nm, H=231.9nm, Hw=1210.0nm, Gap=719.3nm, P=59.47mW
+  |-- Saved | dneff=8.176119e-03 | T_wg=342.54K | T_max=386.43K | 8.04s
+[RUN]    Sample 428/1200 | W=431.9nm, H=253.0nm, Hw=1745.2nm, Gap=604.7nm, P=50.98mW
+  |-- Saved | dneff=7.191569e-03 | T_wg=336.57K | T_max=374.09K | 7.92s
+[RUN]    Sample 429/1200 | W=426.7nm, H=210.1nm, Hw=1466.2nm, Gap=1391.4nm, P=12.69mW
+  |-- Saved | dneff=1.714808e-03 | T_wg=309.07K | T_max=318.44K | 7.93s
+[RUN]    Sample 430/1200 | W=547.2nm, H=202.3nm, Hw=1475.0nm, Gap=780.2nm, P=37.67mW
+  |-- Saved | dneff=5.050296e-03 | T_wg=326.93K | T_max=354.75K | 7.90s
+[RUN]    Sample 431/1200 | W=528.6nm, H=207.4nm, Hw=1850.2nm, Gap=846.2nm, P=26.24mW
+  |-- Saved | dneff=3.547190e-03 | T_wg=318.76K | T_max=338.13K | 7.90s
+[RUN]    Sample 432/1200 | W=458.9nm, H=216.3nm, Hw=1735.7nm, Gap=874.2nm, P=5.78mW
+  |-- Saved | dneff=7.906653e-04 | T_wg=304.13K | T_max=308.40K | 7.88s
+[RUN]    Sample 433/1200 | W=556.4nm, H=218.0nm, Hw=1468.6nm, Gap=1381.9nm, P=42.04mW
+  |-- Saved | dneff=5.717757e-03 | T_wg=330.05K | T_max=361.10K | 7.92s
+[RUN]    Sample 434/1200 | W=464.3nm, H=237.5nm, Hw=1683.6nm, Gap=1473.5nm, P=33.26mW
+  |-- Saved | dneff=4.640217e-03 | T_wg=323.79K | T_max=348.33K | 7.92s
+[RUN]    Sample 435/1200 | W=516.8nm, H=258.4nm, Hw=1958.5nm, Gap=1017.6nm, P=45.13mW
+  |-- Saved | dneff=6.324085e-03 | T_wg=332.37K | T_max=365.59K | 7.90s
+[RUN]    Sample 436/1200 | W=583.1nm, H=228.7nm, Hw=906.2nm, Gap=980.1nm, P=54.00mW
+  |-- Saved | dneff=7.379940e-03 | T_wg=338.62K | T_max=378.48K | 7.94s
+[RUN]    Sample 437/1200 | W=433.2nm, H=219.8nm, Hw=1987.2nm, Gap=1364.1nm, P=41.05mW
+  |-- Saved | dneff=5.621906e-03 | T_wg=329.35K | T_max=359.65K | 7.84s
+[RUN]    Sample 438/1200 | W=418.3nm, H=227.4nm, Hw=1077.4nm, Gap=698.8nm, P=51.25mW
+  |-- Saved | dneff=7.073608e-03 | T_wg=336.66K | T_max=374.48K | 7.89s
+[RUN]    Sample 439/1200 | W=439.0nm, H=204.7nm, Hw=1118.3nm, Gap=1295.2nm, P=45.26mW
+  |-- Saved | dneff=6.078606e-03 | T_wg=332.37K | T_max=365.78K | 7.90s
+[RUN]    Sample 440/1200 | W=519.9nm, H=220.6nm, Hw=1642.5nm, Gap=1217.1nm, P=41.64mW
+  |-- Saved | dneff=5.703481e-03 | T_wg=329.77K | T_max=360.51K | 7.90s
+[RUN]    Sample 441/1200 | W=587.6nm, H=213.0nm, Hw=1013.1nm, Gap=1055.9nm, P=40.78mW
+  |-- Saved | dneff=5.504868e-03 | T_wg=329.15K | T_max=359.27K | 7.92s
+[RUN]    Sample 442/1200 | W=513.1nm, H=238.8nm, Hw=1879.6nm, Gap=941.1nm, P=27.00mW
+  |-- Saved | dneff=3.747911e-03 | T_wg=319.31K | T_max=339.23K | 8.00s
+[RUN]    Sample 443/1200 | W=505.5nm, H=257.4nm, Hw=1129.1nm, Gap=832.9nm, P=28.42mW
+  |-- Saved | dneff=3.986692e-03 | T_wg=320.39K | T_max=341.31K | 7.91s
+[RUN]    Sample 444/1200 | W=403.0nm, H=251.1nm, Hw=898.1nm, Gap=987.8nm, P=49.95mW
+  |-- Saved | dneff=7.024073e-03 | T_wg=335.73K | T_max=372.59K | 7.91s
+[RUN]    Sample 445/1200 | W=577.1nm, H=209.3nm, Hw=1327.6nm, Gap=915.6nm, P=41.53mW
+  |-- Saved | dneff=5.597166e-03 | T_wg=329.69K | T_max=360.36K | 7.91s
+[RUN]    Sample 446/1200 | W=581.0nm, H=223.3nm, Hw=1290.9nm, Gap=1245.7nm, P=17.76mW
+  |-- Saved | dneff=2.419145e-03 | T_wg=312.70K | T_max=325.81K | 7.88s
+[RUN]    Sample 447/1200 | W=534.6nm, H=211.7nm, Hw=1782.9nm, Gap=1468.5nm, P=46.95mW
+  |-- Saved | dneff=6.366140e-03 | T_wg=333.57K | T_max=368.23K | 7.93s
+[RUN]    Sample 448/1200 | W=585.4nm, H=207.7nm, Hw=1460.7nm, Gap=747.5nm, P=55.53mW
+  |-- Saved | dneff=7.464249e-03 | T_wg=339.70K | T_max=380.70K | 7.85s
+[RUN]    Sample 449/1200 | W=420.1nm, H=227.5nm, Hw=975.6nm, Gap=1444.3nm, P=29.27mW
+  |-- Saved | dneff=4.042185e-03 | T_wg=320.94K | T_max=342.54K | 7.88s
+[RUN]    Sample 450/1200 | W=471.5nm, H=205.7nm, Hw=1605.4nm, Gap=766.2nm, P=13.78mW
+  |-- Saved | dneff=1.865562e-03 | T_wg=309.86K | T_max=320.03K | 7.93s
+[RUN]    Sample 451/1200 | W=452.1nm, H=256.4nm, Hw=1791.6nm, Gap=1075.8nm, P=21.27mW
+  |-- Saved | dneff=3.003020e-03 | T_wg=315.26K | T_max=330.92K | 7.87s
+[RUN]    Sample 452/1200 | W=459.2nm, H=251.8nm, Hw=1677.2nm, Gap=1347.0nm, P=11.76mW
+  |-- Saved | dneff=1.656414e-03 | T_wg=308.41K | T_max=317.10K | 7.91s
+[RUN]    Sample 453/1200 | W=455.1nm, H=258.8nm, Hw=1596.5nm, Gap=795.7nm, P=54.29mW
+  |-- Saved | dneff=7.675405e-03 | T_wg=338.94K | T_max=378.90K | 8.03s
+[RUN]    Sample 454/1200 | W=547.8nm, H=250.3nm, Hw=1259.5nm, Gap=672.2nm, P=24.81mW
+  |-- Saved | dneff=3.444664e-03 | T_wg=317.74K | T_max=336.05K | 8.06s
+[RUN]    Sample 455/1200 | W=568.6nm, H=247.7nm, Hw=1802.2nm, Gap=1389.1nm, P=43.00mW
+  |-- Saved | dneff=5.951515e-03 | T_wg=330.76K | T_max=362.50K | 8.02s
+[RUN]    Sample 456/1200 | W=443.7nm, H=214.5nm, Hw=1021.8nm, Gap=883.6nm, P=5.29mW
+  |-- Saved | dneff=7.204980e-04 | T_wg=303.78K | T_max=307.69K | 8.01s
+[RUN]    Sample 457/1200 | W=537.6nm, H=228.0nm, Hw=1607.7nm, Gap=1410.2nm, P=59.53mW
+  |-- Saved | dneff=8.173266e-03 | T_wg=342.58K | T_max=386.52K | 8.11s
+[RUN]    Sample 458/1200 | W=478.7nm, H=204.9nm, Hw=1446.2nm, Gap=881.1nm, P=34.46mW
+  |-- Saved | dneff=4.660392e-03 | T_wg=324.64K | T_max=350.08K | 8.06s
+[RUN]    Sample 459/1200 | W=535.0nm, H=234.0nm, Hw=1313.4nm, Gap=847.3nm, P=19.15mW
+  |-- Saved | dneff=2.641051e-03 | T_wg=313.70K | T_max=327.83K | 8.02s
+[RUN]    Sample 460/1200 | W=438.2nm, H=233.1nm, Hw=1772.0nm, Gap=798.7nm, P=29.21mW
+  |-- Saved | dneff=4.054213e-03 | T_wg=320.90K | T_max=342.46K | 7.99s
+[RUN]    Sample 461/1200 | W=555.5nm, H=253.1nm, Hw=1714.5nm, Gap=1171.1nm, P=20.75mW
+  |-- Saved | dneff=2.881679e-03 | T_wg=314.88K | T_max=330.15K | 8.02s
+[RUN]    Sample 462/1200 | W=547.4nm, H=202.0nm, Hw=1106.6nm, Gap=1298.6nm, P=58.31mW
+  |-- Saved | dneff=7.813962e-03 | T_wg=341.68K | T_max=384.74K | 8.02s
+[RUN]    Sample 463/1200 | W=462.3nm, H=245.9nm, Hw=1487.6nm, Gap=677.9nm, P=28.18mW
+  |-- Saved | dneff=3.953496e-03 | T_wg=320.15K | T_max=340.95K | 8.02s
+[RUN]    Sample 464/1200 | W=569.8nm, H=227.0nm, Hw=1999.2nm, Gap=935.6nm, P=55.15mW
+  |-- Saved | dneff=7.541773e-03 | T_wg=339.44K | T_max=380.14K | 8.05s
+[RUN]    Sample 465/1200 | W=524.0nm, H=234.5nm, Hw=855.6nm, Gap=1443.7nm, P=7.69mW
+  |-- Saved | dneff=1.064183e-03 | T_wg=305.50K | T_max=311.18K | 8.01s
+[RUN]    Sample 466/1200 | W=569.0nm, H=258.0nm, Hw=1834.8nm, Gap=940.1nm, P=36.88mW
+  |-- Saved | dneff=5.123126e-03 | T_wg=326.45K | T_max=353.59K | 8.03s
+[RUN]    Sample 467/1200 | W=595.4nm, H=243.1nm, Hw=1865.2nm, Gap=1153.4nm, P=19.05mW
+  |-- Saved | dneff=2.616440e-03 | T_wg=313.63K | T_max=327.69K | 8.05s
+[RUN]    Sample 468/1200 | W=528.1nm, H=253.6nm, Hw=1450.6nm, Gap=1379.6nm, P=38.64mW
+  |-- Saved | dneff=5.395048e-03 | T_wg=327.71K | T_max=356.15K | 7.98s
+[RUN]    Sample 469/1200 | W=401.0nm, H=253.9nm, Hw=1056.3nm, Gap=956.8nm, P=34.90mW
+  |-- Saved | dneff=4.912566e-03 | T_wg=325.03K | T_max=350.72K | 8.00s
+[RUN]    Sample 470/1200 | W=556.2nm, H=228.0nm, Hw=1157.2nm, Gap=1239.7nm, P=49.00mW
+  |-- Saved | dneff=6.713262e-03 | T_wg=335.04K | T_max=371.21K | 8.01s
+[RUN]    Sample 471/1200 | W=417.8nm, H=257.1nm, Hw=1729.8nm, Gap=1107.3nm, P=17.54mW
+  |-- Saved | dneff=2.481182e-03 | T_wg=312.58K | T_max=325.49K | 8.00s
+[RUN]    Sample 472/1200 | W=436.0nm, H=217.4nm, Hw=1467.5nm, Gap=1442.3nm, P=47.66mW
+  |-- Saved | dneff=6.509477e-03 | T_wg=334.09K | T_max=369.27K | 8.15s
+[RUN]    Sample 473/1200 | W=405.5nm, H=220.5nm, Hw=1678.5nm, Gap=1293.1nm, P=23.35mW
+  |-- Saved | dneff=3.175766e-03 | T_wg=316.70K | T_max=333.93K | 8.00s
+[RUN]    Sample 474/1200 | W=433.9nm, H=254.0nm, Hw=910.6nm, Gap=946.2nm, P=34.17mW
+  |-- Saved | dneff=4.820275e-03 | T_wg=324.51K | T_max=349.66K | 8.01s
+[RUN]    Sample 475/1200 | W=538.3nm, H=211.8nm, Hw=1008.7nm, Gap=1148.1nm, P=46.37mW
+  |-- Saved | dneff=6.284870e-03 | T_wg=333.16K | T_max=367.39K | 8.02s
+[RUN]    Sample 476/1200 | W=514.3nm, H=250.7nm, Hw=1534.4nm, Gap=1093.4nm, P=40.44mW
+  |-- Saved | dneff=5.653386e-03 | T_wg=328.93K | T_max=358.78K | 7.98s
+[RUN]    Sample 477/1200 | W=471.7nm, H=218.2nm, Hw=965.8nm, Gap=1182.0nm, P=36.44mW
+  |-- Saved | dneff=5.001214e-03 | T_wg=326.06K | T_max=352.96K | 8.01s
+[RUN]    Sample 478/1200 | W=515.9nm, H=205.8nm, Hw=1281.0nm, Gap=1337.4nm, P=11.37mW
+  |-- Saved | dneff=1.535995e-03 | T_wg=308.13K | T_max=316.52K | 8.03s
+[RUN]    Sample 479/1200 | W=447.2nm, H=257.4nm, Hw=1476.6nm, Gap=1038.7nm, P=44.85mW
+  |-- Saved | dneff=6.332494e-03 | T_wg=332.17K | T_max=365.18K | 8.00s
+[RUN]    Sample 480/1200 | W=472.3nm, H=254.5nm, Hw=1333.8nm, Gap=1338.7nm, P=8.96mW
+  |-- Saved | dneff=1.262285e-03 | T_wg=306.43K | T_max=313.02K | 8.01s
+[RUN]    Sample 481/1200 | W=444.2nm, H=213.9nm, Hw=1964.2nm, Gap=895.6nm, P=10.74mW
+  |-- Saved | dneff=1.461352e-03 | T_wg=307.68K | T_max=315.61K | 7.99s
+[RUN]    Sample 482/1200 | W=456.8nm, H=206.8nm, Hw=1087.7nm, Gap=1202.8nm, P=50.15mW
+  |-- Saved | dneff=6.786957e-03 | T_wg=335.86K | T_max=372.88K | 8.03s
+[RUN]    Sample 483/1200 | W=528.2nm, H=253.5nm, Hw=1469.6nm, Gap=1479.3nm, P=55.99mW
+  |-- Saved | dneff=7.816065e-03 | T_wg=340.16K | T_max=381.37K | 7.94s
+[RUN]    Sample 484/1200 | W=479.1nm, H=222.8nm, Hw=1691.5nm, Gap=828.7nm, P=5.92mW
+  |-- Saved | dneff=8.150873e-04 | T_wg=304.23K | T_max=308.60K | 8.02s
+[RUN]    Sample 485/1200 | W=553.5nm, H=221.4nm, Hw=1355.2nm, Gap=1108.4nm, P=33.28mW
+  |-- Saved | dneff=4.539725e-03 | T_wg=323.80K | T_max=348.37K | 8.00s
+[RUN]    Sample 486/1200 | W=427.2nm, H=235.0nm, Hw=810.3nm, Gap=774.3nm, P=35.72mW
+  |-- Saved | dneff=4.975551e-03 | T_wg=325.55K | T_max=351.91K | 8.02s
+[RUN]    Sample 487/1200 | W=539.9nm, H=256.5nm, Hw=933.4nm, Gap=817.3nm, P=42.41mW
+  |-- Saved | dneff=5.909598e-03 | T_wg=330.42K | T_max=361.64K | 8.13s
+[RUN]    Sample 488/1200 | W=470.7nm, H=226.8nm, Hw=938.3nm, Gap=1209.4nm, P=14.91mW
+  |-- Saved | dneff=2.062685e-03 | T_wg=310.67K | T_max=321.67K | 7.97s
+[RUN]    Sample 489/1200 | W=598.3nm, H=226.3nm, Hw=1212.8nm, Gap=749.6nm, P=26.06mW
+  |-- Saved | dneff=3.543976e-03 | T_wg=318.64K | T_max=337.88K | 8.01s
+[RUN]    Sample 490/1200 | W=409.4nm, H=228.7nm, Hw=1054.6nm, Gap=1488.3nm, P=21.34mW
+  |-- Saved | dneff=2.938696e-03 | T_wg=315.26K | T_max=331.01K | 7.98s
+[RUN]    Sample 491/1200 | W=596.6nm, H=236.0nm, Hw=1693.4nm, Gap=1087.7nm, P=9.23mW
+  |-- Saved | dneff=1.263852e-03 | T_wg=306.60K | T_max=313.42K | 8.04s
+[RUN]    Sample 492/1200 | W=586.9nm, H=238.2nm, Hw=1442.9nm, Gap=987.5nm, P=31.70mW
+  |-- Saved | dneff=4.351943e-03 | T_wg=322.67K | T_max=346.07K | 8.03s
+[RUN]    Sample 493/1200 | W=540.4nm, H=259.4nm, Hw=1471.9nm, Gap=796.1nm, P=58.48mW
+  |-- Saved | dneff=8.158463e-03 | T_wg=341.94K | T_max=384.99K | 7.99s
+[RUN]    Sample 494/1200 | W=520.5nm, H=240.3nm, Hw=1907.4nm, Gap=610.1nm, P=23.00mW
+  |-- Saved | dneff=3.192789e-03 | T_wg=316.45K | T_max=333.42K | 8.00s
+[RUN]    Sample 495/1200 | W=533.9nm, H=214.8nm, Hw=941.3nm, Gap=1393.9nm, P=37.62mW
+  |-- Saved | dneff=5.120114e-03 | T_wg=326.90K | T_max=354.67K | 7.99s
+[RUN]    Sample 496/1200 | W=596.0nm, H=216.0nm, Hw=1000.8nm, Gap=1299.5nm, P=22.69mW
+  |-- Saved | dneff=3.064867e-03 | T_wg=316.22K | T_max=332.98K | 8.01s
+[RUN]    Sample 497/1200 | W=561.7nm, H=246.6nm, Hw=1412.9nm, Gap=756.5nm, P=26.64mW
+  |-- Saved | dneff=3.687527e-03 | T_wg=319.05K | T_max=338.72K | 8.00s
+[RUN]    Sample 498/1200 | W=434.3nm, H=241.6nm, Hw=1569.2nm, Gap=692.2nm, P=43.52mW
+  |-- Saved | dneff=6.083541e-03 | T_wg=331.13K | T_max=363.25K | 7.99s
+[RUN]    Sample 499/1200 | W=502.8nm, H=244.0nm, Hw=1963.9nm, Gap=1401.1nm, P=38.37mW
+  |-- Saved | dneff=5.349269e-03 | T_wg=327.45K | T_max=355.77K | 8.01s
+[RUN]    Sample 500/1200 | W=424.7nm, H=259.7nm, Hw=1458.8nm, Gap=1176.9nm, P=9.88mW
+  |-- Saved | dneff=1.401388e-03 | T_wg=307.09K | T_max=314.36K | 8.02s
+[RUN]    Sample 501/1200 | W=567.0nm, H=252.6nm, Hw=1854.0nm, Gap=1341.9nm, P=21.21mW
+  |-- Saved | dneff=2.941601e-03 | T_wg=315.17K | T_max=330.83K | 7.97s
+[RUN]    Sample 502/1200 | W=570.5nm, H=211.3nm, Hw=1060.1nm, Gap=1388.6nm, P=21.52mW
+  |-- Saved | dneff=2.905675e-03 | T_wg=315.38K | T_max=331.27K | 8.10s
+[RUN]    Sample 503/1200 | W=479.3nm, H=212.0nm, Hw=1571.9nm, Gap=635.9nm, P=42.11mW
+  |-- Saved | dneff=5.737986e-03 | T_wg=330.11K | T_max=361.21K | 8.02s
+[RUN]    Sample 504/1200 | W=533.5nm, H=205.1nm, Hw=1041.8nm, Gap=655.1nm, P=41.29mW
+  |-- Saved | dneff=5.565298e-03 | T_wg=329.52K | T_max=360.01K | 7.97s
+[RUN]    Sample 505/1200 | W=487.8nm, H=258.6nm, Hw=1753.6nm, Gap=1228.8nm, P=57.35mW
+  |-- Saved | dneff=8.064849e-03 | T_wg=341.13K | T_max=383.34K | 7.99s
+[RUN]    Sample 506/1200 | W=438.5nm, H=226.7nm, Hw=815.1nm, Gap=1050.1nm, P=55.25mW
+  |-- Saved | dneff=7.624598e-03 | T_wg=339.52K | T_max=380.30K | 7.99s
+[RUN]    Sample 507/1200 | W=428.1nm, H=240.1nm, Hw=1847.3nm, Gap=1445.2nm, P=57.25mW
+  |-- Saved | dneff=8.005822e-03 | T_wg=340.95K | T_max=383.21K | 7.97s
+[RUN]    Sample 508/1200 | W=545.6nm, H=235.3nm, Hw=1784.6nm, Gap=816.7nm, P=52.23mW
+  |-- Saved | dneff=7.198366e-03 | T_wg=337.36K | T_max=375.91K | 8.01s
+[RUN]    Sample 509/1200 | W=470.2nm, H=206.0nm, Hw=1321.7nm, Gap=1334.8nm, P=51.40mW
+  |-- Saved | dneff=6.963248e-03 | T_wg=336.76K | T_max=374.71K | 8.00s
+[RUN]    Sample 510/1200 | W=513.8nm, H=211.0nm, Hw=1522.8nm, Gap=962.8nm, P=49.72mW
+  |-- Saved | dneff=6.755193e-03 | T_wg=335.55K | T_max=372.26K | 7.97s
+[RUN]    Sample 511/1200 | W=581.1nm, H=223.2nm, Hw=1660.4nm, Gap=1013.3nm, P=41.33mW
+  |-- Saved | dneff=5.631763e-03 | T_wg=329.56K | T_max=360.07K | 7.98s
+[RUN]    Sample 512/1200 | W=404.2nm, H=257.7nm, Hw=1326.7nm, Gap=1201.9nm, P=13.20mW
+  |-- Saved | dneff=1.863880e-03 | T_wg=309.47K | T_max=319.19K | 7.99s
+[RUN]    Sample 513/1200 | W=400.6nm, H=235.1nm, Hw=1560.3nm, Gap=1255.9nm, P=23.21mW
+  |-- Saved | dneff=3.210507e-03 | T_wg=316.61K | T_max=333.74K | 7.97s
+[RUN]    Sample 514/1200 | W=436.6nm, H=202.1nm, Hw=1521.9nm, Gap=871.0nm, P=23.61mW
+  |-- Saved | dneff=3.152899e-03 | T_wg=316.88K | T_max=334.31K | 7.99s
+[RUN]    Sample 515/1200 | W=456.5nm, H=228.8nm, Hw=1659.2nm, Gap=704.4nm, P=26.10mW
+  |-- Saved | dneff=3.615647e-03 | T_wg=318.67K | T_max=337.94K | 7.98s
+[RUN]    Sample 516/1200 | W=462.9nm, H=235.6nm, Hw=1181.1nm, Gap=1078.4nm, P=18.62mW
+  |-- Saved | dneff=2.594831e-03 | T_wg=313.32K | T_max=327.05K | 7.99s
+[RUN]    Sample 517/1200 | W=511.3nm, H=205.4nm, Hw=804.9nm, Gap=807.6nm, P=58.76mW
+  |-- Saved | dneff=7.944388e-03 | T_wg=342.02K | T_max=385.40K | 8.11s
+[RUN]    Sample 518/1200 | W=560.3nm, H=239.9nm, Hw=1815.8nm, Gap=1051.2nm, P=6.54mW
+  |-- Saved | dneff=9.018369e-04 | T_wg=304.68K | T_max=309.50K | 7.93s
+[RUN]    Sample 519/1200 | W=428.7nm, H=240.0nm, Hw=1489.3nm, Gap=1120.4nm, P=8.56mW
+  |-- Saved | dneff=1.196406e-03 | T_wg=306.12K | T_max=312.44K | 7.94s
+[RUN]    Sample 520/1200 | W=508.8nm, H=257.5nm, Hw=1766.6nm, Gap=1322.3nm, P=28.29mW
+  |-- Saved | dneff=3.966079e-03 | T_wg=320.29K | T_max=341.11K | 7.95s
+[RUN]    Sample 521/1200 | W=429.3nm, H=254.7nm, Hw=1388.5nm, Gap=879.9nm, P=24.75mW
+  |-- Saved | dneff=3.495764e-03 | T_wg=317.75K | T_max=335.97K | 7.99s
+[RUN]    Sample 522/1200 | W=442.1nm, H=224.7nm, Hw=1581.8nm, Gap=1177.8nm, P=9.52mW
+  |-- Saved | dneff=1.311364e-03 | T_wg=306.81K | T_max=313.84K | 7.94s
+[RUN]    Sample 523/1200 | W=453.4nm, H=230.1nm, Hw=1583.5nm, Gap=750.9nm, P=11.95mW
+  |-- Saved | dneff=1.656834e-03 | T_wg=308.55K | T_max=317.37K | 7.98s
+[RUN]    Sample 524/1200 | W=531.1nm, H=243.8nm, Hw=1936.1nm, Gap=783.1nm, P=59.64mW
+  |-- Saved | dneff=8.280681e-03 | T_wg=342.66K | T_max=386.67K | 7.98s
+[RUN]    Sample 525/1200 | W=498.0nm, H=219.9nm, Hw=1492.8nm, Gap=612.8nm, P=22.80mW
+  |-- Saved | dneff=3.124838e-03 | T_wg=316.31K | T_max=333.14K | 7.96s
+[RUN]    Sample 526/1200 | W=496.9nm, H=207.8nm, Hw=1049.7nm, Gap=726.5nm, P=15.81mW
+  |-- Saved | dneff=2.139910e-03 | T_wg=311.30K | T_max=322.97K | 8.00s
+[RUN]    Sample 527/1200 | W=518.2nm, H=217.5nm, Hw=1100.1nm, Gap=1037.5nm, P=48.79mW
+  |-- Saved | dneff=6.669763e-03 | T_wg=334.89K | T_max=370.91K | 7.95s
+[RUN]    Sample 528/1200 | W=419.9nm, H=220.8nm, Hw=1565.8nm, Gap=1156.6nm, P=43.26mW
+  |-- Saved | dneff=5.925457e-03 | T_wg=330.94K | T_max=362.87K | 7.99s
+[RUN]    Sample 529/1200 | W=401.7nm, H=245.5nm, Hw=862.4nm, Gap=1374.9nm, P=41.79mW
+  |-- Saved | dneff=5.841998e-03 | T_wg=329.89K | T_max=360.74K | 7.95s
+[RUN]    Sample 530/1200 | W=520.7nm, H=213.3nm, Hw=1750.2nm, Gap=633.3nm, P=27.79mW
+  |-- Saved | dneff=3.782913e-03 | T_wg=319.87K | T_max=340.38K | 7.99s
+[RUN]    Sample 531/1200 | W=413.5nm, H=228.6nm, Hw=1429.2nm, Gap=1335.9nm, P=18.82mW
+  |-- Saved | dneff=2.595361e-03 | T_wg=313.46K | T_max=327.35K | 7.92s
+[RUN]    Sample 532/1200 | W=404.0nm, H=214.9nm, Hw=924.4nm, Gap=876.7nm, P=12.55mW
+  |-- Saved | dneff=1.693184e-03 | T_wg=308.98K | T_max=318.24K | 8.08s
+[RUN]    Sample 533/1200 | W=460.4nm, H=209.5nm, Hw=1485.6nm, Gap=1175.8nm, P=43.06mW
+  |-- Saved | dneff=5.848821e-03 | T_wg=330.80K | T_max=362.59K | 7.94s
+[RUN]    Sample 534/1200 | W=585.0nm, H=226.2nm, Hw=1578.9nm, Gap=1027.1nm, P=31.06mW
+  |-- Saved | dneff=4.235616e-03 | T_wg=322.21K | T_max=345.14K | 7.98s
+[RUN]    Sample 535/1200 | W=412.4nm, H=223.1nm, Hw=1549.6nm, Gap=653.6nm, P=18.86mW
+  |-- Saved | dneff=2.583068e-03 | T_wg=313.49K | T_max=327.41K | 7.97s
+[RUN]    Sample 536/1200 | W=588.4nm, H=235.2nm, Hw=1113.2nm, Gap=867.9nm, P=43.81mW
+  |-- Saved | dneff=6.005181e-03 | T_wg=331.33K | T_max=363.66K | 7.96s
+[RUN]    Sample 537/1200 | W=558.2nm, H=221.0nm, Hw=1323.8nm, Gap=728.6nm, P=10.90mW
+  |-- Saved | dneff=1.485249e-03 | T_wg=307.79K | T_max=315.84K | 7.95s
+[RUN]    Sample 538/1200 | W=545.9nm, H=226.0nm, Hw=1300.3nm, Gap=623.8nm, P=23.91mW
+  |-- Saved | dneff=3.273488e-03 | T_wg=317.10K | T_max=334.74K | 7.98s
+[RUN]    Sample 539/1200 | W=595.7nm, H=219.2nm, Hw=883.1nm, Gap=890.3nm, P=9.18mW
+  |-- Saved | dneff=1.242139e-03 | T_wg=306.56K | T_max=313.34K | 7.95s
+[RUN]    Sample 540/1200 | W=430.0nm, H=247.5nm, Hw=1257.0nm, Gap=977.0nm, P=15.32mW
+  |-- Saved | dneff=2.154357e-03 | T_wg=310.96K | T_max=322.26K | 7.95s
+[RUN]    Sample 541/1200 | W=466.4nm, H=237.7nm, Hw=1878.6nm, Gap=762.9nm, P=21.70mW
+  |-- Saved | dneff=3.027267e-03 | T_wg=315.52K | T_max=331.53K | 7.96s
+[RUN]    Sample 542/1200 | W=494.8nm, H=216.5nm, Hw=991.8nm, Gap=734.9nm, P=59.01mW
+  |-- Saved | dneff=8.065253e-03 | T_wg=342.19K | T_max=385.76K | 7.95s
+[RUN]    Sample 543/1200 | W=478.8nm, H=248.4nm, Hw=1402.8nm, Gap=999.6nm, P=31.77mW
+  |-- Saved | dneff=4.459360e-03 | T_wg=322.73K | T_max=346.18K | 7.93s
+[RUN]    Sample 544/1200 | W=481.6nm, H=222.2nm, Hw=1718.0nm, Gap=793.5nm, P=54.93mW
+  |-- Saved | dneff=7.559587e-03 | T_wg=339.29K | T_max=379.84K | 7.93s
+[RUN]    Sample 545/1200 | W=407.7nm, H=220.2nm, Hw=1319.6nm, Gap=1180.9nm, P=5.18mW
+  |-- Saved | dneff=7.040116e-04 | T_wg=303.70K | T_max=307.52K | 7.92s
+[RUN]    Sample 546/1200 | W=509.7nm, H=235.7nm, Hw=1579.9nm, Gap=692.7nm, P=39.93mW
+  |-- Saved | dneff=5.538108e-03 | T_wg=328.56K | T_max=358.03K | 7.97s
+[RUN]    Sample 547/1200 | W=594.7nm, H=228.8nm, Hw=1194.4nm, Gap=892.2nm, P=51.78mW
+  |-- Saved | dneff=7.057269e-03 | T_wg=337.04K | T_max=375.26K | 8.06s
+[RUN]    Sample 548/1200 | W=550.1nm, H=258.7nm, Hw=1059.5nm, Gap=786.2nm, P=45.22mW
+  |-- Saved | dneff=6.297316e-03 | T_wg=332.43K | T_max=365.71K | 7.93s
+[RUN]    Sample 549/1200 | W=542.7nm, H=242.9nm, Hw=893.8nm, Gap=615.9nm, P=46.46mW
+  |-- Saved | dneff=6.429374e-03 | T_wg=333.23K | T_max=367.53K | 7.93s
+[RUN]    Sample 550/1200 | W=425.4nm, H=204.6nm, Hw=1282.8nm, Gap=1276.1nm, P=28.65mW
+  |-- Saved | dneff=3.843304e-03 | T_wg=320.49K | T_max=341.64K | 7.95s
+[RUN]    Sample 551/1200 | W=495.1nm, H=208.1nm, Hw=1562.2nm, Gap=1010.2nm, P=31.63mW
+  |-- Saved | dneff=4.283632e-03 | T_wg=322.62K | T_max=345.98K | 7.95s
+[RUN]    Sample 552/1200 | W=466.2nm, H=214.0nm, Hw=833.3nm, Gap=1495.0nm, P=53.79mW
+  |-- Saved | dneff=7.353315e-03 | T_wg=338.47K | T_max=378.17K | 7.97s
+[RUN]    Sample 553/1200 | W=479.4nm, H=230.8nm, Hw=1045.9nm, Gap=1010.8nm, P=36.16mW
+  |-- Saved | dneff=5.011575e-03 | T_wg=325.87K | T_max=352.56K | 7.91s
+[RUN]    Sample 554/1200 | W=476.3nm, H=252.4nm, Hw=841.3nm, Gap=1371.1nm, P=16.69mW
+  |-- Saved | dneff=2.346830e-03 | T_wg=311.94K | T_max=324.25K | 7.95s
+[RUN]    Sample 555/1200 | W=559.5nm, H=250.7nm, Hw=1477.1nm, Gap=1000.5nm, P=16.65mW
+  |-- Saved | dneff=2.309992e-03 | T_wg=311.91K | T_max=324.20K | 7.94s
+[RUN]    Sample 556/1200 | W=516.9nm, H=229.3nm, Hw=1346.5nm, Gap=1265.8nm, P=48.54mW
+  |-- Saved | dneff=6.695521e-03 | T_wg=334.72K | T_max=370.54K | 7.92s
+[RUN]    Sample 557/1200 | W=596.1nm, H=247.3nm, Hw=1577.4nm, Gap=1229.7nm, P=53.34mW
+  |-- Saved | dneff=7.344510e-03 | T_wg=338.15K | T_max=377.53K | 7.95s
+[RUN]    Sample 558/1200 | W=521.1nm, H=208.0nm, Hw=1030.5nm, Gap=1296.8nm, P=32.80mW
+  |-- Saved | dneff=4.442227e-03 | T_wg=323.46K | T_max=347.67K | 7.92s
+[RUN]    Sample 559/1200 | W=548.7nm, H=255.3nm, Hw=1553.3nm, Gap=771.0nm, P=10.28mW
+  |-- Saved | dneff=1.429415e-03 | T_wg=307.37K | T_max=314.94K | 7.96s
+[RUN]    Sample 560/1200 | W=450.2nm, H=211.4nm, Hw=1435.6nm, Gap=995.5nm, P=47.82mW
+  |-- Saved | dneff=6.500783e-03 | T_wg=334.20K | T_max=369.50K | 7.94s
+[RUN]    Sample 561/1200 | W=551.7nm, H=212.6nm, Hw=1353.9nm, Gap=929.6nm, P=29.93mW
+  |-- Saved | dneff=4.054401e-03 | T_wg=321.39K | T_max=343.50K | 7.92s
+[RUN]    Sample 562/1200 | W=418.5nm, H=250.9nm, Hw=1236.3nm, Gap=650.1nm, P=23.60mW
+  |-- Saved | dneff=3.327918e-03 | T_wg=316.88K | T_max=334.30K | 8.04s
+[RUN]    Sample 563/1200 | W=575.5nm, H=212.1nm, Hw=1546.3nm, Gap=1199.2nm, P=55.83mW
+  |-- Saved | dneff=7.543888e-03 | T_wg=339.91K | T_max=381.14K | 7.95s
+[RUN]    Sample 564/1200 | W=564.2nm, H=250.3nm, Hw=874.4nm, Gap=1051.9nm, P=32.82mW
+  |-- Saved | dneff=4.551235e-03 | T_wg=323.48K | T_max=347.70K | 7.97s
+[RUN]    Sample 565/1200 | W=467.8nm, H=245.9nm, Hw=1539.9nm, Gap=1479.8nm, P=53.95mW
+  |-- Saved | dneff=7.570359e-03 | T_wg=338.59K | T_max=378.41K | 7.90s
+[RUN]    Sample 566/1200 | W=400.2nm, H=249.0nm, Hw=1741.8nm, Gap=1257.9nm, P=21.15mW
+  |-- Saved | dneff=2.966886e-03 | T_wg=315.13K | T_max=330.73K | 7.92s
+[RUN]    Sample 567/1200 | W=452.6nm, H=202.7nm, Hw=970.5nm, Gap=1455.9nm, P=39.30mW
+  |-- Saved | dneff=5.280386e-03 | T_wg=328.10K | T_max=357.11K | 7.96s
+[RUN]    Sample 568/1200 | W=475.2nm, H=206.2nm, Hw=957.7nm, Gap=1404.5nm, P=10.73mW
+  |-- Saved | dneff=1.452592e-03 | T_wg=307.67K | T_max=315.59K | 7.93s
+[RUN]    Sample 569/1200 | W=449.2nm, H=201.1nm, Hw=1676.6nm, Gap=872.1nm, P=37.94mW
+  |-- Saved | dneff=5.082070e-03 | T_wg=327.14K | T_max=355.15K | 7.94s
+[RUN]    Sample 570/1200 | W=506.6nm, H=238.0nm, Hw=1572.9nm, Gap=1478.4nm, P=21.62mW
+  |-- Saved | dneff=3.001931e-03 | T_wg=315.46K | T_max=331.42K | 7.94s
+[RUN]    Sample 571/1200 | W=471.3nm, H=213.8nm, Hw=1618.2nm, Gap=869.0nm, P=52.08mW
+  |-- Saved | dneff=7.118243e-03 | T_wg=337.24K | T_max=375.69K | 7.90s
+[RUN]    Sample 572/1200 | W=455.7nm, H=232.6nm, Hw=1961.6nm, Gap=1278.9nm, P=35.09mW
+  |-- Saved | dneff=4.876804e-03 | T_wg=325.10K | T_max=351.00K | 7.92s
+[RUN]    Sample 573/1200 | W=425.6nm, H=243.9nm, Hw=1813.7nm, Gap=695.2nm, P=42.24mW
+  |-- Saved | dneff=5.927383e-03 | T_wg=330.22K | T_max=361.39K | 7.92s
+[RUN]    Sample 574/1200 | W=564.6nm, H=246.8nm, Hw=1219.4nm, Gap=933.8nm, P=44.64mW
+  |-- Saved | dneff=6.178249e-03 | T_wg=331.93K | T_max=364.88K | 7.92s
+[RUN]    Sample 575/1200 | W=497.6nm, H=200.6nm, Hw=1169.0nm, Gap=1343.8nm, P=31.35mW
+  |-- Saved | dneff=4.206641e-03 | T_wg=322.42K | T_max=345.56K | 7.92s
+[RUN]    Sample 576/1200 | W=465.5nm, H=229.4nm, Hw=1011.6nm, Gap=709.1nm, P=46.75mW
+  |-- Saved | dneff=6.482138e-03 | T_wg=333.44K | T_max=367.95K | 7.88s
+[RUN]    Sample 577/1200 | W=470.1nm, H=218.7nm, Hw=1214.5nm, Gap=1364.8nm, P=19.60mW
+  |-- Saved | dneff=2.690246e-03 | T_wg=314.01K | T_max=328.48K | 8.03s
+[RUN]    Sample 578/1200 | W=494.3nm, H=245.7nm, Hw=1780.1nm, Gap=1277.2nm, P=31.85mW
+  |-- Saved | dneff=4.446175e-03 | T_wg=322.78K | T_max=346.29K | 7.88s
+[RUN]    Sample 579/1200 | W=451.3nm, H=256.7nm, Hw=1063.4nm, Gap=658.8nm, P=56.43mW
+  |-- Saved | dneff=7.969071e-03 | T_wg=340.47K | T_max=382.00K | 7.94s
+[RUN]    Sample 580/1200 | W=518.8nm, H=255.5nm, Hw=1996.8nm, Gap=1326.3nm, P=30.56mW
+  |-- Saved | dneff=4.274941e-03 | T_wg=321.92K | T_max=344.41K | 7.86s
+[RUN]    Sample 581/1200 | W=594.9nm, H=235.2nm, Hw=1445.9nm, Gap=933.0nm, P=12.09mW
+  |-- Saved | dneff=1.654017e-03 | T_wg=308.64K | T_max=317.57K | 7.93s
+[RUN]    Sample 582/1200 | W=437.7nm, H=255.8nm, Hw=1397.9nm, Gap=1416.8nm, P=22.39mW
+  |-- Saved | dneff=3.158779e-03 | T_wg=316.06K | T_max=332.54K | 7.92s
+[RUN]    Sample 583/1200 | W=446.2nm, H=245.6nm, Hw=1377.5nm, Gap=835.0nm, P=56.04mW
+  |-- Saved | dneff=7.860414e-03 | T_wg=340.08K | T_max=381.44K | 7.88s
+[RUN]    Sample 584/1200 | W=511.8nm, H=222.4nm, Hw=1329.1nm, Gap=974.2nm, P=44.52mW
+  |-- Saved | dneff=6.112210e-03 | T_wg=331.85K | T_max=364.70K | 7.93s
+[RUN]    Sample 585/1200 | W=557.7nm, H=231.8nm, Hw=1638.8nm, Gap=1466.5nm, P=41.98mW
+  |-- Saved | dneff=5.765321e-03 | T_wg=330.03K | T_max=361.02K | 7.89s
+[RUN]    Sample 586/1200 | W=480.2nm, H=214.4nm, Hw=998.4nm, Gap=1074.5nm, P=48.33mW
+  |-- Saved | dneff=6.605187e-03 | T_wg=334.56K | T_max=370.23K | 7.86s
+[RUN]    Sample 587/1200 | W=588.2nm, H=231.7nm, Hw=1007.4nm, Gap=725.3nm, P=59.83mW
+  |-- Saved | dneff=8.182727e-03 | T_wg=342.79K | T_max=386.96K | 7.92s
+[RUN]    Sample 588/1200 | W=441.9nm, H=221.2nm, Hw=1185.9nm, Gap=982.3nm, P=38.14mW
+  |-- Saved | dneff=5.230821e-03 | T_wg=327.28K | T_max=355.43K | 7.88s
+[RUN]    Sample 589/1200 | W=545.3nm, H=226.1nm, Hw=861.2nm, Gap=705.6nm, P=31.11mW
+  |-- Saved | dneff=4.261011e-03 | T_wg=322.25K | T_max=345.22K | 7.90s
+[RUN]    Sample 590/1200 | W=476.9nm, H=217.7nm, Hw=1636.2nm, Gap=837.0nm, P=36.03mW
+  |-- Saved | dneff=4.942497e-03 | T_wg=325.77K | T_max=352.37K | 7.93s
+[RUN]    Sample 591/1200 | W=551.5nm, H=231.6nm, Hw=1717.9nm, Gap=1005.1nm, P=9.01mW
+  |-- Saved | dneff=1.237530e-03 | T_wg=306.44K | T_max=313.09K | 7.85s
+[RUN]    Sample 592/1200 | W=406.3nm, H=226.4nm, Hw=1505.0nm, Gap=864.6nm, P=46.57mW
+  |-- Saved | dneff=6.394367e-03 | T_wg=333.32K | T_max=367.69K | 8.02s
+[RUN]    Sample 593/1200 | W=515.5nm, H=259.3nm, Hw=1171.9nm, Gap=996.3nm, P=17.96mW
+  |-- Saved | dneff=2.518175e-03 | T_wg=312.88K | T_max=326.10K | 7.87s
+[RUN]    Sample 594/1200 | W=536.1nm, H=252.3nm, Hw=1968.7nm, Gap=982.8nm, P=31.02mW
+  |-- Saved | dneff=4.320244e-03 | T_wg=322.19K | T_max=345.09K | 7.93s
+[RUN]    Sample 595/1200 | W=507.4nm, H=247.8nm, Hw=1166.9nm, Gap=790.6nm, P=9.79mW
+  |-- Saved | dneff=1.367203e-03 | T_wg=307.00K | T_max=314.23K | 7.89s
+[RUN]    Sample 596/1200 | W=556.9nm, H=224.4nm, Hw=1167.3nm, Gap=910.0nm, P=5.19mW
+  |-- Saved | dneff=7.093620e-04 | T_wg=303.71K | T_max=307.54K | 7.87s
+[RUN]    Sample 597/1200 | W=438.2nm, H=203.6nm, Hw=856.9nm, Gap=1306.0nm, P=12.97mW
+  |-- Saved | dneff=1.737091e-03 | T_wg=309.28K | T_max=318.85K | 7.92s
+[RUN]    Sample 598/1200 | W=414.1nm, H=248.7nm, Hw=1265.5nm, Gap=689.1nm, P=31.23mW
+  |-- Saved | dneff=4.395547e-03 | T_wg=322.34K | T_max=345.39K | 7.87s
+[RUN]    Sample 599/1200 | W=442.5nm, H=217.4nm, Hw=1039.7nm, Gap=814.1nm, P=26.75mW
+  |-- Saved | dneff=3.653874e-03 | T_wg=319.13K | T_max=338.87K | 7.86s
+[RUN]    Sample 600/1200 | W=449.4nm, H=255.2nm, Hw=1950.8nm, Gap=901.5nm, P=35.02mW
+  |-- Saved | dneff=4.941358e-03 | T_wg=325.12K | T_max=350.89K | 7.93s
+[RUN]    Sample 601/1200 | W=484.2nm, H=229.2nm, Hw=1828.8nm, Gap=754.7nm, P=33.96mW
+  |-- Saved | dneff=4.695498e-03 | T_wg=324.29K | T_max=349.36K | 7.87s
+[RUN]    Sample 602/1200 | W=478.2nm, H=233.9nm, Hw=1928.9nm, Gap=1267.4nm, P=59.14mW
+  |-- Saved | dneff=8.222262e-03 | T_wg=342.30K | T_max=385.95K | 7.98s
+[RUN]    Sample 603/1200 | W=579.1nm, H=254.3nm, Hw=1806.2nm, Gap=1267.7nm, P=30.52mW
+  |-- Saved | dneff=4.227831e-03 | T_wg=321.89K | T_max=344.35K | 8.03s
+[RUN]    Sample 604/1200 | W=431.0nm, H=200.5nm, Hw=1890.9nm, Gap=857.8nm, P=23.74mW
+  |-- Saved | dneff=3.158913e-03 | T_wg=316.97K | T_max=334.49K | 8.04s
+[RUN]    Sample 605/1200 | W=419.3nm, H=211.4nm, Hw=1586.5nm, Gap=1096.8nm, P=31.48mW
+  |-- Saved | dneff=4.254511e-03 | T_wg=322.51K | T_max=345.75K | 8.00s
+[RUN]    Sample 606/1200 | W=525.1nm, H=249.6nm, Hw=1505.1nm, Gap=731.5nm, P=35.97mW
+  |-- Saved | dneff=5.018932e-03 | T_wg=325.73K | T_max=352.27K | 7.99s
+[RUN]    Sample 607/1200 | W=427.4nm, H=208.4nm, Hw=1514.7nm, Gap=781.3nm, P=24.53mW
+  |-- Saved | dneff=3.307083e-03 | T_wg=317.54K | T_max=335.64K | 8.06s
+[RUN]    Sample 608/1200 | W=533.2nm, H=209.4nm, Hw=1259.0nm, Gap=627.6nm, P=45.58mW
+  |-- Saved | dneff=6.169483e-03 | T_wg=332.59K | T_max=366.24K | 8.02s
+[RUN]    Sample 609/1200 | W=491.8nm, H=240.4nm, Hw=1494.2nm, Gap=746.7nm, P=21.79mW
+  |-- Saved | dneff=3.031349e-03 | T_wg=315.58K | T_max=331.66K | 8.03s
+[RUN]    Sample 610/1200 | W=480.3nm, H=244.3nm, Hw=827.4nm, Gap=1258.6nm, P=11.27mW
+  |-- Saved | dneff=1.575366e-03 | T_wg=308.06K | T_max=316.38K | 8.00s
+[RUN]    Sample 611/1200 | W=437.4nm, H=254.0nm, Hw=968.4nm, Gap=1019.4nm, P=7.49mW
+  |-- Saved | dneff=1.055860e-03 | T_wg=305.37K | T_max=310.89K | 8.04s
+[RUN]    Sample 612/1200 | W=488.9nm, H=200.7nm, Hw=1147.8nm, Gap=1127.1nm, P=22.86mW
+  |-- Saved | dneff=3.067253e-03 | T_wg=316.35K | T_max=333.23K | 8.02s
+[RUN]    Sample 613/1200 | W=442.7nm, H=244.1nm, Hw=916.8nm, Gap=1403.3nm, P=32.90mW
+  |-- Saved | dneff=4.605048e-03 | T_wg=323.53K | T_max=347.81K | 7.99s
+[RUN]    Sample 614/1200 | W=573.9nm, H=229.9nm, Hw=1301.8nm, Gap=888.2nm, P=18.00mW
+  |-- Saved | dneff=2.463653e-03 | T_wg=312.87K | T_max=326.15K | 8.02s
+[RUN]    Sample 615/1200 | W=448.8nm, H=229.0nm, Hw=1217.2nm, Gap=865.7nm, P=37.50mW
+  |-- Saved | dneff=5.192178e-03 | T_wg=326.83K | T_max=354.50K | 8.03s
+[RUN]    Sample 616/1200 | W=468.5nm, H=237.4nm, Hw=1406.4nm, Gap=651.3nm, P=45.78mW
+  |-- Saved | dneff=6.387766e-03 | T_wg=332.75K | T_max=366.53K | 8.02s
+[RUN]    Sample 617/1200 | W=440.0nm, H=200.2nm, Hw=990.3nm, Gap=980.4nm, P=9.37mW
+  |-- Saved | dneff=1.246902e-03 | T_wg=306.70K | T_max=313.61K | 8.05s
+[RUN]    Sample 618/1200 | W=560.9nm, H=218.8nm, Hw=1768.5nm, Gap=943.8nm, P=15.18mW
+  |-- Saved | dneff=2.064262e-03 | T_wg=310.85K | T_max=322.06K | 7.99s
+[RUN]    Sample 619/1200 | W=400.4nm, H=249.5nm, Hw=1641.1nm, Gap=634.5nm, P=16.94mW
+  |-- Saved | dneff=2.377933e-03 | T_wg=312.12K | T_max=324.62K | 8.02s
+[RUN]    Sample 620/1200 | W=559.3nm, H=242.6nm, Hw=1025.6nm, Gap=1310.1nm, P=27.13mW
+  |-- Saved | dneff=3.746978e-03 | T_wg=319.40K | T_max=339.43K | 8.01s
+[RUN]    Sample 621/1200 | W=473.5nm, H=256.7nm, Hw=1098.0nm, Gap=839.4nm, P=18.03mW
+  |-- Saved | dneff=2.542577e-03 | T_wg=312.94K | T_max=326.21K | 8.00s
+[RUN]    Sample 622/1200 | W=416.6nm, H=204.1nm, Hw=1483.4nm, Gap=1257.6nm, P=24.48mW
+  |-- Saved | dneff=3.263990e-03 | T_wg=317.51K | T_max=335.58K | 8.12s
+[RUN]    Sample 623/1200 | W=593.6nm, H=240.2nm, Hw=831.3nm, Gap=924.3nm, P=35.78mW
+  |-- Saved | dneff=4.908472e-03 | T_wg=325.59K | T_max=352.00K | 8.04s
+[RUN]    Sample 624/1200 | W=448.4nm, H=244.5nm, Hw=1644.3nm, Gap=963.5nm, P=9.75mW
+  |-- Saved | dneff=1.366899e-03 | T_wg=306.98K | T_max=314.18K | 8.01s
+[RUN]    Sample 625/1200 | W=528.5nm, H=205.3nm, Hw=1066.7nm, Gap=1467.4nm, P=32.22mW
+  |-- Saved | dneff=4.348077e-03 | T_wg=323.04K | T_max=346.82K | 8.03s
+[RUN]    Sample 626/1200 | W=572.6nm, H=225.6nm, Hw=1818.9nm, Gap=1339.0nm, P=54.55mW
+  |-- Saved | dneff=7.452810e-03 | T_wg=339.01K | T_max=379.28K | 7.99s
+[RUN]    Sample 627/1200 | W=401.6nm, H=228.9nm, Hw=1901.9nm, Gap=984.0nm, P=49.20mW
+  |-- Saved | dneff=6.758243e-03 | T_wg=335.19K | T_max=371.50K | 7.98s
+[RUN]    Sample 628/1200 | W=575.0nm, H=216.9nm, Hw=1971.9nm, Gap=914.4nm, P=12.32mW
+  |-- Saved | dneff=1.670909e-03 | T_wg=308.80K | T_max=317.90K | 8.01s
+[RUN]    Sample 629/1200 | W=421.8nm, H=214.4nm, Hw=920.0nm, Gap=1278.0nm, P=45.30mW
+  |-- Saved | dneff=6.157546e-03 | T_wg=332.39K | T_max=365.83K | 8.00s
+[RUN]    Sample 630/1200 | W=404.6nm, H=242.8nm, Hw=1845.3nm, Gap=626.4nm, P=16.50mW
+  |-- Saved | dneff=2.300847e-03 | T_wg=311.80K | T_max=323.97K | 8.03s
+[RUN]    Sample 631/1200 | W=405.8nm, H=207.0nm, Hw=1535.6nm, Gap=1243.4nm, P=53.90mW
+  |-- Saved | dneff=7.181070e-03 | T_wg=338.54K | T_max=378.33K | 8.01s
+[RUN]    Sample 632/1200 | W=470.4nm, H=230.7nm, Hw=919.9nm, Gap=882.8nm, P=34.59mW
+  |-- Saved | dneff=4.800064e-03 | T_wg=324.75K | T_max=350.28K | 8.02s
+[RUN]    Sample 633/1200 | W=586.2nm, H=222.1nm, Hw=1288.9nm, Gap=1275.2nm, P=14.37mW
+  |-- Saved | dneff=1.953082e-03 | T_wg=310.28K | T_max=320.88K | 8.04s
+[RUN]    Sample 634/1200 | W=426.6nm, H=213.3nm, Hw=1646.8nm, Gap=662.9nm, P=22.48mW
+  |-- Saved | dneff=3.054701e-03 | T_wg=316.08K | T_max=332.67K | 7.96s
+[RUN]    Sample 635/1200 | W=494.0nm, H=256.2nm, Hw=1558.3nm, Gap=1030.5nm, P=55.02mW
+  |-- Saved | dneff=7.719892e-03 | T_wg=339.46K | T_max=379.96K | 8.01s
+[RUN]    Sample 636/1200 | W=522.5nm, H=257.3nm, Hw=925.6nm, Gap=1384.5nm, P=53.47mW
+  |-- Saved | dneff=7.484080e-03 | T_wg=338.35K | T_max=377.71K | 8.00s
+[RUN]    Sample 637/1200 | W=422.0nm, H=253.4nm, Hw=1634.5nm, Gap=824.9nm, P=10.59mW
+  |-- Saved | dneff=1.495503e-03 | T_wg=307.60K | T_max=315.39K | 8.13s
+[RUN]    Sample 638/1200 | W=433.0nm, H=241.0nm, Hw=800.1nm, Gap=937.4nm, P=20.98mW
+  |-- Saved | dneff=2.932230e-03 | T_wg=315.01K | T_max=330.49K | 8.01s
+[RUN]    Sample 639/1200 | W=585.0nm, H=234.3nm, Hw=1816.4nm, Gap=1210.0nm, P=48.37mW
+  |-- Saved | dneff=6.632046e-03 | T_wg=334.60K | T_max=370.30K | 8.01s
+[RUN]    Sample 640/1200 | W=527.3nm, H=217.8nm, Hw=1830.9nm, Gap=832.4nm, P=48.54mW
+  |-- Saved | dneff=6.630781e-03 | T_wg=334.71K | T_max=370.55K | 7.99s
+[RUN]    Sample 641/1200 | W=526.4nm, H=231.7nm, Hw=870.1nm, Gap=1063.0nm, P=42.45mW
+  |-- Saved | dneff=5.857910e-03 | T_wg=330.36K | T_max=361.69K | 8.01s
+[RUN]    Sample 642/1200 | W=437.6nm, H=203.6nm, Hw=1671.9nm, Gap=1262.9nm, P=41.85mW
+  |-- Saved | dneff=5.608093e-03 | T_wg=329.92K | T_max=360.82K | 7.99s
+[RUN]    Sample 643/1200 | W=597.8nm, H=247.4nm, Hw=1545.2nm, Gap=610.8nm, P=50.05mW
+  |-- Saved | dneff=6.888704e-03 | T_wg=335.79K | T_max=372.74K | 7.99s
+[RUN]    Sample 644/1200 | W=582.4nm, H=246.9nm, Hw=1776.0nm, Gap=1119.5nm, P=48.71mW
+  |-- Saved | dneff=6.728198e-03 | T_wg=334.84K | T_max=370.79K | 8.01s
+[RUN]    Sample 645/1200 | W=529.0nm, H=217.0nm, Hw=1273.2nm, Gap=1491.2nm, P=37.72mW
+  |-- Saved | dneff=5.147184e-03 | T_wg=326.97K | T_max=354.82K | 7.97s
+[RUN]    Sample 646/1200 | W=520.0nm, H=213.2nm, Hw=1822.8nm, Gap=1345.0nm, P=26.93mW
+  |-- Saved | dneff=3.666587e-03 | T_wg=319.26K | T_max=339.14K | 8.03s
+[RUN]    Sample 647/1200 | W=468.4nm, H=251.0nm, Hw=972.5nm, Gap=673.4nm, P=14.43mW
+  |-- Saved | dneff=2.030964e-03 | T_wg=310.32K | T_max=320.98K | 7.98s
+[RUN]    Sample 648/1200 | W=537.5nm, H=218.7nm, Hw=1663.7nm, Gap=607.2nm, P=48.85mW
+  |-- Saved | dneff=6.660949e-03 | T_wg=334.93K | T_max=370.99K | 7.99s
+[RUN]    Sample 649/1200 | W=425.7nm, H=255.6nm, Hw=1786.1nm, Gap=819.5nm, P=15.17mW
+  |-- Saved | dneff=2.145089e-03 | T_wg=310.88K | T_max=322.05K | 7.95s
+[RUN]    Sample 650/1200 | W=471.1nm, H=248.6nm, Hw=1588.2nm, Gap=820.6nm, P=7.18mW
+  |-- Saved | dneff=1.008841e-03 | T_wg=305.13K | T_max=310.43K | 8.01s
+[RUN]    Sample 651/1200 | W=475.8nm, H=210.8nm, Hw=864.7nm, Gap=1068.4nm, P=16.82mW
+  |-- Saved | dneff=2.289947e-03 | T_wg=312.03K | T_max=324.45K | 8.03s
+[RUN]    Sample 652/1200 | W=483.7nm, H=218.2nm, Hw=1801.7nm, Gap=606.3nm, P=40.06mW
+  |-- Saved | dneff=5.489165e-03 | T_wg=328.65K | T_max=358.22K | 8.07s
+[RUN]    Sample 653/1200 | W=599.3nm, H=234.9nm, Hw=812.9nm, Gap=785.6nm, P=52.93mW
+  |-- Saved | dneff=7.235389e-03 | T_wg=337.85K | T_max=376.92K | 8.00s
+[RUN]    Sample 654/1200 | W=419.5nm, H=236.6nm, Hw=1284.2nm, Gap=1149.0nm, P=51.51mW
+  |-- Saved | dneff=7.183114e-03 | T_wg=336.85K | T_max=374.87K | 7.99s
+[RUN]    Sample 655/1200 | W=589.3nm, H=219.4nm, Hw=1459.4nm, Gap=1312.0nm, P=7.86mW
+  |-- Saved | dneff=1.064738e-03 | T_wg=305.62K | T_max=311.42K | 7.99s
+[RUN]    Sample 656/1200 | W=417.9nm, H=215.5nm, Hw=1519.5nm, Gap=1007.0nm, P=54.13mW
+  |-- Saved | dneff=7.362663e-03 | T_wg=338.71K | T_max=378.67K | 7.97s
+[RUN]    Sample 657/1200 | W=422.2nm, H=259.5nm, Hw=1324.7nm, Gap=815.2nm, P=12.92mW
+  |-- Saved | dneff=1.831790e-03 | T_wg=309.27K | T_max=318.78K | 7.98s
+[RUN]    Sample 658/1200 | W=517.1nm, H=209.3nm, Hw=949.6nm, Gap=1460.9nm, P=57.41mW
+  |-- Saved | dneff=7.787567e-03 | T_wg=341.05K | T_max=383.44K | 8.00s
+[RUN]    Sample 659/1200 | W=542.1nm, H=251.5nm, Hw=1874.4nm, Gap=917.6nm, P=22.62mW
+  |-- Saved | dneff=3.145073e-03 | T_wg=316.18K | T_max=332.88K | 7.99s
+[RUN]    Sample 660/1200 | W=578.3nm, H=234.6nm, Hw=1231.5nm, Gap=1200.4nm, P=29.75mW
+  |-- Saved | dneff=4.083778e-03 | T_wg=321.28K | T_max=343.23K | 7.99s
+[RUN]    Sample 661/1200 | W=496.2nm, H=208.5nm, Hw=1154.7nm, Gap=804.0nm, P=39.53mW
+  |-- Saved | dneff=5.355328e-03 | T_wg=328.26K | T_max=357.44K | 7.99s
+[RUN]    Sample 662/1200 | W=408.2nm, H=217.6nm, Hw=1405.0nm, Gap=1218.3nm, P=22.69mW
+  |-- Saved | dneff=3.078573e-03 | T_wg=316.23K | T_max=332.97K | 7.97s
+[RUN]    Sample 663/1200 | W=412.7nm, H=252.9nm, Hw=1431.5nm, Gap=776.5nm, P=51.83mW
+  |-- Saved | dneff=7.312068e-03 | T_wg=337.07K | T_max=375.32K | 7.96s
+[RUN]    Sample 664/1200 | W=427.7nm, H=203.9nm, Hw=1794.9nm, Gap=765.7nm, P=39.64mW
+  |-- Saved | dneff=5.310826e-03 | T_wg=328.34K | T_max=357.60K | 7.99s
+[RUN]    Sample 665/1200 | W=499.5nm, H=215.4nm, Hw=930.3nm, Gap=620.4nm, P=33.39mW
+  |-- Saved | dneff=4.560490e-03 | T_wg=323.88K | T_max=348.53K | 7.96s
+[RUN]    Sample 666/1200 | W=532.5nm, H=226.9nm, Hw=1453.2nm, Gap=1110.4nm, P=33.18mW
+  |-- Saved | dneff=4.556877e-03 | T_wg=323.73K | T_max=348.22K | 8.01s
+[RUN]    Sample 667/1200 | W=596.7nm, H=240.1nm, Hw=1858.0nm, Gap=1034.1nm, P=38.21mW
+  |-- Saved | dneff=5.239487e-03 | T_wg=327.33K | T_max=355.54K | 8.10s
+[RUN]    Sample 668/1200 | W=405.4nm, H=228.5nm, Hw=1541.1nm, Gap=700.3nm, P=46.78mW
+  |-- Saved | dneff=6.433967e-03 | T_wg=333.46K | T_max=367.98K | 7.96s
+[RUN]    Sample 669/1200 | W=579.6nm, H=242.6nm, Hw=886.8nm, Gap=1163.2nm, P=23.13mW
+  |-- Saved | dneff=3.186253e-03 | T_wg=316.54K | T_max=333.61K | 8.02s
+[RUN]    Sample 670/1200 | W=497.9nm, H=216.8nm, Hw=1421.4nm, Gap=1281.2nm, P=18.46mW
+  |-- Saved | dneff=2.522467e-03 | T_wg=313.20K | T_max=326.82K | 7.98s
+[RUN]    Sample 671/1200 | W=561.7nm, H=231.2nm, Hw=1027.0nm, Gap=1154.0nm, P=53.56mW
+  |-- Saved | dneff=7.349369e-03 | T_wg=338.31K | T_max=377.84K | 8.00s
+[RUN]    Sample 672/1200 | W=584.4nm, H=230.2nm, Hw=1537.5nm, Gap=1312.7nm, P=15.56mW
+  |-- Saved | dneff=2.126877e-03 | T_wg=311.13K | T_max=322.61K | 7.96s
+[RUN]    Sample 673/1200 | W=546.8nm, H=201.4nm, Hw=1969.4nm, Gap=1157.6nm, P=23.32mW
+  |-- Saved | dneff=3.122511e-03 | T_wg=316.67K | T_max=333.89K | 7.97s
+[RUN]    Sample 674/1200 | W=535.3nm, H=237.9nm, Hw=1974.4nm, Gap=1278.6nm, P=9.70mW
+  |-- Saved | dneff=1.340728e-03 | T_wg=306.94K | T_max=314.10K | 7.94s
+[RUN]    Sample 675/1200 | W=555.2nm, H=243.0nm, Hw=1440.1nm, Gap=1232.1nm, P=50.21mW
+  |-- Saved | dneff=6.940876e-03 | T_wg=335.91K | T_max=372.98K | 7.96s
+[RUN]    Sample 676/1200 | W=403.9nm, H=237.7nm, Hw=1862.1nm, Gap=1459.9nm, P=20.77mW
+  |-- Saved | dneff=2.883340e-03 | T_wg=314.86K | T_max=330.18K | 7.97s
+[RUN]    Sample 677/1200 | W=447.5nm, H=214.8nm, Hw=1426.1nm, Gap=977.6nm, P=17.04mW
+  |-- Saved | dneff=2.325002e-03 | T_wg=312.19K | T_max=324.77K | 7.92s
+[RUN]    Sample 678/1200 | W=563.4nm, H=204.2nm, Hw=840.1nm, Gap=1280.7nm, P=23.28mW
+  |-- Saved | dneff=3.125575e-03 | T_wg=316.64K | T_max=333.83K | 8.00s
+[RUN]    Sample 679/1200 | W=413.1nm, H=230.0nm, Hw=1382.0nm, Gap=741.7nm, P=52.13mW
+  |-- Saved | dneff=7.204302e-03 | T_wg=337.29K | T_max=375.76K | 7.97s
+[RUN]    Sample 680/1200 | W=520.8nm, H=249.9nm, Hw=1604.9nm, Gap=637.7nm, P=29.12mW
+  |-- Saved | dneff=4.066971e-03 | T_wg=320.83K | T_max=342.33K | 7.95s
+[RUN]    Sample 681/1200 | W=404.5nm, H=248.3nm, Hw=1730.5nm, Gap=1164.8nm, P=57.07mW
+  |-- Saved | dneff=8.014028e-03 | T_wg=340.82K | T_max=382.94K | 7.96s
+[RUN]    Sample 682/1200 | W=497.4nm, H=210.0nm, Hw=1861.7nm, Gap=1052.6nm, P=31.44mW
+  |-- Saved | dneff=4.266463e-03 | T_wg=322.48K | T_max=345.69K | 8.06s
+[RUN]    Sample 683/1200 | W=507.7nm, H=223.5nm, Hw=1836.5nm, Gap=1452.0nm, P=46.05mW
+  |-- Saved | dneff=6.331549e-03 | T_wg=332.94K | T_max=366.93K | 7.98s
+[RUN]    Sample 684/1200 | W=421.6nm, H=222.8nm, Hw=1155.2nm, Gap=1110.0nm, P=12.98mW
+  |-- Saved | dneff=1.782536e-03 | T_wg=309.29K | T_max=318.87K | 7.95s
+[RUN]    Sample 685/1200 | W=440.2nm, H=221.2nm, Hw=1042.3nm, Gap=874.9nm, P=54.45mW
+  |-- Saved | dneff=7.470865e-03 | T_wg=338.95K | T_max=379.13K | 7.98s
+[RUN]    Sample 686/1200 | W=544.9nm, H=235.1nm, Hw=854.1nm, Gap=881.3nm, P=6.34mW
+  |-- Saved | dneff=8.731520e-04 | T_wg=304.53K | T_max=309.21K | 7.95s
+[RUN]    Sample 687/1200 | W=548.4nm, H=206.7nm, Hw=826.0nm, Gap=1458.6nm, P=33.60mW
+  |-- Saved | dneff=4.525244e-03 | T_wg=324.02K | T_max=348.83K | 8.00s
+[RUN]    Sample 688/1200 | W=480.9nm, H=214.6nm, Hw=1726.7nm, Gap=911.2nm, P=39.81mW
+  |-- Saved | dneff=5.440061e-03 | T_wg=328.46K | T_max=357.85K | 7.94s
+[RUN]    Sample 689/1200 | W=461.0nm, H=257.0nm, Hw=1859.0nm, Gap=644.0nm, P=50.79mW
+  |-- Saved | dneff=7.171643e-03 | T_wg=336.43K | T_max=373.82K | 7.93s
+[RUN]    Sample 690/1200 | W=591.1nm, H=244.5nm, Hw=1225.2nm, Gap=1141.3nm, P=43.19mW
+  |-- Saved | dneff=5.941484e-03 | T_wg=330.89K | T_max=362.77K | 7.98s
+[RUN]    Sample 691/1200 | W=453.9nm, H=229.8nm, Hw=1956.0nm, Gap=1077.7nm, P=11.28mW
+  |-- Saved | dneff=1.563212e-03 | T_wg=308.07K | T_max=316.39K | 7.92s
+[RUN]    Sample 692/1200 | W=567.0nm, H=210.9nm, Hw=1069.1nm, Gap=921.7nm, P=28.11mW
+  |-- Saved | dneff=3.796036e-03 | T_wg=320.10K | T_max=340.85K | 7.94s
+[RUN]    Sample 693/1200 | W=422.8nm, H=241.9nm, Hw=1963.0nm, Gap=1296.5nm, P=31.27mW
+  |-- Saved | dneff=4.379051e-03 | T_wg=322.37K | T_max=345.45K | 7.94s
+[RUN]    Sample 694/1200 | W=598.2nm, H=202.4nm, Hw=1277.7nm, Gap=1477.3nm, P=11.51mW
+  |-- Saved | dneff=1.534437e-03 | T_wg=308.23K | T_max=316.73K | 7.98s
+[RUN]    Sample 695/1200 | W=599.8nm, H=217.5nm, Hw=1705.4nm, Gap=926.7nm, P=24.68mW
+  |-- Saved | dneff=3.334471e-03 | T_wg=317.65K | T_max=335.87K | 7.92s
+[RUN]    Sample 696/1200 | W=508.8nm, H=243.5nm, Hw=1765.1nm, Gap=939.1nm, P=13.50mW
+  |-- Saved | dneff=1.879695e-03 | T_wg=309.66K | T_max=319.62K | 7.96s
+[RUN]    Sample 697/1200 | W=468.3nm, H=235.0nm, Hw=1868.2nm, Gap=1497.3nm, P=10.19mW
+  |-- Saved | dneff=1.419461e-03 | T_wg=307.29K | T_max=314.81K | 8.06s
+[RUN]    Sample 698/1200 | W=544.7nm, H=204.5nm, Hw=891.3nm, Gap=1130.1nm, P=12.49mW
+  |-- Saved | dneff=1.679616e-03 | T_wg=308.93K | T_max=318.16K | 7.96s
+[RUN]    Sample 699/1200 | W=538.9nm, H=208.3nm, Hw=1615.1nm, Gap=968.5nm, P=5.64mW
+  |-- Saved | dneff=7.607097e-04 | T_wg=304.03K | T_max=308.19K | 7.95s
+[RUN]    Sample 700/1200 | W=426.9nm, H=227.4nm, Hw=1760.2nm, Gap=716.0nm, P=18.16mW
+  |-- Saved | dneff=2.509743e-03 | T_wg=312.99K | T_max=326.39K | 7.93s
+[RUN]    Sample 701/1200 | W=532.3nm, H=216.7nm, Hw=1544.0nm, Gap=1082.5nm, P=29.53mW
+  |-- Saved | dneff=4.025665e-03 | T_wg=321.12K | T_max=342.92K | 7.96s
+[RUN]    Sample 702/1200 | W=450.7nm, H=238.4nm, Hw=1448.2nm, Gap=988.7nm, P=53.16mW
+  |-- Saved | dneff=7.422847e-03 | T_wg=338.02K | T_max=377.26K | 7.92s
+[RUN]    Sample 703/1200 | W=538.0nm, H=247.8nm, Hw=848.0nm, Gap=1452.0nm, P=20.63mW
+  |-- Saved | dneff=2.866699e-03 | T_wg=314.76K | T_max=329.99K | 7.96s
+[RUN]    Sample 704/1200 | W=578.7nm, H=245.3nm, Hw=1555.8nm, Gap=886.1nm, P=45.89mW
+  |-- Saved | dneff=6.334369e-03 | T_wg=332.82K | T_max=366.70K | 7.94s
+[RUN]    Sample 705/1200 | W=428.9nm, H=252.4nm, Hw=1455.9nm, Gap=1335.5nm, P=20.38mW
+  |-- Saved | dneff=2.874641e-03 | T_wg=314.58K | T_max=329.61K | 7.95s
+[RUN]    Sample 706/1200 | W=451.6nm, H=215.0nm, Hw=1135.8nm, Gap=1287.9nm, P=9.29mW
+  |-- Saved | dneff=1.268479e-03 | T_wg=306.64K | T_max=313.50K | 7.93s
+[RUN]    Sample 707/1200 | W=460.3nm, H=242.1nm, Hw=1472.5nm, Gap=603.6nm, P=22.89mW
+  |-- Saved | dneff=3.202013e-03 | T_wg=316.37K | T_max=333.26K | 7.90s
+[RUN]    Sample 708/1200 | W=411.2nm, H=202.7nm, Hw=1470.4nm, Gap=788.1nm, P=48.07mW
+  |-- Saved | dneff=6.373446e-03 | T_wg=334.38K | T_max=369.86K | 7.94s
+[RUN]    Sample 709/1200 | W=465.0nm, H=209.7nm, Hw=1108.1nm, Gap=1204.3nm, P=35.37mW
+  |-- Saved | dneff=4.807332e-03 | T_wg=325.30K | T_max=351.41K | 7.91s
+[RUN]    Sample 710/1200 | W=513.6nm, H=229.5nm, Hw=1360.0nm, Gap=1308.7nm, P=39.02mW
+  |-- Saved | dneff=5.383373e-03 | T_wg=327.91K | T_max=356.70K | 7.95s
+[RUN]    Sample 711/1200 | W=589.7nm, H=200.8nm, Hw=1478.7nm, Gap=965.6nm, P=30.70mW
+  |-- Saved | dneff=4.092805e-03 | T_wg=321.95K | T_max=344.62K | 7.92s
+[RUN]    Sample 712/1200 | W=563.0nm, H=213.0nm, Hw=1871.1nm, Gap=844.8nm, P=30.14mW
+  |-- Saved | dneff=4.080072e-03 | T_wg=321.55K | T_max=343.80K | 8.02s
+[RUN]    Sample 713/1200 | W=458.5nm, H=209.9nm, Hw=1598.1nm, Gap=746.1nm, P=50.28mW
+  |-- Saved | dneff=6.831750e-03 | T_wg=335.96K | T_max=373.08K | 7.91s
+[RUN]    Sample 714/1200 | W=573.7nm, H=252.0nm, Hw=1010.5nm, Gap=1342.6nm, P=39.73mW
+  |-- Saved | dneff=5.504432e-03 | T_wg=328.41K | T_max=357.74K | 7.92s
+[RUN]    Sample 715/1200 | W=495.4nm, H=210.5nm, Hw=1681.7nm, Gap=1015.2nm, P=34.73mW
+  |-- Saved | dneff=4.714932e-03 | T_wg=324.83K | T_max=350.48K | 7.92s
+[RUN]    Sample 716/1200 | W=571.6nm, H=252.0nm, Hw=927.7nm, Gap=1428.9nm, P=13.57mW
+  |-- Saved | dneff=1.879836e-03 | T_wg=309.70K | T_max=319.72K | 7.96s
+[RUN]    Sample 717/1200 | W=451.4nm, H=253.8nm, Hw=1095.6nm, Gap=787.0nm, P=22.19mW
+  |-- Saved | dneff=3.128621e-03 | T_wg=315.92K | T_max=332.25K | 7.88s
+[RUN]    Sample 718/1200 | W=554.9nm, H=205.2nm, Hw=1552.5nm, Gap=1397.4nm, P=33.68mW
+  |-- Saved | dneff=4.529521e-03 | T_wg=324.08K | T_max=348.95K | 7.92s
+[RUN]    Sample 719/1200 | W=562.0nm, H=252.7nm, Hw=1701.2nm, Gap=956.2nm, P=45.65mW
+  |-- Saved | dneff=6.335256e-03 | T_wg=332.65K | T_max=366.35K | 7.91s
+[RUN]    Sample 720/1200 | W=540.2nm, H=201.5nm, Hw=1531.1nm, Gap=1469.3nm, P=51.68mW
+  |-- Saved | dneff=6.927187e-03 | T_wg=336.95K | T_max=375.11K | 7.90s
+[RUN]    Sample 721/1200 | W=423.0nm, H=201.0nm, Hw=1311.5nm, Gap=1367.8nm, P=43.14mW
+  |-- Saved | dneff=5.737868e-03 | T_wg=330.85K | T_max=362.69K | 7.93s
+[RUN]    Sample 722/1200 | W=545.8nm, H=236.6nm, Hw=1067.8nm, Gap=1358.9nm, P=58.52mW
+  |-- Saved | dneff=8.071351e-03 | T_wg=341.86K | T_max=385.05K | 7.92s
+[RUN]    Sample 723/1200 | W=504.1nm, H=256.4nm, Hw=1187.4nm, Gap=791.3nm, P=16.02mW
+  |-- Saved | dneff=2.246289e-03 | T_wg=311.49K | T_max=323.28K | 7.90s
+[RUN]    Sample 724/1200 | W=440.6nm, H=235.9nm, Hw=931.8nm, Gap=1213.3nm, P=48.63mW
+  |-- Saved | dneff=6.769970e-03 | T_wg=334.79K | T_max=370.68K | 7.94s
+[RUN]    Sample 725/1200 | W=448.9nm, H=206.6nm, Hw=1110.5nm, Gap=948.1nm, P=30.27mW
+  |-- Saved | dneff=4.086902e-03 | T_wg=321.65K | T_max=343.99K | 7.90s
+[RUN]    Sample 726/1200 | W=581.9nm, H=214.1nm, Hw=1563.3nm, Gap=742.8nm, P=11.87mW
+  |-- Saved | dneff=1.605424e-03 | T_wg=308.48K | T_max=317.25K | 7.90s
+[RUN]    Sample 727/1200 | W=590.0nm, H=228.5nm, Hw=1897.4nm, Gap=646.9nm, P=58.92mW
+  |-- Saved | dneff=8.038122e-03 | T_wg=342.14K | T_max=385.63K | 8.05s
+[RUN]    Sample 728/1200 | W=559.8nm, H=227.6nm, Hw=1856.8nm, Gap=975.1nm, P=42.15mW
+  |-- Saved | dneff=5.771239e-03 | T_wg=330.14K | T_max=361.25K | 7.88s
+[RUN]    Sample 729/1200 | W=559.1nm, H=206.3nm, Hw=1364.2nm, Gap=1150.4nm, P=35.20mW
+  |-- Saved | dneff=4.738545e-03 | T_wg=325.17K | T_max=351.16K | 7.95s
+[RUN]    Sample 730/1200 | W=576.4nm, H=256.0nm, Hw=1439.6nm, Gap=629.1nm, P=54.96mW
+  |-- Saved | dneff=7.622902e-03 | T_wg=339.42K | T_max=379.88K | 7.91s
+[RUN]    Sample 731/1200 | W=437.3nm, H=202.2nm, Hw=808.7nm, Gap=758.8nm, P=29.46mW
+  |-- Saved | dneff=3.935433e-03 | T_wg=321.07K | T_max=342.82K | 7.91s
+[RUN]    Sample 732/1200 | W=517.3nm, H=226.6nm, Hw=1096.6nm, Gap=1347.1nm, P=35.89mW
+  |-- Saved | dneff=4.941773e-03 | T_wg=325.67K | T_max=352.16K | 7.91s
+[RUN]    Sample 733/1200 | W=555.5nm, H=250.5nm, Hw=1736.1nm, Gap=1385.5nm, P=16.08mW
+  |-- Saved | dneff=2.232001e-03 | T_wg=311.50K | T_max=323.37K | 7.92s
+[RUN]    Sample 734/1200 | W=496.8nm, H=251.9nm, Hw=1647.9nm, Gap=750.5nm, P=17.12mW
+  |-- Saved | dneff=2.397325e-03 | T_wg=312.25K | T_max=324.88K | 7.87s
+[RUN]    Sample 735/1200 | W=538.6nm, H=216.1nm, Hw=1163.7nm, Gap=1065.5nm, P=10.78mW
+  |-- Saved | dneff=1.467081e-03 | T_wg=307.71K | T_max=315.67K | 7.90s
+[RUN]    Sample 736/1200 | W=572.7nm, H=231.6nm, Hw=994.4nm, Gap=1320.5nm, P=28.05mW
+  |-- Saved | dneff=3.845120e-03 | T_wg=320.06K | T_max=340.77K | 7.90s
+[RUN]    Sample 737/1200 | W=486.5nm, H=234.5nm, Hw=1979.6nm, Gap=1316.6nm, P=49.17mW
+  |-- Saved | dneff=6.826797e-03 | T_wg=335.17K | T_max=371.47K | 7.91s
+[RUN]    Sample 738/1200 | W=525.5nm, H=207.9nm, Hw=1032.0nm, Gap=752.5nm, P=24.00mW
+  |-- Saved | dneff=3.249238e-03 | T_wg=317.16K | T_max=334.88K | 7.87s
+[RUN]    Sample 739/1200 | W=541.0nm, H=235.5nm, Hw=836.9nm, Gap=1274.6nm, P=52.68mW
+  |-- Saved | dneff=7.266013e-03 | T_wg=337.68K | T_max=376.56K | 7.91s
+[RUN]    Sample 740/1200 | W=550.8nm, H=233.0nm, Hw=1890.0nm, Gap=1039.5nm, P=22.26mW
+  |-- Saved | dneff=3.061009e-03 | T_wg=315.92K | T_max=332.35K | 7.89s
+[RUN]    Sample 741/1200 | W=488.7nm, H=217.1nm, Hw=1841.4nm, Gap=889.0nm, P=52.89mW
+  |-- Saved | dneff=7.235228e-03 | T_wg=337.82K | T_max=376.87K | 7.88s
+[RUN]    Sample 742/1200 | W=507.3nm, H=226.9nm, Hw=1809.3nm, Gap=1399.2nm, P=42.64mW
+  |-- Saved | dneff=5.876325e-03 | T_wg=330.50K | T_max=361.97K | 8.00s
+[RUN]    Sample 743/1200 | W=598.7nm, H=230.5nm, Hw=1785.0nm, Gap=852.9nm, P=29.07mW
+  |-- Saved | dneff=3.962093e-03 | T_wg=320.79K | T_max=342.25K | 7.94s
+[RUN]    Sample 744/1200 | W=420.7nm, H=244.4nm, Hw=1308.2nm, Gap=1345.5nm, P=25.79mW
+  |-- Saved | dneff=3.616796e-03 | T_wg=318.45K | T_max=337.48K | 7.90s
+[RUN]    Sample 745/1200 | W=495.9nm, H=232.3nm, Hw=1711.1nm, Gap=1380.4nm, P=14.59mW
+  |-- Saved | dneff=2.018239e-03 | T_wg=310.43K | T_max=321.20K | 7.90s
+[RUN]    Sample 746/1200 | W=463.4nm, H=238.9nm, Hw=993.8nm, Gap=640.7nm, P=27.29mW
+  |-- Saved | dneff=3.809871e-03 | T_wg=319.52K | T_max=339.66K | 7.89s
+[RUN]    Sample 747/1200 | W=471.8nm, H=213.1nm, Hw=1107.4nm, Gap=1368.3nm, P=14.71mW
+  |-- Saved | dneff=2.007755e-03 | T_wg=310.52K | T_max=321.38K | 7.93s
+[RUN]    Sample 748/1200 | W=587.7nm, H=202.1nm, Hw=1727.3nm, Gap=1067.4nm, P=40.73mW
+  |-- Saved | dneff=5.440658e-03 | T_wg=329.12K | T_max=359.19K | 7.89s
+[RUN]    Sample 749/1200 | W=452.5nm, H=239.7nm, Hw=1853.1nm, Gap=800.6nm, P=24.25mW
+  |-- Saved | dneff=3.387577e-03 | T_wg=317.34K | T_max=335.24K | 7.88s
+[RUN]    Sample 750/1200 | W=591.5nm, H=221.4nm, Hw=834.1nm, Gap=1143.5nm, P=28.87mW
+  |-- Saved | dneff=3.917309e-03 | T_wg=320.65K | T_max=341.96K | 7.91s
+[RUN]    Sample 751/1200 | W=506.2nm, H=240.0nm, Hw=1240.5nm, Gap=840.9nm, P=18.59mW
+  |-- Saved | dneff=2.584226e-03 | T_wg=313.30K | T_max=327.02K | 7.88s
+[RUN]    Sample 752/1200 | W=562.8nm, H=244.8nm, Hw=1630.7nm, Gap=1226.3nm, P=36.80mW
+  |-- Saved | dneff=5.087945e-03 | T_wg=326.32K | T_max=353.48K | 8.03s
+[RUN]    Sample 753/1200 | W=435.7nm, H=212.6nm, Hw=1228.9nm, Gap=739.3nm, P=8.30mW
+  |-- Saved | dneff=1.125404e-03 | T_wg=305.93K | T_max=312.06K | 7.98s
+[RUN]    Sample 754/1200 | W=590.0nm, H=223.6nm, Hw=1606.7nm, Gap=689.5nm, P=34.26mW
+  |-- Saved | dneff=4.659569e-03 | T_wg=324.50K | T_max=349.79K | 8.01s
+[RUN]    Sample 755/1200 | W=530.0nm, H=203.5nm, Hw=1136.3nm, Gap=1152.1nm, P=28.06mW
+  |-- Saved | dneff=3.778022e-03 | T_wg=320.07K | T_max=340.79K | 8.03s
+[RUN]    Sample 756/1200 | W=411.8nm, H=219.0nm, Hw=1247.9nm, Gap=678.9nm, P=59.68mW
+  |-- Saved | dneff=8.130774e-03 | T_wg=342.68K | T_max=386.74K | 8.25s
+[RUN]    Sample 757/1200 | W=484.7nm, H=258.2nm, Hw=1116.1nm, Gap=1316.1nm, P=54.16mW
+  |-- Saved | dneff=7.620264e-03 | T_wg=338.84K | T_max=378.71K | 9.94s
+[RUN]    Sample 758/1200 | W=539.2nm, H=242.9nm, Hw=996.9nm, Gap=964.2nm, P=49.29mW
+  |-- Saved | dneff=6.824950e-03 | T_wg=335.26K | T_max=371.63K | 13.31s
+[RUN]    Sample 759/1200 | W=491.0nm, H=205.1nm, Hw=1140.0nm, Gap=1187.1nm, P=11.16mW
+  |-- Saved | dneff=1.506517e-03 | T_wg=307.98K | T_max=316.22K | 14.14s
+[RUN]    Sample 760/1200 | W=591.4nm, H=231.0nm, Hw=1697.2nm, Gap=1394.7nm, P=6.04mW
+  |-- Saved | dneff=8.250153e-04 | T_wg=304.32K | T_max=308.78K | 12.96s
+[RUN]    Sample 761/1200 | W=562.0nm, H=219.3nm, Hw=1980.7nm, Gap=950.9nm, P=51.66mW
+  |-- Saved | dneff=7.029525e-03 | T_wg=336.93K | T_max=375.08K | 9.66s
+[RUN]    Sample 762/1200 | W=511.5nm, H=228.4nm, Hw=1938.4nm, Gap=1219.5nm, P=7.90mW
+  |-- Saved | dneff=1.088811e-03 | T_wg=305.65K | T_max=311.48K | 8.03s
+[RUN]    Sample 763/1200 | W=579.4nm, H=254.6nm, Hw=1748.4nm, Gap=1425.7nm, P=48.93mW
+  |-- Saved | dneff=6.780905e-03 | T_wg=335.10K | T_max=371.12K | 8.04s
+[RUN]    Sample 764/1200 | W=545.1nm, H=244.2nm, Hw=1814.7nm, Gap=922.0nm, P=24.76mW
+  |-- Saved | dneff=3.427130e-03 | T_wg=317.71K | T_max=335.99K | 8.03s
+[RUN]    Sample 765/1200 | W=466.9nm, H=251.8nm, Hw=1769.5nm, Gap=972.0nm, P=58.18mW
+  |-- Saved | dneff=8.193435e-03 | T_wg=341.62K | T_max=384.55K | 9.35s
+[RUN]    Sample 766/1200 | W=421.9nm, H=257.2nm, Hw=977.7nm, Gap=1256.3nm, P=38.02mW
+  |-- Saved | dneff=5.382009e-03 | T_wg=327.27K | T_max=355.25K | 8.71s
+[RUN]    Sample 767/1200 | W=530.8nm, H=207.2nm, Hw=1863.6nm, Gap=1237.9nm, P=24.47mW
+  |-- Saved | dneff=3.305196e-03 | T_wg=317.49K | T_max=335.56K | 8.09s
+[RUN]    Sample 768/1200 | W=461.8nm, H=207.3nm, Hw=1909.0nm, Gap=1380.9nm, P=5.49mW
+  |-- Saved | dneff=7.435095e-04 | T_wg=303.93K | T_max=307.98K | 8.07s
+[RUN]    Sample 769/1200 | W=552.7nm, H=233.5nm, Hw=944.3nm, Gap=931.8nm, P=11.10mW
+  |-- Saved | dneff=1.526351e-03 | T_wg=307.94K | T_max=316.13K | 8.12s
+[RUN]    Sample 770/1200 | W=560.6nm, H=259.2nm, Hw=892.3nm, Gap=1235.8nm, P=35.56mW
+  |-- Saved | dneff=4.948224e-03 | T_wg=325.50K | T_max=351.68K | 8.09s
+[RUN]    Sample 771/1200 | W=459.4nm, H=229.7nm, Hw=1014.6nm, Gap=812.7nm, P=36.00mW
+  |-- Saved | dneff=4.992050e-03 | T_wg=325.75K | T_max=352.32K | 9.29s
+[RUN]    Sample 772/1200 | W=583.3nm, H=209.0nm, Hw=1703.6nm, Gap=1291.7nm, P=33.46mW
+  |-- Saved | dneff=4.504666e-03 | T_wg=323.92K | T_max=348.63K | 8.65s
+[RUN]    Sample 773/1200 | W=536.3nm, H=201.0nm, Hw=954.3nm, Gap=1003.2nm, P=35.11mW
+  |-- Saved | dneff=4.705446e-03 | T_wg=325.11K | T_max=351.03K | 7.99s
+[RUN]    Sample 774/1200 | W=480.8nm, H=203.5nm, Hw=876.7nm, Gap=682.0nm, P=42.29mW
+  |-- Saved | dneff=5.704267e-03 | T_wg=330.24K | T_max=361.46K | 7.98s
+[RUN]    Sample 775/1200 | W=524.9nm, H=219.6nm, Hw=1981.9nm, Gap=706.4nm, P=16.32mW
+  |-- Saved | dneff=2.233069e-03 | T_wg=311.67K | T_max=323.72K | 8.01s
+[RUN]    Sample 776/1200 | W=565.1nm, H=219.4nm, Hw=1493.0nm, Gap=1174.5nm, P=34.31mW
+  |-- Saved | dneff=4.668742e-03 | T_wg=324.53K | T_max=349.87K | 7.94s
+[RUN]    Sample 777/1200 | W=590.7nm, H=243.1nm, Hw=1105.3nm, Gap=659.7nm, P=40.61mW
+  |-- Saved | dneff=5.584107e-03 | T_wg=329.05K | T_max=359.02K | 8.04s
+[RUN]    Sample 778/1200 | W=443.5nm, H=231.8nm, Hw=1906.2nm, Gap=1424.3nm, P=57.70mW
+  |-- Saved | dneff=8.001141e-03 | T_wg=341.27K | T_max=383.85K | 7.96s
+[RUN]    Sample 779/1200 | W=490.5nm, H=258.6nm, Hw=1609.5nm, Gap=1131.4nm, P=23.15mW
+  |-- Saved | dneff=3.253446e-03 | T_wg=316.61K | T_max=333.65K | 7.97s
+[RUN]    Sample 780/1200 | W=451.9nm, H=219.9nm, Hw=971.6nm, Gap=1349.1nm, P=41.25mW
+  |-- Saved | dneff=5.663291e-03 | T_wg=329.50K | T_max=359.94K | 8.00s
+[RUN]    Sample 781/1200 | W=567.6nm, H=232.7nm, Hw=1420.3nm, Gap=1438.9nm, P=52.47mW
+  |-- Saved | dneff=7.201798e-03 | T_wg=337.52K | T_max=376.25K | 8.05s
+[RUN]    Sample 782/1200 | W=576.9nm, H=225.1nm, Hw=1949.1nm, Gap=801.3nm, P=43.92mW
+  |-- Saved | dneff=5.995538e-03 | T_wg=331.41K | T_max=363.83K | 7.98s
+[RUN]    Sample 783/1200 | W=575.6nm, H=224.3nm, Hw=948.1nm, Gap=1413.5nm, P=29.82mW
+  |-- Saved | dneff=4.068734e-03 | T_wg=321.33K | T_max=343.34K | 7.95s
+[RUN]    Sample 784/1200 | W=482.6nm, H=226.7nm, Hw=1669.5nm, Gap=841.8nm, P=55.12mW
+  |-- Saved | dneff=7.613471e-03 | T_wg=339.43K | T_max=380.11K | 8.00s
+[RUN]    Sample 785/1200 | W=562.6nm, H=240.9nm, Hw=1902.7nm, Gap=1128.1nm, P=38.31mW
+  |-- Saved | dneff=5.285295e-03 | T_wg=327.40K | T_max=355.68K | 10.08s
+[RUN]    Sample 786/1200 | W=535.7nm, H=220.9nm, Hw=1266.2nm, Gap=1176.6nm, P=12.25mW
+  |-- Saved | dneff=1.672668e-03 | T_wg=308.76K | T_max=317.80K | 8.06s
+[RUN]    Sample 787/1200 | W=599.6nm, H=200.8nm, Hw=936.5nm, Gap=929.2nm, P=41.69mW
+  |-- Saved | dneff=5.546638e-03 | T_wg=329.80K | T_max=360.59K | 9.38s
+[RUN]    Sample 788/1200 | W=593.3nm, H=254.9nm, Hw=912.4nm, Gap=1411.1nm, P=26.86mW
+  |-- Saved | dneff=3.709415e-03 | T_wg=319.26K | T_max=339.03K | 8.63s
+[RUN]    Sample 789/1200 | W=508.0nm, H=242.3nm, Hw=1028.8nm, Gap=1359.3nm, P=6.69mW
+  |-- Saved | dneff=9.305131e-04 | T_wg=304.78K | T_max=309.72K | 7.97s
+[RUN]    Sample 790/1200 | W=483.9nm, H=215.6nm, Hw=1416.9nm, Gap=769.6nm, P=39.59mW
+  |-- Saved | dneff=5.412381e-03 | T_wg=328.31K | T_max=357.54K | 7.97s
+[RUN]    Sample 791/1200 | W=479.6nm, H=245.5nm, Hw=1518.1nm, Gap=1048.0nm, P=23.83mW
+  |-- Saved | dneff=3.336181e-03 | T_wg=317.05K | T_max=334.64K | 8.12s
+[RUN]    Sample 792/1200 | W=525.9nm, H=211.6nm, Hw=846.1nm, Gap=1331.2nm, P=10.34mW
+  |-- Saved | dneff=1.405267e-03 | T_wg=307.40K | T_max=315.03K | 8.03s
+[RUN]    Sample 793/1200 | W=588.6nm, H=252.7nm, Hw=1913.3nm, Gap=703.3nm, P=55.36mW
+  |-- Saved | dneff=7.650060e-03 | T_wg=339.59K | T_max=380.45K | 7.99s
+[RUN]    Sample 794/1200 | W=456.0nm, H=221.5nm, Hw=1457.8nm, Gap=1341.4nm, P=46.15mW
+  |-- Saved | dneff=6.349977e-03 | T_wg=333.01K | T_max=367.07K | 8.00s
+[RUN]    Sample 795/1200 | W=447.7nm, H=211.8nm, Hw=1303.5nm, Gap=1328.9nm, P=35.93mW
+  |-- Saved | dneff=4.881397e-03 | T_wg=325.70K | T_max=352.22K | 8.06s
+[RUN]    Sample 796/1200 | W=542.0nm, H=242.2nm, Hw=1664.9nm, Gap=959.6nm, P=29.40mW
+  |-- Saved | dneff=4.066528e-03 | T_wg=321.03K | T_max=342.73K | 7.98s
+[RUN]    Sample 797/1200 | W=568.0nm, H=247.6nm, Hw=1149.4nm, Gap=1151.1nm, P=23.68mW
+  |-- Saved | dneff=3.277421e-03 | T_wg=316.94K | T_max=334.42K | 7.98s
+[RUN]    Sample 798/1200 | W=502.3nm, H=229.1nm, Hw=1789.5nm, Gap=1102.5nm, P=33.83mW
+  |-- Saved | dneff=4.670488e-03 | T_wg=324.20K | T_max=349.17K | 7.98s
+[RUN]    Sample 799/1200 | W=549.5nm, H=254.2nm, Hw=1595.9nm, Gap=862.3nm, P=30.38mW
+  |-- Saved | dneff=4.223370e-03 | T_wg=321.79K | T_max=344.15K | 8.02s
+[RUN]    Sample 800/1200 | W=400.2nm, H=227.6nm, Hw=1817.5nm, Gap=1227.5nm, P=59.99mW
+  |-- Saved | dneff=8.228574e-03 | T_wg=342.91K | T_max=387.19K | 8.02s
+[RUN]    Sample 801/1200 | W=544.5nm, H=256.3nm, Hw=1829.1nm, Gap=1201.3nm, P=28.35mW
+  |-- Saved | dneff=3.946700e-03 | T_wg=320.33K | T_max=341.20K | 7.99s
+[RUN]    Sample 802/1200 | W=565.0nm, H=245.2nm, Hw=1639.8nm, Gap=668.1nm, P=21.56mW
+  |-- Saved | dneff=2.980667e-03 | T_wg=315.42K | T_max=331.34K | 7.98s
+[RUN]    Sample 803/1200 | W=595.3nm, H=224.3nm, Hw=811.1nm, Gap=1033.5nm, P=57.50mW
+  |-- Saved | dneff=7.817190e-03 | T_wg=341.12K | T_max=383.57K | 8.01s
+[RUN]    Sample 804/1200 | W=453.1nm, H=218.6nm, Hw=1461.5nm, Gap=761.2nm, P=19.40mW
+  |-- Saved | dneff=2.660351e-03 | T_wg=313.88K | T_max=328.20K | 7.98s
+[RUN]    Sample 805/1200 | W=584.3nm, H=233.4nm, Hw=1244.7nm, Gap=1029.8nm, P=37.87mW
+  |-- Saved | dneff=5.189536e-03 | T_wg=327.09K | T_max=355.04K | 8.03s
+[RUN]    Sample 806/1200 | W=583.5nm, H=218.4nm, Hw=1465.3nm, Gap=1396.9nm, P=22.51mW
+  |-- Saved | dneff=3.054245e-03 | T_wg=316.09K | T_max=332.72K | 8.09s
+[RUN]    Sample 807/1200 | W=444.6nm, H=208.9nm, Hw=1372.4nm, Gap=901.1nm, P=55.64mW
+  |-- Saved | dneff=7.524636e-03 | T_wg=339.79K | T_max=380.86K | 7.99s
+[RUN]    Sample 808/1200 | W=506.3nm, H=233.3nm, Hw=1330.2nm, Gap=812.0nm, P=8.22mW
+  |-- Saved | dneff=1.137182e-03 | T_wg=305.88K | T_max=311.94K | 10.00s
+[RUN]    Sample 809/1200 | W=415.9nm, H=206.3nm, Hw=1058.9nm, Gap=1098.8nm, P=5.71mW
+  |-- Saved | dneff=7.638920e-04 | T_wg=304.08K | T_max=308.30K | 8.01s
+[RUN]    Sample 810/1200 | W=557.1nm, H=212.5nm, Hw=1047.7nm, Gap=1186.2nm, P=41.40mW
+  |-- Saved | dneff=5.605233e-03 | T_wg=329.60K | T_max=360.17K | 7.99s
+[RUN]    Sample 811/1200 | W=563.7nm, H=241.4nm, Hw=869.5nm, Gap=985.9nm, P=5.10mW
+  |-- Saved | dneff=7.034677e-04 | T_wg=303.65K | T_max=307.41K | 7.98s
+[RUN]    Sample 812/1200 | W=536.5nm, H=257.0nm, Hw=1022.0nm, Gap=1409.7nm, P=50.89mW
+  |-- Saved | dneff=7.097980e-03 | T_wg=336.50K | T_max=373.96K | 8.00s
+[RUN]    Sample 813/1200 | W=429.0nm, H=208.9nm, Hw=1257.8nm, Gap=887.6nm, P=24.06mW
+  |-- Saved | dneff=3.247089e-03 | T_wg=317.21K | T_max=334.97K | 10.27s
+[RUN]    Sample 814/1200 | W=597.0nm, H=242.1nm, Hw=1941.3nm, Gap=1384.6nm, P=32.95mW
+  |-- Saved | dneff=4.521262e-03 | T_wg=323.57K | T_max=347.89K | 7.74s
+[RUN]    Sample 815/1200 | W=590.4nm, H=236.9nm, Hw=1371.6nm, Gap=1205.1nm, P=25.67mW
+  |-- Saved | dneff=3.519318e-03 | T_wg=318.36K | T_max=337.31K | 8.00s
+[RUN]    Sample 816/1200 | W=535.9nm, H=250.1nm, Hw=1500.4nm, Gap=806.1nm, P=48.61mW
+  |-- Saved | dneff=6.766126e-03 | T_wg=334.77K | T_max=370.65K | 7.99s
+[RUN]    Sample 817/1200 | W=415.4nm, H=252.6nm, Hw=857.3nm, Gap=1289.8nm, P=21.02mW
+  |-- Saved | dneff=2.964739e-03 | T_wg=315.03K | T_max=330.54K | 7.95s
+[RUN]    Sample 818/1200 | W=491.3nm, H=204.1nm, Hw=1947.4nm, Gap=1262.2nm, P=19.29mW
+  |-- Saved | dneff=2.600453e-03 | T_wg=313.79K | T_max=328.04K | 8.00s
+[RUN]    Sample 819/1200 | W=489.1nm, H=229.6nm, Hw=976.2nm, Gap=1255.4nm, P=47.39mW
+  |-- Saved | dneff=6.548097e-03 | T_wg=333.89K | T_max=368.87K | 7.94s
+[RUN]    Sample 820/1200 | W=500.6nm, H=256.1nm, Hw=1216.4nm, Gap=1252.7nm, P=59.09mW
+  |-- Saved | dneff=8.290763e-03 | T_wg=342.38K | T_max=385.87K | 7.98s
+[RUN]    Sample 821/1200 | W=516.1nm, H=240.3nm, Hw=1318.4nm, Gap=748.3nm, P=7.57mW
+  |-- Saved | dneff=1.051473e-03 | T_wg=305.42K | T_max=311.00K | 7.97s
+[RUN]    Sample 822/1200 | W=499.3nm, H=251.2nm, Hw=1199.3nm, Gap=1151.3nm, P=43.57mW
+  |-- Saved | dneff=6.101288e-03 | T_wg=331.16K | T_max=363.32K | 7.96s
+[RUN]    Sample 823/1200 | W=411.9nm, H=237.1nm, Hw=1020.2nm, Gap=1437.4nm, P=33.75mW
+  |-- Saved | dneff=4.696711e-03 | T_wg=324.14K | T_max=349.05K | 8.01s
+[RUN]    Sample 824/1200 | W=469.8nm, H=229.4nm, Hw=1417.1nm, Gap=992.0nm, P=43.98mW
+  |-- Saved | dneff=6.097660e-03 | T_wg=331.46K | T_max=363.92K | 7.93s
+[RUN]    Sample 825/1200 | W=485.2nm, H=257.2nm, Hw=1373.1nm, Gap=1423.2nm, P=19.21mW
+  |-- Saved | dneff=2.700172e-03 | T_wg=313.78K | T_max=327.92K | 7.97s
+[RUN]    Sample 826/1200 | W=537.0nm, H=223.2nm, Hw=969.5nm, Gap=1071.2nm, P=56.20mW
+  |-- Saved | dneff=7.692132e-03 | T_wg=340.20K | T_max=381.68K | 7.94s
+[RUN]    Sample 827/1200 | W=454.9nm, H=247.9nm, Hw=843.6nm, Gap=1160.6nm, P=16.11mW
+  |-- Saved | dneff=2.264896e-03 | T_wg=311.53K | T_max=323.42K | 7.95s
+[RUN]    Sample 828/1200 | W=580.7nm, H=217.3nm, Hw=932.1nm, Gap=607.7nm, P=30.91mW
+  |-- Saved | dneff=4.191918e-03 | T_wg=322.09K | T_max=344.92K | 8.11s
+[RUN]    Sample 829/1200 | W=543.8nm, H=230.3nm, Hw=901.0nm, Gap=1481.0nm, P=14.74mW
+  |-- Saved | dneff=2.024049e-03 | T_wg=310.54K | T_max=321.42K | 7.98s
+[RUN]    Sample 830/1200 | W=556.6nm, H=251.4nm, Hw=1380.3nm, Gap=641.7nm, P=47.74mW
+  |-- Saved | dneff=6.628079e-03 | T_wg=334.15K | T_max=369.39K | 7.98s
+[RUN]    Sample 831/1200 | W=485.8nm, H=230.0nm, Hw=1649.6nm, Gap=1021.9nm, P=20.56mW
+  |-- Saved | dneff=2.842855e-03 | T_wg=314.70K | T_max=329.88K | 8.01s
+[RUN]    Sample 832/1200 | W=441.2nm, H=255.0nm, Hw=1159.9nm, Gap=1395.4nm, P=59.62mW
+  |-- Saved | dneff=8.408336e-03 | T_wg=342.77K | T_max=386.65K | 7.93s
+[RUN]    Sample 833/1200 | W=558.7nm, H=213.6nm, Hw=1888.1nm, Gap=818.7nm, P=30.41mW
+  |-- Saved | dneff=4.120986e-03 | T_wg=321.74K | T_max=344.19K | 8.01s
+[RUN]    Sample 834/1200 | W=473.3nm, H=253.7nm, Hw=1351.6nm, Gap=1355.6nm, P=15.89mW
+  |-- Saved | dneff=2.236984e-03 | T_wg=311.40K | T_max=323.09K | 7.93s
+[RUN]    Sample 835/1200 | W=451.7nm, H=235.6nm, Hw=1001.0nm, Gap=785.0nm, P=6.93mW
+  |-- Saved | dneff=9.663202e-04 | T_wg=304.96K | T_max=310.08K | 7.94s
+[RUN]    Sample 836/1200 | W=582.2nm, H=247.9nm, Hw=1568.0nm, Gap=1260.3nm, P=37.78mW
+  |-- Saved | dneff=5.220432e-03 | T_wg=327.02K | T_max=354.90K | 7.96s
+[RUN]    Sample 837/1200 | W=483.0nm, H=207.1nm, Hw=1050.3nm, Gap=976.1nm, P=25.12mW
+  |-- Saved | dneff=3.401145e-03 | T_wg=317.97K | T_max=336.51K | 8.13s
+[RUN]    Sample 838/1200 | W=461.5nm, H=245.4nm, Hw=1093.9nm, Gap=736.4nm, P=24.96mW
+  |-- Saved | dneff=3.500926e-03 | T_wg=317.85K | T_max=336.28K | 7.88s
+[RUN]    Sample 839/1200 | W=477.7nm, H=200.3nm, Hw=1970.4nm, Gap=831.1nm, P=35.33mW
+  |-- Saved | dneff=4.744889e-03 | T_wg=325.26K | T_max=351.34K | 7.89s
+[RUN]    Sample 840/1200 | W=559.9nm, H=254.5nm, Hw=1883.1nm, Gap=894.6nm, P=59.81mW
+  |-- Saved | dneff=8.308230e-03 | T_wg=342.90K | T_max=386.93K | 13.40s
+[RUN]    Sample 841/1200 | W=432.6nm, H=231.2nm, Hw=1610.9nm, Gap=1284.3nm, P=40.30mW
+  |-- Saved | dneff=5.586208e-03 | T_wg=328.83K | T_max=358.57K | 15.97s
+[RUN]    Sample 842/1200 | W=596.2nm, H=225.3nm, Hw=1239.9nm, Gap=1056.4nm, P=52.66mW
+  |-- Saved | dneff=7.161736e-03 | T_wg=337.66K | T_max=376.53K | 15.91s
+[RUN]    Sample 843/1200 | W=403.6nm, H=205.5nm, Hw=1180.6nm, Gap=1121.9nm, P=26.15mW
+  |-- Saved | dneff=3.467719e-03 | T_wg=318.70K | T_max=338.00K | 11.88s
+[RUN]    Sample 844/1200 | W=487.6nm, H=211.0nm, Hw=1529.9nm, Gap=1285.5nm, P=46.86mW
+  |-- Saved | dneff=6.368457e-03 | T_wg=333.51K | T_max=368.10K | 10.97s
+[RUN]    Sample 845/1200 | W=557.6nm, H=254.4nm, Hw=1997.7nm, Gap=1373.1nm, P=32.99mW
+  |-- Saved | dneff=4.583849e-03 | T_wg=323.66K | T_max=347.95K | 13.08s
+[RUN]    Sample 846/1200 | W=537.7nm, H=255.7nm, Hw=967.8nm, Gap=1240.1nm, P=39.23mW
+  |-- Saved | dneff=5.466364e-03 | T_wg=328.14K | T_max=357.01K | 13.94s
+[RUN]    Sample 847/1200 | W=485.8nm, H=234.3nm, Hw=1566.3nm, Gap=600.9nm, P=24.66mW
+  |-- Saved | dneff=3.422656e-03 | T_wg=317.64K | T_max=335.84K | 11.91s
+[RUN]    Sample 848/1200 | W=470.6nm, H=204.6nm, Hw=809.1nm, Gap=1396.1nm, P=32.56mW
+  |-- Saved | dneff=4.400480e-03 | T_wg=323.29K | T_max=347.32K | 8.56s
+[RUN]    Sample 849/1200 | W=546.9nm, H=211.6nm, Hw=1433.5nm, Gap=1075.1nm, P=33.70mW
+  |-- Saved | dneff=4.560461e-03 | T_wg=324.09K | T_max=348.98K | 7.93s
+[RUN]    Sample 850/1200 | W=452.3nm, H=202.8nm, Hw=1518.0nm, Gap=1020.6nm, P=59.73mW
+  |-- Saved | dneff=8.032006e-03 | T_wg=342.72K | T_max=386.81K | 7.96s
+[RUN]    Sample 851/1200 | W=584.6nm, H=208.7nm, Hw=1523.8nm, Gap=634.1nm, P=27.01mW
+  |-- Saved | dneff=3.633458e-03 | T_wg=319.31K | T_max=339.25K | 7.96s
+[RUN]    Sample 852/1200 | W=447.0nm, H=211.9nm, Hw=1419.5nm, Gap=825.8nm, P=19.33mW
+  |-- Saved | dneff=2.625279e-03 | T_wg=313.83K | T_max=328.10K | 7.96s
+[RUN]    Sample 853/1200 | W=424.8nm, H=224.6nm, Hw=1040.7nm, Gap=783.9nm, P=10.51mW
+  |-- Saved | dneff=1.449386e-03 | T_wg=307.52K | T_max=315.28K | 7.88s
+[RUN]    Sample 854/1200 | W=579.9nm, H=219.7nm, Hw=867.2nm, Gap=1377.2nm, P=52.49mW
+  |-- Saved | dneff=7.134095e-03 | T_wg=337.53K | T_max=376.29K | 7.91s
+[RUN]    Sample 855/1200 | W=538.7nm, H=218.6nm, Hw=902.2nm, Gap=856.6nm, P=41.47mW
+  |-- Saved | dneff=5.652840e-03 | T_wg=329.66K | T_max=360.27K | 7.90s
+[RUN]    Sample 856/1200 | W=440.5nm, H=221.9nm, Hw=1846.1nm, Gap=1379.0nm, P=17.43mW
+  |-- Saved | dneff=2.392618e-03 | T_wg=312.47K | T_max=325.34K | 7.91s
+[RUN]    Sample 857/1200 | W=570.7nm, H=216.2nm, Hw=888.4nm, Gap=1340.9nm, P=20.31mW
+  |-- Saved | dneff=2.755769e-03 | T_wg=314.52K | T_max=329.52K | 7.96s
+[RUN]    Sample 858/1200 | W=591.0nm, H=232.1nm, Hw=1662.8nm, Gap=1248.0nm, P=36.60mW
+  |-- Saved | dneff=5.001305e-03 | T_wg=326.17K | T_max=353.19K | 7.93s
+[RUN]    Sample 859/1200 | W=415.8nm, H=250.2nm, Hw=1102.9nm, Gap=1392.3nm, P=33.06mW
+  |-- Saved | dneff=4.658432e-03 | T_wg=323.65K | T_max=348.05K | 7.95s
+[RUN]    Sample 860/1200 | W=401.4nm, H=210.3nm, Hw=1926.4nm, Gap=1450.9nm, P=19.09mW
+  |-- Saved | dneff=2.547123e-03 | T_wg=313.65K | T_max=327.74K | 8.05s
+[RUN]    Sample 861/1200 | W=437.9nm, H=249.3nm, Hw=1793.0nm, Gap=737.7nm, P=28.97mW
+  |-- Saved | dneff=4.074214e-03 | T_wg=320.72K | T_max=342.10K | 7.99s
+[RUN]    Sample 862/1200 | W=409.1nm, H=229.7nm, Hw=1954.7nm, Gap=1173.0nm, P=13.73mW
+  |-- Saved | dneff=1.891992e-03 | T_wg=309.82K | T_max=319.95K | 7.98s
+[RUN]    Sample 863/1200 | W=414.6nm, H=235.8nm, Hw=1197.7nm, Gap=712.6nm, P=33.14mW
+  |-- Saved | dneff=4.611240e-03 | T_wg=323.71K | T_max=348.17K | 7.91s
+[RUN]    Sample 864/1200 | W=517.6nm, H=225.7nm, Hw=1320.2nm, Gap=624.1nm, P=41.88mW
+  |-- Saved | dneff=5.763893e-03 | T_wg=329.95K | T_max=360.86K | 8.02s
+[RUN]    Sample 865/1200 | W=543.2nm, H=259.0nm, Hw=889.4nm, Gap=1431.0nm, P=25.52mW
+  |-- Saved | dneff=3.557561e-03 | T_wg=318.31K | T_max=337.09K | 7.91s
+[RUN]    Sample 866/1200 | W=527.1nm, H=245.3nm, Hw=851.3nm, Gap=1040.4nm, P=40.20mW
+  |-- Saved | dneff=5.593934e-03 | T_wg=328.76K | T_max=358.43K | 7.97s
+[RUN]    Sample 867/1200 | W=453.8nm, H=241.5nm, Hw=801.9nm, Gap=1014.4nm, P=53.68mW
+  |-- Saved | dneff=7.509931e-03 | T_wg=338.40K | T_max=378.02K | 7.92s
+[RUN]    Sample 868/1200 | W=529.5nm, H=229.3nm, Hw=1255.0nm, Gap=1183.1nm, P=17.57mW
+  |-- Saved | dneff=2.418117e-03 | T_wg=312.57K | T_max=325.53K | 7.92s
+[RUN]    Sample 869/1200 | W=541.3nm, H=237.8nm, Hw=1048.4nm, Gap=653.1nm, P=53.37mW
+  |-- Saved | dneff=7.368075e-03 | T_wg=338.17K | T_max=377.56K | 7.96s
+[RUN]    Sample 870/1200 | W=586.0nm, H=256.1nm, Hw=1253.1nm, Gap=1273.9nm, P=49.60mW
+  |-- Saved | dneff=6.868290e-03 | T_wg=335.58K | T_max=372.09K | 7.94s
+[RUN]    Sample 871/1200 | W=472.3nm, H=232.2nm, Hw=1511.3nm, Gap=1406.2nm, P=51.85mW
+  |-- Saved | dneff=7.204136e-03 | T_wg=337.09K | T_max=375.35K | 8.18s
+[RUN]    Sample 872/1200 | W=495.6nm, H=243.6nm, Hw=1370.7nm, Gap=656.6nm, P=56.71mW
+  |-- Saved | dneff=7.905811e-03 | T_wg=340.57K | T_max=382.42K | 13.00s
+[RUN]    Sample 873/1200 | W=487.3nm, H=221.8nm, Hw=1781.3nm, Gap=717.8nm, P=14.96mW
+  |-- Saved | dneff=2.054225e-03 | T_wg=310.70K | T_max=321.74K | 10.76s
+[RUN]    Sample 874/1200 | W=455.6nm, H=228.9nm, Hw=1807.4nm, Gap=1357.4nm, P=26.38mW
+  |-- Saved | dneff=3.654971e-03 | T_wg=318.87K | T_max=338.35K | 13.85s
+[RUN]    Sample 875/1200 | W=467.1nm, H=259.2nm, Hw=1632.5nm, Gap=1115.9nm, P=43.66mW
+  |-- Saved | dneff=6.167738e-03 | T_wg=331.31K | T_max=363.45K | 11.05s
+[RUN]    Sample 876/1200 | W=431.3nm, H=220.4nm, Hw=1914.8nm, Gap=681.1nm, P=42.77mW
+  |-- Saved | dneff=5.862380e-03 | T_wg=330.58K | T_max=362.15K | 7.91s
+[RUN]    Sample 877/1200 | W=551.6nm, H=224.9nm, Hw=1692.8nm, Gap=1463.6nm, P=10.92mW
+  |-- Saved | dneff=1.494314e-03 | T_wg=307.81K | T_max=315.87K | 7.89s
+[RUN]    Sample 878/1200 | W=597.5nm, H=247.5nm, Hw=1120.8nm, Gap=904.0nm, P=22.44mW
+  |-- Saved | dneff=3.088309e-03 | T_wg=316.05K | T_max=332.61K | 7.89s
+[RUN]    Sample 879/1200 | W=403.8nm, H=235.9nm, Hw=1561.5nm, Gap=895.0nm, P=40.55mW
+  |-- Saved | dneff=5.622765e-03 | T_wg=329.01K | T_max=358.93K | 7.93s
+[RUN]    Sample 880/1200 | W=417.6nm, H=231.5nm, Hw=1295.2nm, Gap=1433.1nm, P=14.82mW
+  |-- Saved | dneff=2.052259e-03 | T_wg=310.60K | T_max=321.54K | 8.02s
+[RUN]    Sample 881/1200 | W=528.7nm, H=208.0nm, Hw=1364.0nm, Gap=991.3nm, P=20.61mW
+  |-- Saved | dneff=2.787246e-03 | T_wg=314.74K | T_max=329.95K | 7.92s
+[RUN]    Sample 882/1200 | W=474.2nm, H=259.3nm, Hw=1870.6nm, Gap=759.8nm, P=6.23mW
+  |-- Saved | dneff=8.794602e-04 | T_wg=304.47K | T_max=309.05K | 8.46s
+[RUN]    Sample 883/1200 | W=454.1nm, H=210.4nm, Hw=1722.3nm, Gap=887.1nm, P=44.40mW
+  |-- Saved | dneff=6.032941e-03 | T_wg=331.75K | T_max=364.53K | 9.34s
+[RUN]    Sample 884/1200 | W=402.2nm, H=201.5nm, Hw=1618.0nm, Gap=912.7nm, P=31.88mW
+  |-- Saved | dneff=4.185880e-03 | T_wg=322.80K | T_max=346.33K | 8.50s
+[RUN]    Sample 885/1200 | W=551.1nm, H=209.8nm, Hw=838.4nm, Gap=1302.6nm, P=32.75mW
+  |-- Saved | dneff=4.423426e-03 | T_wg=323.41K | T_max=347.59K | 9.83s
+[RUN]    Sample 886/1200 | W=461.1nm, H=220.1nm, Hw=1564.9nm, Gap=1292.8nm, P=26.82mW
+  |-- Saved | dneff=3.684714e-03 | T_wg=319.18K | T_max=338.97K | 9.37s
+[RUN]    Sample 887/1200 | W=513.3nm, H=210.0nm, Hw=1131.2nm, Gap=1043.7nm, P=17.07mW
+  |-- Saved | dneff=2.316973e-03 | T_wg=312.21K | T_max=324.81K | 8.63s
+[RUN]    Sample 888/1200 | W=430.4nm, H=225.3nm, Hw=1134.8nm, Gap=852.5nm, P=37.48mW
+  |-- Saved | dneff=5.168844e-03 | T_wg=326.81K | T_max=354.47K | 9.25s
+[RUN]    Sample 889/1200 | W=458.3nm, H=243.7nm, Hw=1867.1nm, Gap=1446.8nm, P=17.28mW
+  |-- Saved | dneff=2.420395e-03 | T_wg=312.36K | T_max=325.11K | 8.50s
+[RUN]    Sample 890/1200 | W=458.8nm, H=241.1nm, Hw=1777.5nm, Gap=616.8nm, P=13.16mW
+  |-- Saved | dneff=1.839745e-03 | T_wg=309.41K | T_max=319.12K | 9.32s
+[RUN]    Sample 891/1200 | W=439.0nm, H=217.3nm, Hw=1235.3nm, Gap=898.8nm, P=31.38mW
+  |-- Saved | dneff=4.284388e-03 | T_wg=322.44K | T_max=345.60K | 8.59s
+[RUN]    Sample 892/1200 | W=504.3nm, H=212.9nm, Hw=1205.4nm, Gap=656.2nm, P=55.84mW
+  |-- Saved | dneff=7.604935e-03 | T_wg=339.93K | T_max=381.15K | 9.26s
+[RUN]    Sample 893/1200 | W=432.3nm, H=248.8nm, Hw=899.7nm, Gap=819.8nm, P=13.61mW
+  |-- Saved | dneff=1.915476e-03 | T_wg=309.73K | T_max=319.78K | 8.47s
+[RUN]    Sample 894/1200 | W=427.1nm, H=224.9nm, Hw=1222.3nm, Gap=1496.3nm, P=50.78mW
+  |-- Saved | dneff=7.005521e-03 | T_wg=336.32K | T_max=373.80K | 7.90s
+[RUN]    Sample 895/1200 | W=519.0nm, H=247.3nm, Hw=956.4nm, Gap=1374.7nm, P=32.43mW
+  |-- Saved | dneff=4.522819e-03 | T_wg=323.20K | T_max=347.13K | 7.88s
+[RUN]    Sample 896/1200 | W=517.7nm, H=211.7nm, Hw=1112.8nm, Gap=1134.9nm, P=51.57mW
+  |-- Saved | dneff=7.011145e-03 | T_wg=336.87K | T_max=374.95K | 7.85s
+[RUN]    Sample 897/1200 | W=478.8nm, H=227.8nm, Hw=1587.2nm, Gap=1344.6nm, P=35.03mW
+  |-- Saved | dneff=4.845229e-03 | T_wg=325.05K | T_max=350.91K | 7.89s
+[RUN]    Sample 898/1200 | W=446.8nm, H=254.9nm, Hw=837.9nm, Gap=767.0nm, P=25.83mW
+  |-- Saved | dneff=3.641442e-03 | T_wg=318.53K | T_max=337.54K | 7.89s
+[RUN]    Sample 899/1200 | W=543.9nm, H=239.6nm, Hw=1270.0nm, Gap=628.4nm, P=25.48mW
+  |-- Saved | dneff=3.517830e-03 | T_wg=318.22K | T_max=337.02K | 7.91s
+[RUN]    Sample 900/1200 | W=525.3nm, H=217.6nm, Hw=1055.5nm, Gap=1113.1nm, P=44.06mW
+  |-- Saved | dneff=6.020682e-03 | T_wg=331.51K | T_max=364.03K | 7.87s
+[RUN]    Sample 901/1200 | W=563.3nm, H=255.2nm, Hw=1833.4nm, Gap=1091.7nm, P=57.61mW
+  |-- Saved | dneff=8.000667e-03 | T_wg=341.32K | T_max=383.73K | 7.96s
+[RUN]    Sample 902/1200 | W=438.6nm, H=212.8nm, Hw=1165.8nm, Gap=1210.7nm, P=8.51mW
+  |-- Saved | dneff=1.155404e-03 | T_wg=306.09K | T_max=312.37K | 8.09s
+[RUN]    Sample 903/1200 | W=488.4nm, H=236.9nm, Hw=1123.1nm, Gap=908.9nm, P=37.77mW
+  |-- Saved | dneff=5.248302e-03 | T_wg=327.01K | T_max=354.89K | 8.06s
+[RUN]    Sample 904/1200 | W=544.4nm, H=239.2nm, Hw=1398.7nm, Gap=1361.4nm, P=38.08mW
+  |-- Saved | dneff=5.257399e-03 | T_wg=327.24K | T_max=355.34K | 7.99s
+[RUN]    Sample 905/1200 | W=560.8nm, H=202.5nm, Hw=1508.2nm, Gap=767.4nm, P=23.44mW
+  |-- Saved | dneff=3.140305e-03 | T_wg=316.75K | T_max=334.06K | 7.99s
+[RUN]    Sample 906/1200 | W=490.2nm, H=253.2nm, Hw=1640.3nm, Gap=1328.1nm, P=16.75mW
+  |-- Saved | dneff=2.348649e-03 | T_wg=312.02K | T_max=324.35K | 8.00s
+[RUN]    Sample 907/1200 | W=484.4nm, H=226.5nm, Hw=1602.3nm, Gap=859.9nm, P=57.87mW
+  |-- Saved | dneff=7.987206e-03 | T_wg=341.39K | T_max=384.10K | 8.02s
+[RUN]    Sample 908/1200 | W=515.0nm, H=210.8nm, Hw=1015.1nm, Gap=1044.6nm, P=6.86mW
+  |-- Saved | dneff=9.318579e-04 | T_wg=304.91K | T_max=309.97K | 8.05s
+[RUN]    Sample 909/1200 | W=473.8nm, H=244.9nm, Hw=1712.0nm, Gap=966.4nm, P=8.10mW
+  |-- Saved | dneff=1.134853e-03 | T_wg=305.79K | T_max=311.77K | 8.03s
+[RUN]    Sample 910/1200 | W=527.6nm, H=235.7nm, Hw=1422.7nm, Gap=1422.2nm, P=50.87mW
+  |-- Saved | dneff=7.040907e-03 | T_wg=336.38K | T_max=373.93K | 8.02s
+[RUN]    Sample 911/1200 | W=427.8nm, H=222.7nm, Hw=1724.0nm, Gap=1254.2nm, P=22.08mW
+  |-- Saved | dneff=3.036018e-03 | T_wg=315.80K | T_max=332.10K | 8.01s
+[RUN]    Sample 912/1200 | W=479.7nm, H=242.2nm, Hw=890.3nm, Gap=885.7nm, P=7.03mW
+  |-- Saved | dneff=9.817260e-04 | T_wg=305.03K | T_max=310.22K | 8.06s
+[RUN]    Sample 913/1200 | W=521.8nm, H=204.3nm, Hw=1597.7nm, Gap=1144.6nm, P=46.84mW
+  |-- Saved | dneff=6.320275e-03 | T_wg=333.49K | T_max=368.07K | 8.23s
+[RUN]    Sample 914/1200 | W=441.2nm, H=248.3nm, Hw=1315.0nm, Gap=1314.3nm, P=25.55mW
+  |-- Saved | dneff=3.590686e-03 | T_wg=318.28K | T_max=337.14K | 7.83s
+[RUN]    Sample 915/1200 | W=565.6nm, H=257.6nm, Hw=1479.8nm, Gap=1043.0nm, P=37.00mW
+  |-- Saved | dneff=5.140725e-03 | T_wg=326.54K | T_max=353.77K | 8.03s
+[RUN]    Sample 916/1200 | W=494.5nm, H=241.9nm, Hw=960.9nm, Gap=925.9nm, P=56.15mW
+  |-- Saved | dneff=7.819212e-03 | T_wg=340.16K | T_max=381.60K | 8.13s
+[RUN]    Sample 917/1200 | W=508.4nm, H=249.4nm, Hw=1297.2nm, Gap=1133.3nm, P=42.78mW
+  |-- Saved | dneff=5.981043e-03 | T_wg=330.60K | T_max=362.18K | 8.12s
+[RUN]    Sample 918/1200 | W=553.0nm, H=205.9nm, Hw=1624.1nm, Gap=1357.8nm, P=36.49mW
+  |-- Saved | dneff=4.912969e-03 | T_wg=326.09K | T_max=353.04K | 7.93s
+[RUN]    Sample 919/1200 | W=426.1nm, H=257.7nm, Hw=818.3nm, Gap=1021.3nm, P=54.90mW
+  |-- Saved | dneff=7.777363e-03 | T_wg=339.38K | T_max=379.79K | 8.02s
+[RUN]    Sample 920/1200 | W=421.2nm, H=241.8nm, Hw=1972.8nm, Gap=1187.8nm, P=21.25mW
+  |-- Saved | dneff=2.974207e-03 | T_wg=315.20K | T_max=330.89K | 7.99s
+[RUN]    Sample 921/1200 | W=435.6nm, H=212.1nm, Hw=1081.0nm, Gap=1369.0nm, P=27.66mW
+  |-- Saved | dneff=3.750046e-03 | T_wg=319.78K | T_max=340.19K | 8.14s
+[RUN]    Sample 922/1200 | W=420.6nm, H=220.9nm, Hw=1024.8nm, Gap=1158.7nm, P=34.66mW
+  |-- Saved | dneff=4.747562e-03 | T_wg=324.78K | T_max=350.37K | 9.33s
+[RUN]    Sample 923/1200 | W=413.4nm, H=249.9nm, Hw=939.3nm, Gap=1272.4nm, P=8.33mW
+  |-- Saved | dneff=1.172948e-03 | T_wg=305.96K | T_max=312.11K | 8.65s
+[RUN]    Sample 924/1200 | W=452.8nm, H=206.7nm, Hw=1019.5nm, Gap=1185.4nm, P=6.12mW
+  |-- Saved | dneff=8.272190e-04 | T_wg=304.38K | T_max=308.90K | 8.02s
+[RUN]    Sample 925/1200 | W=475.1nm, H=219.6nm, Hw=1381.4nm, Gap=1362.8nm, P=56.83mW
+  |-- Saved | dneff=7.811212e-03 | T_wg=340.64K | T_max=382.60K | 7.96s
+[RUN]    Sample 926/1200 | W=413.7nm, H=248.1nm, Hw=1946.7nm, Gap=951.6nm, P=44.27mW
+  |-- Saved | dneff=6.225912e-03 | T_wg=331.66K | T_max=364.33K | 8.01s
+[RUN]    Sample 927/1200 | W=570.1nm, H=249.2nm, Hw=1600.7nm, Gap=1198.3nm, P=35.22mW
+  |-- Saved | dneff=4.878526e-03 | T_wg=325.19K | T_max=351.19K | 8.07s
+[RUN]    Sample 928/1200 | W=578.0nm, H=256.6nm, Hw=1575.3nm, Gap=660.6nm, P=46.56mW
+  |-- Saved | dneff=6.456756e-03 | T_wg=333.39K | T_max=367.67K | 8.01s
+[RUN]    Sample 929/1200 | W=523.0nm, H=242.0nm, Hw=1249.5nm, Gap=1101.0nm, P=42.98mW
+  |-- Saved | dneff=5.970508e-03 | T_wg=330.75K | T_max=362.47K | 7.98s
+[RUN]    Sample 930/1200 | W=475.3nm, H=252.5nm, Hw=1515.8nm, Gap=1053.5nm, P=16.44mW
+  |-- Saved | dneff=2.312276e-03 | T_wg=311.76K | T_max=323.89K | 7.94s
+[RUN]    Sample 931/1200 | W=504.7nm, H=238.5nm, Hw=1995.9nm, Gap=945.7nm, P=40.00mW
+  |-- Saved | dneff=5.557509e-03 | T_wg=328.61K | T_max=358.13K | 8.16s
+[RUN]    Sample 932/1200 | W=541.4nm, H=212.2nm, Hw=1403.9nm, Gap=770.6nm, P=32.72mW
+  |-- Saved | dneff=4.432867e-03 | T_wg=323.39K | T_max=347.56K | 8.03s
+[RUN]    Sample 933/1200 | W=574.6nm, H=205.6nm, Hw=1674.5nm, Gap=1060.4nm, P=27.39mW
+  |-- Saved | dneff=3.679484e-03 | T_wg=319.58K | T_max=339.80K | 9.42s
+[RUN]    Sample 934/1200 | W=515.8nm, H=224.2nm, Hw=1268.7nm, Gap=1323.8nm, P=26.02mW
+  |-- Saved | dneff=3.577463e-03 | T_wg=318.62K | T_max=337.82K | 8.65s
+[RUN]    Sample 935/1200 | W=402.8nm, H=225.5nm, Hw=1797.0nm, Gap=797.0nm, P=44.75mW
+  |-- Saved | dneff=6.127329e-03 | T_wg=332.01K | T_max=365.04K | 7.97s
+[RUN]    Sample 936/1200 | W=424.1nm, H=260.0nm, Hw=1474.9nm, Gap=758.2nm, P=19.76mW
+  |-- Saved | dneff=2.803995e-03 | T_wg=314.18K | T_max=328.72K | 7.99s
+[RUN]    Sample 937/1200 | W=423.2nm, H=251.7nm, Hw=1196.2nm, Gap=741.9nm, P=12.75mW
+  |-- Saved | dneff=1.798796e-03 | T_wg=309.12K | T_max=318.52K | 8.05s
+[RUN]    Sample 938/1200 | W=437.1nm, H=249.1nm, Hw=1097.5nm, Gap=1116.1nm, P=7.07mW
+  |-- Saved | dneff=9.947284e-04 | T_wg=305.06K | T_max=310.28K | 8.19s
+[RUN]    Sample 939/1200 | W=557.3nm, H=218.1nm, Hw=1540.3nm, Gap=675.1nm, P=40.18mW
+  |-- Saved | dneff=5.465230e-03 | T_wg=328.73K | T_max=358.40K | 8.02s
+[RUN]    Sample 940/1200 | W=415.6nm, H=222.5nm, Hw=1331.5nm, Gap=1008.4nm, P=16.15mW
+  |-- Saved | dneff=2.212109e-03 | T_wg=311.55K | T_max=323.47K | 7.97s
+[RUN]    Sample 941/1200 | W=402.3nm, H=235.4nm, Hw=951.7nm, Gap=778.2nm, P=13.98mW
+  |-- Saved | dneff=1.935168e-03 | T_wg=310.00K | T_max=320.31K | 8.03s
+[RUN]    Sample 942/1200 | W=574.1nm, H=225.9nm, Hw=1224.6nm, Gap=1251.6nm, P=17.91mW
+  |-- Saved | dneff=2.445984e-03 | T_wg=312.81K | T_max=326.03K | 8.01s
+[RUN]    Sample 943/1200 | W=475.5nm, H=224.5nm, Hw=1358.4nm, Gap=693.1nm, P=51.04mW
+  |-- Saved | dneff=7.049599e-03 | T_wg=336.51K | T_max=374.17K | 7.90s
+[RUN]    Sample 944/1200 | W=490.6nm, H=223.4nm, Hw=1920.4nm, Gap=1002.4nm, P=47.25mW
+  |-- Saved | dneff=6.499462e-03 | T_wg=333.80K | T_max=368.67K | 8.03s
+[RUN]    Sample 945/1200 | W=442.4nm, H=246.7nm, Hw=1384.7nm, Gap=792.3nm, P=13.11mW
+  |-- Saved | dneff=1.839058e-03 | T_wg=309.38K | T_max=319.05K | 7.98s
+[RUN]    Sample 946/1200 | W=453.6nm, H=256.0nm, Hw=1464.7nm, Gap=1225.0nm, P=20.29mW
+  |-- Saved | dneff=2.863107e-03 | T_wg=314.55K | T_max=329.49K | 7.98s
+[RUN]    Sample 947/1200 | W=546.3nm, H=231.9nm, Hw=1447.7nm, Gap=1400.8nm, P=59.91mW
+  |-- Saved | dneff=8.236036e-03 | T_wg=342.85K | T_max=387.07K | 7.97s
+[RUN]    Sample 948/1200 | W=439.2nm, H=232.8nm, Hw=1036.0nm, Gap=899.9nm, P=47.09mW
+  |-- Saved | dneff=6.535504e-03 | T_wg=333.69K | T_max=368.44K | 8.00s
+[RUN]    Sample 949/1200 | W=481.3nm, H=248.9nm, Hw=1550.2nm, Gap=1134.5nm, P=59.08mW
+  |-- Saved | dneff=8.291403e-03 | T_wg=342.26K | T_max=385.86K | 8.11s
+[RUN]    Sample 950/1200 | W=410.7nm, H=213.6nm, Hw=1570.4nm, Gap=669.8nm, P=34.65mW
+  |-- Saved | dneff=4.678888e-03 | T_wg=324.78K | T_max=350.36K | 7.87s
+[RUN]    Sample 951/1200 | W=549.3nm, H=239.7nm, Hw=1034.6nm, Gap=618.4nm, P=58.63mW
+  |-- Saved | dneff=8.093760e-03 | T_wg=341.93K | T_max=385.21K | 8.04s
+[RUN]    Sample 952/1200 | W=501.4nm, H=218.9nm, Hw=1645.0nm, Gap=1376.2nm, P=39.47mW
+  |-- Saved | dneff=5.405078e-03 | T_wg=328.22K | T_max=357.36K | 8.04s
+[RUN]    Sample 953/1200 | W=427.9nm, H=230.9nm, Hw=1538.1nm, Gap=1303.1nm, P=7.41mW
+  |-- Saved | dneff=1.026989e-03 | T_wg=305.30K | T_max=310.77K | 8.12s
+[RUN]    Sample 954/1200 | W=416.1nm, H=203.8nm, Hw=1734.4nm, Gap=962.1nm, P=27.56mW
+  |-- Saved | dneff=3.673498e-03 | T_wg=319.71K | T_max=340.06K | 8.06s
+[RUN]    Sample 955/1200 | W=503.9nm, H=250.0nm, Hw=1613.0nm, Gap=808.2nm, P=20.86mW
+  |-- Saved | dneff=2.918251e-03 | T_wg=314.92K | T_max=330.31K | 7.93s
+[RUN]    Sample 956/1200 | W=443.2nm, H=247.2nm, Hw=1337.9nm, Gap=1266.5nm, P=57.04mW
+  |-- Saved | dneff=8.009669e-03 | T_wg=340.80K | T_max=382.89K | 8.00s
+[RUN]    Sample 957/1200 | W=457.4nm, H=204.4nm, Hw=905.1nm, Gap=1104.3nm, P=30.21mW
+  |-- Saved | dneff=4.075161e-03 | T_wg=321.60K | T_max=343.90K | 7.99s
+[RUN]    Sample 958/1200 | W=474.9nm, H=258.8nm, Hw=1389.3nm, Gap=769.4nm, P=48.14mW
+  |-- Saved | dneff=6.797025e-03 | T_wg=334.53K | T_max=369.97K | 7.94s
+[RUN]    Sample 959/1200 | W=409.3nm, H=209.1nm, Hw=1065.7nm, Gap=953.3nm, P=40.51mW
+  |-- Saved | dneff=5.426884e-03 | T_wg=328.97K | T_max=358.87K | 7.97s
+[RUN]    Sample 960/1200 | W=434.5nm, H=227.3nm, Hw=1935.5nm, Gap=923.4nm, P=46.17mW
+  |-- Saved | dneff=6.375339e-03 | T_wg=333.03K | T_max=367.10K | 7.98s
+[RUN]    Sample 961/1200 | W=574.4nm, H=235.3nm, Hw=1127.0nm, Gap=722.7nm, P=10.65mW
+  |-- Saved | dneff=1.462824e-03 | T_wg=307.61K | T_max=315.47K | 8.06s
+[RUN]    Sample 962/1200 | W=469.4nm, H=255.0nm, Hw=1391.4nm, Gap=802.2nm, P=19.37mW
+  |-- Saved | dneff=2.729286e-03 | T_wg=313.89K | T_max=328.14K | 7.99s
+[RUN]    Sample 963/1200 | W=464.4nm, H=232.2nm, Hw=1844.5nm, Gap=708.0nm, P=58.97mW
+  |-- Saved | dneff=8.195651e-03 | T_wg=342.18K | T_max=385.71K | 7.93s
+[RUN]    Sample 964/1200 | W=448.0nm, H=214.9nm, Hw=1698.5nm, Gap=1310.6nm, P=45.95mW
+  |-- Saved | dneff=6.273515e-03 | T_wg=332.86K | T_max=366.78K | 7.94s
+[RUN]    Sample 965/1200 | W=480.0nm, H=239.0nm, Hw=1396.3nm, Gap=652.0nm, P=38.81mW
+  |-- Saved | dneff=5.408889e-03 | T_wg=327.76K | T_max=356.40K | 8.03s
+[RUN]    Sample 966/1200 | W=469.3nm, H=202.5nm, Hw=1773.6nm, Gap=1392.9nm, P=11.97mW
+  |-- Saved | dneff=1.611872e-03 | T_wg=308.56K | T_max=317.40K | 7.97s
+[RUN]    Sample 967/1200 | W=444.1nm, H=207.1nm, Hw=1944.3nm, Gap=903.2nm, P=46.42mW
+  |-- Saved | dneff=6.261824e-03 | T_wg=333.19K | T_max=367.46K | 8.03s
+[RUN]    Sample 968/1200 | W=580.4nm, H=244.2nm, Hw=1743.0nm, Gap=1232.9nm, P=34.10mW
+  |-- Saved | dneff=4.701394e-03 | T_wg=324.39K | T_max=349.55K | 8.08s
+[RUN]    Sample 969/1200 | W=522.2nm, H=249.6nm, Hw=1368.7nm, Gap=602.7nm, P=37.34mW
+  |-- Saved | dneff=5.212680e-03 | T_wg=326.71K | T_max=354.27K | 7.99s
+[RUN]    Sample 970/1200 | W=542.3nm, H=213.1nm, Hw=1234.3nm, Gap=1125.6nm, P=52.17mW
+  |-- Saved | dneff=7.075595e-03 | T_wg=337.30K | T_max=375.82K | 8.01s
+[RUN]    Sample 971/1200 | W=566.1nm, H=221.8nm, Hw=1075.2nm, Gap=625.4nm, P=39.78mW
+  |-- Saved | dneff=5.421420e-03 | T_wg=328.45K | T_max=357.82K | 7.84s
+[RUN]    Sample 972/1200 | W=556.7nm, H=250.8nm, Hw=1825.4nm, Gap=1476.7nm, P=9.94mW
+  |-- Saved | dneff=1.379168e-03 | T_wg=307.11K | T_max=314.44K | 9.43s
+[RUN]    Sample 973/1200 | W=507.6nm, H=239.1nm, Hw=1089.7nm, Gap=1406.4nm, P=14.00mW
+  |-- Saved | dneff=1.944402e-03 | T_wg=310.01K | T_max=320.34K | 8.50s
+[RUN]    Sample 974/1200 | W=509.6nm, H=234.6nm, Hw=1142.8nm, Gap=1319.7nm, P=36.28mW
+  |-- Saved | dneff=5.025810e-03 | T_wg=325.95K | T_max=352.72K | 8.02s
+[RUN]    Sample 975/1200 | W=531.3nm, H=246.2nm, Hw=1895.3nm, Gap=904.8nm, P=9.06mW
+  |-- Saved | dneff=1.258881e-03 | T_wg=306.48K | T_max=313.16K | 7.95s
+[RUN]    Sample 976/1200 | W=500.7nm, H=247.2nm, Hw=1269.3nm, Gap=779.7nm, P=40.69mW
+  |-- Saved | dneff=5.686813e-03 | T_wg=329.10K | T_max=359.13K | 7.97s
+[RUN]    Sample 977/1200 | W=410.5nm, H=216.8nm, Hw=1218.4nm, Gap=927.5nm, P=51.16mW
+  |-- Saved | dneff=6.947874e-03 | T_wg=336.59K | T_max=374.35K | 8.05s
+[RUN]    Sample 978/1200 | W=568.2nm, H=206.6nm, Hw=1973.3nm, Gap=1136.0nm, P=49.32mW
+  |-- Saved | dneff=6.635822e-03 | T_wg=335.26K | T_max=371.68K | 7.84s
+[RUN]    Sample 979/1200 | W=513.5nm, H=244.7nm, Hw=1498.6nm, Gap=809.8nm, P=46.31mW
+  |-- Saved | dneff=6.451524e-03 | T_wg=333.12K | T_max=367.30K | 7.95s
+[RUN]    Sample 980/1200 | W=564.4nm, H=222.7nm, Hw=1927.5nm, Gap=808.6nm, P=58.59mW
+  |-- Saved | dneff=7.992814e-03 | T_wg=341.90K | T_max=385.15K | 7.96s
+[RUN]    Sample 981/1200 | W=448.3nm, H=209.8nm, Hw=1193.8nm, Gap=603.8nm, P=51.44mW
+  |-- Saved | dneff=6.976570e-03 | T_wg=336.79K | T_max=374.76K | 7.92s
+[RUN]    Sample 982/1200 | W=445.2nm, H=201.3nm, Hw=1074.9nm, Gap=1414.7nm, P=24.29mW
+  |-- Saved | dneff=3.246124e-03 | T_wg=317.37K | T_max=335.30K | 8.00s
+[RUN]    Sample 983/1200 | W=419.0nm, H=239.3nm, Hw=1230.6nm, Gap=727.5nm, P=47.20mW
+  |-- Saved | dneff=6.591947e-03 | T_wg=333.76K | T_max=368.59K | 7.93s
+[RUN]    Sample 984/1200 | W=440.7nm, H=250.9nm, Hw=1675.3nm, Gap=1004.3nm, P=27.76mW
+  |-- Saved | dneff=3.905918e-03 | T_wg=319.86K | T_max=340.35K | 7.94s
+[RUN]    Sample 985/1200 | W=558.9nm, H=228.4nm, Hw=1873.7nm, Gap=1412.3nm, P=16.30mW
+  |-- Saved | dneff=2.233010e-03 | T_wg=311.66K | T_max=323.69K | 7.94s
+[RUN]    Sample 986/1200 | W=407.1nm, H=253.6nm, Hw=1672.5nm, Gap=1426.7nm, P=36.66mW
+  |-- Saved | dneff=5.167680e-03 | T_wg=326.29K | T_max=353.28K | 7.96s
+[RUN]    Sample 987/1200 | W=459.9nm, H=256.8nm, Hw=1805.2nm, Gap=1175.1nm, P=14.46mW
+  |-- Saved | dneff=2.040562e-03 | T_wg=310.37K | T_max=321.01K | 7.97s
+[RUN]    Sample 988/1200 | W=571.5nm, H=233.3nm, Hw=1156.3nm, Gap=1193.5nm, P=59.40mW
+  |-- Saved | dneff=8.154106e-03 | T_wg=342.48K | T_max=386.32K | 7.96s
+[RUN]    Sample 989/1200 | W=586.5nm, H=230.6nm, Hw=1915.4nm, Gap=893.3nm, P=35.59mW
+  |-- Saved | dneff=4.865020e-03 | T_wg=325.46K | T_max=351.73K | 7.96s
+[RUN]    Sample 990/1200 | W=515.2nm, H=251.4nm, Hw=1061.2nm, Gap=1178.5nm, P=8.68mW
+  |-- Saved | dneff=1.213300e-03 | T_wg=306.21K | T_max=312.62K | 9.47s
+[RUN]    Sample 991/1200 | W=463.3nm, H=220.5nm, Hw=1567.8nm, Gap=1049.3nm, P=38.72mW
+  |-- Saved | dneff=5.324533e-03 | T_wg=327.69K | T_max=356.28K | 8.53s
+[RUN]    Sample 992/1200 | W=530.6nm, H=227.1nm, Hw=1614.8nm, Gap=1352.7nm, P=47.91mW
+  |-- Saved | dneff=6.585562e-03 | T_wg=334.27K | T_max=369.63K | 7.96s
+[RUN]    Sample 993/1200 | W=476.1nm, H=204.2nm, Hw=1383.5nm, Gap=1415.8nm, P=44.68mW
+  |-- Saved | dneff=6.037536e-03 | T_wg=331.95K | T_max=364.94K | 7.96s
+[RUN]    Sample 994/1200 | W=575.3nm, H=251.7nm, Hw=980.7nm, Gap=1466.2nm, P=39.90mW
+  |-- Saved | dneff=5.525405e-03 | T_wg=328.53K | T_max=357.98K | 7.97s
+[RUN]    Sample 995/1200 | W=412.9nm, H=225.2nm, Hw=1190.7nm, Gap=1494.1nm, P=35.27mW
+  |-- Saved | dneff=4.846411e-03 | T_wg=325.23K | T_max=351.26K | 7.93s
+[RUN]    Sample 996/1200 | W=537.3nm, H=219.5nm, Hw=824.8nm, Gap=833.4nm, P=56.75mW
+  |-- Saved | dneff=7.744082e-03 | T_wg=340.58K | T_max=382.48K | 7.94s
+[RUN]    Sample 997/1200 | W=594.2nm, H=258.0nm, Hw=1945.7nm, Gap=1325.9nm, P=25.89mW
+  |-- Saved | dneff=3.578924e-03 | T_wg=318.57K | T_max=337.62K | 7.94s
+[RUN]    Sample 998/1200 | W=594.1nm, H=218.9nm, Hw=1169.8nm, Gap=823.6nm, P=9.44mW
+  |-- Saved | dneff=1.278049e-03 | T_wg=306.75K | T_max=313.72K | 7.96s
+[RUN]    Sample 999/1200 | W=552.3nm, H=231.4nm, Hw=1491.3nm, Gap=870.5nm, P=19.87mW
+  |-- Saved | dneff=2.728562e-03 | T_wg=314.21K | T_max=328.88K | 7.91s
+[RUN]    Sample 1000/1200 | W=505.5nm, H=220.3nm, Hw=1584.5nm, Gap=979.2nm, P=25.69mW
+  |-- Saved | dneff=3.520525e-03 | T_wg=318.37K | T_max=337.33K | 7.94s
+[RUN]    Sample 1001/1200 | W=531.8nm, H=236.3nm, Hw=1410.2nm, Gap=839.1nm, P=58.12mW
+  |-- Saved | dneff=8.037601e-03 | T_wg=341.57K | T_max=384.47K | 9.33s
+[RUN]    Sample 1002/1200 | W=514.1nm, H=223.8nm, Hw=1885.3nm, Gap=690.2nm, P=16.26mW
+  |-- Saved | dneff=2.233836e-03 | T_wg=311.63K | T_max=323.63K | 8.51s
+[RUN]    Sample 1003/1200 | W=549.0nm, H=211.3nm, Hw=1177.8nm, Gap=850.0nm, P=18.56mW
+  |-- Saved | dneff=2.509943e-03 | T_wg=313.27K | T_max=326.97K | 9.35s
+[RUN]    Sample 1004/1200 | W=487.1nm, H=243.3nm, Hw=1309.5nm, Gap=1195.0nm, P=20.15mW
+  |-- Saved | dneff=2.810647e-03 | T_wg=314.41K | T_max=329.29K | 8.63s
+[RUN]    Sample 1005/1200 | W=476.7nm, H=242.4nm, Hw=1699.1nm, Gap=1470.3nm, P=29.17mW
+  |-- Saved | dneff=4.078521e-03 | T_wg=320.87K | T_max=342.39K | 9.29s
+[RUN]    Sample 1006/1200 | W=479.9nm, H=249.1nm, Hw=1172.7nm, Gap=1016.6nm, P=7.24mW
+  |-- Saved | dneff=1.016754e-03 | T_wg=305.18K | T_max=310.53K | 8.60s
+[RUN]    Sample 1007/1200 | W=531.0nm, H=206.1nm, Hw=1687.0nm, Gap=775.9nm, P=28.99mW
+  |-- Saved | dneff=3.912980e-03 | T_wg=320.73K | T_max=342.13K | 9.32s
+[RUN]    Sample 1008/1200 | W=577.5nm, H=246.4nm, Hw=852.8nm, Gap=1071.8nm, P=38.93mW
+  |-- Saved | dneff=5.378046e-03 | T_wg=327.84K | T_max=356.57K | 8.58s
+[RUN]    Sample 1009/1200 | W=408.5nm, H=222.9nm, Hw=962.7nm, Gap=1471.2nm, P=12.60mW
+  |-- Saved | dneff=1.721533e-03 | T_wg=309.01K | T_max=318.31K | 7.95s
+[RUN]    Sample 1010/1200 | W=463.5nm, H=201.4nm, Hw=1835.2nm, Gap=869.9nm, P=49.64mW
+  |-- Saved | dneff=6.670020e-03 | T_wg=335.50K | T_max=372.15K | 9.32s
+[RUN]    Sample 1011/1200 | W=546.1nm, H=244.1nm, Hw=904.4nm, Gap=720.7nm, P=45.02mW
+  |-- Saved | dneff=6.231148e-03 | T_wg=332.20K | T_max=365.43K | 8.59s
+[RUN]    Sample 1012/1200 | W=488.3nm, H=248.6nm, Hw=984.5nm, Gap=946.8nm, P=22.18mW
+  |-- Saved | dneff=3.106227e-03 | T_wg=315.87K | T_max=332.24K | 7.94s
+[RUN]    Sample 1013/1200 | W=552.5nm, H=222.6nm, Hw=1960.7nm, Gap=836.9nm, P=48.22mW
+  |-- Saved | dneff=6.586317e-03 | T_wg=334.49K | T_max=370.09K | 9.92s
+[RUN]    Sample 1014/1200 | W=414.4nm, H=241.8nm, Hw=1409.6nm, Gap=893.0nm, P=30.96mW
+  |-- Saved | dneff=4.327732e-03 | T_wg=322.15K | T_max=345.00K | 7.94s
+[RUN]    Sample 1015/1200 | W=448.6nm, H=236.7nm, Hw=1637.5nm, Gap=1306.9nm, P=49.41mW
+  |-- Saved | dneff=6.889642e-03 | T_wg=335.35K | T_max=371.81K | 7.94s
+[RUN]    Sample 1016/1200 | W=550.5nm, H=224.4nm, Hw=1754.9nm, Gap=1031.7nm, P=38.75mW
+  |-- Saved | dneff=5.299500e-03 | T_wg=327.71K | T_max=356.31K | 9.28s
+[RUN]    Sample 1017/1200 | W=563.0nm, H=246.0nm, Hw=1275.6nm, Gap=997.5nm, P=57.12mW
+  |-- Saved | dneff=7.902789e-03 | T_wg=340.85K | T_max=383.01K | 8.60s
+[RUN]    Sample 1018/1200 | W=409.6nm, H=256.2nm, Hw=1322.6nm, Gap=1313.3nm, P=31.75mW
+  |-- Saved | dneff=4.484839e-03 | T_wg=322.78K | T_max=346.15K | 7.85s
+[RUN]    Sample 1019/1200 | W=474.8nm, H=200.1nm, Hw=1037.7nm, Gap=1327.2nm, P=39.65mW
+  |-- Saved | dneff=5.326363e-03 | T_wg=328.35K | T_max=357.62K | 9.30s
+[RUN]    Sample 1020/1200 | W=468.1nm, H=243.3nm, Hw=1783.4nm, Gap=739.6nm, P=40.34mW
+  |-- Saved | dneff=5.648725e-03 | T_wg=328.86K | T_max=358.63K | 8.66s
+[RUN]    Sample 1021/1200 | W=500.2nm, H=205.6nm, Hw=1370.0nm, Gap=1081.0nm, P=31.55mW
+  |-- Saved | dneff=4.264389e-03 | T_wg=322.56K | T_max=345.85K | 9.16s
+[RUN]    Sample 1022/1200 | W=577.6nm, H=252.1nm, Hw=1983.7nm, Gap=1390.1nm, P=29.62mW
+  |-- Saved | dneff=4.101067e-03 | T_wg=321.18K | T_max=343.05K | 8.55s
+[RUN]    Sample 1023/1200 | W=579.0nm, H=234.0nm, Hw=1073.2nm, Gap=951.8nm, P=50.37mW
+  |-- Saved | dneff=6.910673e-03 | T_wg=336.02K | T_max=373.20K | 7.84s
+[RUN]    Sample 1024/1200 | W=475.7nm, H=202.9nm, Hw=1393.2nm, Gap=1420.5nm, P=34.81mW
+  |-- Saved | dneff=4.695423e-03 | T_wg=324.90K | T_max=350.60K | 7.94s
+[RUN]    Sample 1025/1200 | W=503.2nm, H=251.2nm, Hw=1251.6nm, Gap=1000.8nm, P=25.37mW
+  |-- Saved | dneff=3.550808e-03 | T_wg=318.15K | T_max=336.87K | 7.82s
+[RUN]    Sample 1026/1200 | W=443.8nm, H=200.0nm, Hw=1849.8nm, Gap=1356.1nm, P=25.58mW
+  |-- Saved | dneff=3.409537e-03 | T_wg=318.29K | T_max=337.18K | 7.99s
+[RUN]    Sample 1027/1200 | W=514.8nm, H=207.5nm, Hw=1876.8nm, Gap=706.9nm, P=27.33mW
+  |-- Saved | dneff=3.698559e-03 | T_wg=319.54K | T_max=339.71K | 7.93s
+[RUN]    Sample 1028/1200 | W=553.2nm, H=213.9nm, Hw=1904.0nm, Gap=1309.3nm, P=47.49mW
+  |-- Saved | dneff=6.443265e-03 | T_wg=333.95K | T_max=369.03K | 7.90s
+[RUN]    Sample 1029/1200 | W=460.1nm, H=240.4nm, Hw=1855.7nm, Gap=843.1nm, P=19.19mW
+  |-- Saved | dneff=2.682391e-03 | T_wg=313.73K | T_max=327.89K | 7.90s
+[RUN]    Sample 1030/1200 | W=494.9nm, H=212.4nm, Hw=915.5nm, Gap=1041.1nm, P=59.57mW
+  |-- Saved | dneff=8.107628e-03 | T_wg=342.60K | T_max=386.58K | 7.89s
+[RUN]    Sample 1031/1200 | W=420.2nm, H=250.4nm, Hw=1695.5nm, Gap=1234.3nm, P=44.92mW
+  |-- Saved | dneff=6.335317e-03 | T_wg=332.13K | T_max=365.28K | 7.90s
+[RUN]    Sample 1032/1200 | W=468.0nm, H=214.5nm, Hw=1931.4nm, Gap=1085.7nm, P=55.91mW
+  |-- Saved | dneff=7.648320e-03 | T_wg=339.98K | T_max=381.25K | 7.88s
+[RUN]    Sample 1033/1200 | W=435.0nm, H=236.8nm, Hw=1444.9nm, Gap=778.9nm, P=25.23mW
+  |-- Saved | dneff=3.513830e-03 | T_wg=318.05K | T_max=336.67K | 7.91s
+[RUN]    Sample 1034/1200 | W=412.0nm, H=213.7nm, Hw=1044.3nm, Gap=702.7nm, P=9.61mW
+  |-- Saved | dneff=1.299333e-03 | T_wg=306.88K | T_max=313.97K | 7.87s
+[RUN]    Sample 1035/1200 | W=541.5nm, H=207.6nm, Hw=1262.2nm, Gap=1387.5nm, P=25.07mW
+  |-- Saved | dneff=3.381190e-03 | T_wg=317.92K | T_max=336.43K | 7.98s
+[RUN]    Sample 1036/1200 | W=591.8nm, H=233.8nm, Hw=1820.0nm, Gap=1234.9nm, P=23.40mW
+  |-- Saved | dneff=3.201663e-03 | T_wg=316.74K | T_max=334.01K | 7.84s
+[RUN]    Sample 1037/1200 | W=495.7nm, H=221.5nm, Hw=867.0nm, Gap=873.2nm, P=53.63mW
+  |-- Saved | dneff=7.360516e-03 | T_wg=338.36K | T_max=377.94K | 7.90s
+[RUN]    Sample 1038/1200 | W=450.5nm, H=205.4nm, Hw=1799.5nm, Gap=986.3nm, P=8.46mW
+  |-- Saved | dneff=1.140589e-03 | T_wg=306.05K | T_max=312.29K | 7.98s
+[RUN]    Sample 1039/1200 | W=446.4nm, H=200.3nm, Hw=1732.9nm, Gap=649.0nm, P=37.41mW
+  |-- Saved | dneff=4.995119e-03 | T_wg=326.75K | T_max=354.37K | 9.25s
+[RUN]    Sample 1040/1200 | W=551.8nm, H=211.1nm, Hw=1633.7nm, Gap=1172.4nm, P=19.83mW
+  |-- Saved | dneff=2.681059e-03 | T_wg=314.17K | T_max=328.81K | 8.62s
+[RUN]    Sample 1041/1200 | W=483.3nm, H=249.3nm, Hw=1245.8nm, Gap=1162.2nm, P=20.94mW
+  |-- Saved | dneff=2.936136e-03 | T_wg=314.98K | T_max=330.44K | 7.89s
+[RUN]    Sample 1042/1200 | W=477.2nm, H=233.0nm, Hw=1356.1nm, Gap=1263.7nm, P=19.94mW
+  |-- Saved | dneff=2.769547e-03 | T_wg=314.26K | T_max=328.98K | 7.85s
+[RUN]    Sample 1043/1200 | W=457.9nm, H=219.3nm, Hw=1667.0nm, Gap=864.8nm, P=30.46mW
+  |-- Saved | dneff=4.182276e-03 | T_wg=321.79K | T_max=344.28K | 7.89s
+[RUN]    Sample 1044/1200 | W=522.6nm, H=233.2nm, Hw=1316.0nm, Gap=1167.5nm, P=45.42mW
+  |-- Saved | dneff=6.279560e-03 | T_wg=332.49K | T_max=366.01K | 7.87s
+[RUN]    Sample 1045/1200 | W=539.6nm, H=241.2nm, Hw=1018.9nm, Gap=1355.2nm, P=58.14mW
+  |-- Saved | dneff=8.044238e-03 | T_wg=341.59K | T_max=384.50K | 7.92s
+[RUN]    Sample 1046/1200 | W=496.6nm, H=230.6nm, Hw=1773.0nm, Gap=950.1nm, P=35.65mW
+  |-- Saved | dneff=4.927714e-03 | T_wg=325.50K | T_max=351.81K | 9.93s
+[RUN]    Sample 1047/1200 | W=541.0nm, H=258.9nm, Hw=895.6nm, Gap=645.4nm, P=42.83mW
+  |-- Saved | dneff=5.972031e-03 | T_wg=330.71K | T_max=362.24K | 7.86s
+[RUN]    Sample 1048/1200 | W=587.2nm, H=241.3nm, Hw=1184.9nm, Gap=1301.7nm, P=59.42mW
+  |-- Saved | dneff=8.170337e-03 | T_wg=342.50K | T_max=386.36K | 7.90s
+[RUN]    Sample 1049/1200 | W=554.5nm, H=257.5nm, Hw=1267.7nm, Gap=717.6nm, P=47.47mW
+  |-- Saved | dneff=6.605451e-03 | T_wg=334.04K | T_max=368.98K | 7.83s
+[RUN]    Sample 1050/1200 | W=596.4nm, H=222.9nm, Hw=1811.8nm, Gap=947.9nm, P=26.60mW
+  |-- Saved | dneff=3.609766e-03 | T_wg=319.02K | T_max=338.65K | 7.92s
+[RUN]    Sample 1051/1200 | W=471.6nm, H=246.6nm, Hw=863.7nm, Gap=618.9nm, P=51.99mW
+  |-- Saved | dneff=7.298127e-03 | T_wg=337.19K | T_max=375.56K | 7.82s
+[RUN]    Sample 1052/1200 | W=483.5nm, H=230.2nm, Hw=1982.6nm, Gap=1246.2nm, P=35.52mW
+  |-- Saved | dneff=4.915385e-03 | T_wg=325.40K | T_max=351.62K | 8.03s
+[RUN]    Sample 1053/1200 | W=553.9nm, H=209.9nm, Hw=928.8nm, Gap=669.1nm, P=59.89mW
+  |-- Saved | dneff=8.091343e-03 | T_wg=342.82K | T_max=387.04K | 8.00s
+[RUN]    Sample 1054/1200 | W=401.3nm, H=239.8nm, Hw=1317.1nm, Gap=1127.3nm, P=42.61mW
+  |-- Saved | dneff=5.923854e-03 | T_wg=330.48K | T_max=361.92K | 8.04s
+[RUN]    Sample 1055/1200 | W=503.5nm, H=204.0nm, Hw=1117.2nm, Gap=668.4nm, P=13.28mW
+  |-- Saved | dneff=1.790251e-03 | T_wg=309.49K | T_max=319.30K | 8.04s
+[RUN]    Sample 1056/1200 | W=469.0nm, H=217.2nm, Hw=1335.3nm, Gap=734.1nm, P=10.15mW
+  |-- Saved | dneff=1.390657e-03 | T_wg=307.26K | T_max=314.74K | 8.01s
+[RUN]    Sample 1057/1200 | W=456.5nm, H=259.6nm, Hw=1068.0nm, Gap=969.5nm, P=15.30mW
+  |-- Saved | dneff=2.163585e-03 | T_wg=310.98K | T_max=322.24K | 7.99s
+[RUN]    Sample 1058/1200 | W=569.0nm, H=259.8nm, Hw=1201.4nm, Gap=1161.5nm, P=54.33mW
+  |-- Saved | dneff=7.554984e-03 | T_wg=338.97K | T_max=378.97K | 8.04s
+[RUN]    Sample 1059/1200 | W=588.9nm, H=249.7nm, Hw=1921.1nm, Gap=1095.2nm, P=23.85mW
+  |-- Saved | dneff=3.292341e-03 | T_wg=317.06K | T_max=334.66K | 8.03s
+[RUN]    Sample 1060/1200 | W=542.4nm, H=244.8nm, Hw=1176.8nm, Gap=698.1nm, P=13.66mW
+  |-- Saved | dneff=1.892081e-03 | T_wg=309.77K | T_max=319.85K | 8.01s
+[RUN]    Sample 1061/1200 | W=472.9nm, H=223.8nm, Hw=913.3nm, Gap=908.0nm, P=24.16mW
+  |-- Saved | dneff=3.334006e-03 | T_wg=317.28K | T_max=335.11K | 7.99s
+[RUN]    Sample 1062/1200 | W=482.4nm, H=203.0nm, Hw=1733.7nm, Gap=685.4nm, P=48.44mW
+  |-- Saved | dneff=6.528286e-03 | T_wg=334.64K | T_max=370.39K | 8.03s
+[RUN]    Sample 1063/1200 | W=524.1nm, H=257.6nm, Hw=1140.7nm, Gap=1244.5nm, P=44.13mW
+  |-- Saved | dneff=6.175297e-03 | T_wg=331.65K | T_max=364.13K | 8.03s
+[RUN]    Sample 1064/1200 | W=449.1nm, H=200.6nm, Hw=1350.1nm, Gap=1144.2nm, P=26.43mW
+  |-- Saved | dneff=3.537397e-03 | T_wg=318.90K | T_max=338.42K | 8.05s
+[RUN]    Sample 1065/1200 | W=594.8nm, H=240.7nm, Hw=1751.1nm, Gap=1159.5nm, P=29.70mW
+  |-- Saved | dneff=4.073887e-03 | T_wg=321.24K | T_max=343.16K | 8.02s
+[RUN]    Sample 1066/1200 | W=443.0nm, H=243.6nm, Hw=871.1nm, Gap=1398.4nm, P=21.94mW
+  |-- Saved | dneff=3.069989e-03 | T_wg=315.70K | T_max=331.89K | 8.01s
+[RUN]    Sample 1067/1200 | W=419.7nm, H=228.3nm, Hw=1594.8nm, Gap=1073.9nm, P=31.52mW
+  |-- Saved | dneff=4.354999e-03 | T_wg=322.55K | T_max=345.81K | 8.00s
+[RUN]    Sample 1068/1200 | W=581.2nm, H=214.6nm, Hw=1984.3nm, Gap=1407.1nm, P=10.40mW
+  |-- Saved | dneff=1.407174e-03 | T_wg=307.43K | T_max=315.11K | 8.02s
+[RUN]    Sample 1069/1200 | W=417.3nm, H=227.9nm, Hw=1528.1nm, Gap=978.3nm, P=10.03mW
+  |-- Saved | dneff=1.383549e-03 | T_wg=307.17K | T_max=314.57K | 8.01s
+[RUN]    Sample 1070/1200 | W=565.8nm, H=222.3nm, Hw=1679.3nm, Gap=1474.0nm, P=28.69mW
+  |-- Saved | dneff=3.910813e-03 | T_wg=320.52K | T_max=341.69K | 10.10s
+[RUN]    Sample 1071/1200 | W=587.8nm, H=203.1nm, Hw=1374.3nm, Gap=897.3nm, P=45.43mW
+  |-- Saved | dneff=6.075939e-03 | T_wg=332.48K | T_max=366.02K | 8.09s
+[RUN]    Sample 1072/1200 | W=534.3nm, H=241.1nm, Hw=1175.6nm, Gap=1139.7nm, P=53.04mW
+  |-- Saved | dneff=7.347244e-03 | T_wg=337.94K | T_max=377.09K | 7.99s
+[RUN]    Sample 1073/1200 | W=515.4nm, H=254.8nm, Hw=1387.9nm, Gap=1290.8nm, P=50.24mW
+  |-- Saved | dneff=7.032460e-03 | T_wg=336.04K | T_max=373.02K | 8.00s
+[RUN]    Sample 1074/1200 | W=511.5nm, H=203.7nm, Hw=1601.2nm, Gap=1169.4nm, P=15.44mW
+  |-- Saved | dneff=2.080414e-03 | T_wg=311.04K | T_max=322.43K | 8.03s
+[RUN]    Sample 1075/1200 | W=410.8nm, H=215.3nm, Hw=1934.0nm, Gap=1477.8nm, P=35.82mW
+  |-- Saved | dneff=4.853036e-03 | T_wg=325.61K | T_max=352.05K | 7.93s
+[RUN]    Sample 1076/1200 | W=408.6nm, H=203.1nm, Hw=1713.3nm, Gap=1315.3nm, P=39.11mW
+  |-- Saved | dneff=5.177992e-03 | T_wg=327.97K | T_max=356.84K | 8.12s
+[RUN]    Sample 1077/1200 | W=523.6nm, H=239.0nm, Hw=914.2nm, Gap=710.9nm, P=11.04mW
+  |-- Saved | dneff=1.530916e-03 | T_wg=307.90K | T_max=316.04K | 9.44s
+[RUN]    Sample 1078/1200 | W=455.2nm, H=246.1nm, Hw=819.8nm, Gap=1123.9nm, P=16.51mW
+  |-- Saved | dneff=2.316923e-03 | T_wg=311.81K | T_max=323.99K | 8.59s
+[RUN]    Sample 1079/1200 | W=526.7nm, H=235.8nm, Hw=829.0nm, Gap=1182.4nm, P=15.48mW
+  |-- Saved | dneff=2.142188e-03 | T_wg=311.07K | T_max=322.49K | 7.98s
+[RUN]    Sample 1080/1200 | W=587.4nm, H=206.4nm, Hw=1325.7nm, Gap=958.7nm, P=45.01mW
+  |-- Saved | dneff=6.041119e-03 | T_wg=332.18K | T_max=365.42K | 8.06s
+[RUN]    Sample 1081/1200 | W=517.4nm, H=255.6nm, Hw=1238.6nm, Gap=836.1nm, P=5.52mW
+  |-- Saved | dneff=7.730861e-04 | T_wg=303.96K | T_max=308.03K | 7.95s
+[RUN]    Sample 1082/1200 | W=461.4nm, H=246.4nm, Hw=1344.8nm, Gap=1419.6nm, P=58.77mW
+  |-- Saved | dneff=8.252838e-03 | T_wg=342.04K | T_max=385.41K | 8.04s
+[RUN]    Sample 1083/1200 | W=429.8nm, H=226.6nm, Hw=1148.7nm, Gap=639.6nm, P=36.82mW
+  |-- Saved | dneff=5.083848e-03 | T_wg=326.34K | T_max=353.51K | 7.98s
+[RUN]    Sample 1084/1200 | W=541.8nm, H=200.7nm, Hw=903.0nm, Gap=1457.1nm, P=58.88mW
+  |-- Saved | dneff=7.882510e-03 | T_wg=342.10K | T_max=385.58K | 8.01s
+[RUN]    Sample 1085/1200 | W=576.8nm, H=258.4nm, Hw=1976.2nm, Gap=722.2nm, P=34.75mW
+  |-- Saved | dneff=4.823564e-03 | T_wg=324.92K | T_max=350.50K | 9.42s
+[RUN]    Sample 1086/1200 | W=535.4nm, H=251.3nm, Hw=1456.2nm, Gap=1146.8nm, P=34.03mW
+  |-- Saved | dneff=4.738320e-03 | T_wg=324.34K | T_max=349.46K | 8.64s
+[RUN]    Sample 1087/1200 | W=512.8nm, H=227.2nm, Hw=1696.3nm, Gap=994.2nm, P=8.17mW
+  |-- Saved | dneff=1.126042e-03 | T_wg=305.85K | T_max=311.88K | 7.88s
+[RUN]    Sample 1088/1200 | W=472.7nm, H=226.0nm, Hw=1758.8nm, Gap=1197.0nm, P=25.94mW
+  |-- Saved | dneff=3.586525e-03 | T_wg=318.55K | T_max=337.70K | 8.18s
+[RUN]    Sample 1089/1200 | W=562.3nm, H=249.0nm, Hw=1620.2nm, Gap=1098.2nm, P=14.12mW
+  |-- Saved | dneff=1.957861e-03 | T_wg=310.10K | T_max=320.52K | 7.85s
+[RUN]    Sample 1090/1200 | W=592.3nm, H=227.8nm, Hw=1989.6nm, Gap=757.1nm, P=35.41mW
+  |-- Saved | dneff=4.825509e-03 | T_wg=325.33K | T_max=351.47K | 7.98s
+[RUN]    Sample 1091/1200 | W=500.2nm, H=237.3nm, Hw=1795.3nm, Gap=1199.9nm, P=55.37mW
+  |-- Saved | dneff=7.692911e-03 | T_wg=339.61K | T_max=380.48K | 8.01s
+[RUN]    Sample 1092/1200 | W=418.6nm, H=233.5nm, Hw=1820.4nm, Gap=993.6nm, P=36.99mW
+  |-- Saved | dneff=5.137255e-03 | T_wg=326.46K | T_max=353.76K | 7.97s
+[RUN]    Sample 1093/1200 | W=598.6nm, H=247.4nm, Hw=839.9nm, Gap=1243.7nm, P=52.39mW
+  |-- Saved | dneff=7.210641e-03 | T_wg=337.47K | T_max=376.14K | 8.02s
+[RUN]    Sample 1094/1200 | W=466.0nm, H=214.7nm, Hw=1497.9nm, Gap=724.1nm, P=8.02mW
+  |-- Saved | dneff=1.096697e-03 | T_wg=305.74K | T_max=311.66K | 8.05s
+[RUN]    Sample 1095/1200 | W=585.2nm, H=250.5nm, Hw=1803.1nm, Gap=1058.1nm, P=46.91mW
+  |-- Saved | dneff=6.483696e-03 | T_wg=333.55K | T_max=368.17K | 8.01s
+[RUN]    Sample 1096/1200 | W=405.3nm, H=216.7nm, Hw=1525.5nm, Gap=941.6nm, P=36.53mW
+  |-- Saved | dneff=4.945685e-03 | T_wg=326.13K | T_max=353.09K | 7.98s
+[RUN]    Sample 1097/1200 | W=454.5nm, H=245.1nm, Hw=1840.6nm, Gap=1145.7nm, P=18.30mW
+  |-- Saved | dneff=2.565929e-03 | T_wg=313.09K | T_max=326.59K | 7.95s
+[RUN]    Sample 1098/1200 | W=583.7nm, H=203.2nm, Hw=1590.9nm, Gap=1481.7nm, P=8.36mW
+  |-- Saved | dneff=1.118716e-03 | T_wg=305.97K | T_max=312.15K | 8.02s
+[RUN]    Sample 1099/1200 | W=467.4nm, H=218.1nm, Hw=1804.8nm, Gap=849.5nm, P=8.72mW
+  |-- Saved | dneff=1.196016e-03 | T_wg=306.24K | T_max=312.67K | 8.08s
+[RUN]    Sample 1100/1200 | W=460.6nm, H=240.7nm, Hw=961.7nm, Gap=936.7nm, P=47.61mW
+  |-- Saved | dneff=6.657435e-03 | T_wg=334.06K | T_max=369.20K | 7.99s
+[RUN]    Sample 1101/1200 | W=409.0nm, H=216.2nm, Hw=1599.9nm, Gap=1213.8nm, P=21.87mW
+  |-- Saved | dneff=2.962578e-03 | T_wg=315.64K | T_max=331.79K | 8.01s
+[RUN]    Sample 1102/1200 | W=501.3nm, H=206.5nm, Hw=1977.6nm, Gap=1079.4nm, P=11.39mW
+  |-- Saved | dneff=1.540251e-03 | T_wg=308.14K | T_max=316.55K | 8.00s
+[RUN]    Sample 1103/1200 | W=411.5nm, H=214.2nm, Hw=1418.5nm, Gap=638.8nm, P=28.83mW
+  |-- Saved | dneff=3.898627e-03 | T_wg=320.62K | T_max=341.90K | 9.36s
+[RUN]    Sample 1104/1200 | W=499.7nm, H=216.6nm, Hw=1992.8nm, Gap=932.9nm, P=54.06mW
+  |-- Saved | dneff=7.392610e-03 | T_wg=338.66K | T_max=378.57K | 8.57s
+[RUN]    Sample 1105/1200 | W=509.4nm, H=245.1nm, Hw=1657.6nm, Gap=1268.5nm, P=16.63mW
+  |-- Saved | dneff=2.317486e-03 | T_wg=311.89K | T_max=324.17K | 7.99s
+[RUN]    Sample 1106/1200 | W=454.2nm, H=244.4nm, Hw=853.8nm, Gap=1300.5nm, P=51.71mW
+  |-- Saved | dneff=7.249946e-03 | T_wg=336.99K | T_max=375.16K | 9.51s
+[RUN]    Sample 1107/1200 | W=452.9nm, H=243.7nm, Hw=922.5nm, Gap=1122.5nm, P=43.74mW
+  |-- Saved | dneff=6.127367e-03 | T_wg=331.29K | T_max=363.56K | 8.65s
+[RUN]    Sample 1108/1200 | W=568.4nm, H=258.7nm, Hw=1137.4nm, Gap=971.0nm, P=43.36mW
+  |-- Saved | dneff=6.025999e-03 | T_wg=331.10K | T_max=363.02K | 7.93s
+[RUN]    Sample 1109/1200 | W=409.7nm, H=230.5nm, Hw=1763.4nm, Gap=1450.1nm, P=23.03mW
+  |-- Saved | dneff=3.178206e-03 | T_wg=316.48K | T_max=333.47K | 7.97s
+[RUN]    Sample 1110/1200 | W=457.6nm, H=244.3nm, Hw=1527.4nm, Gap=670.7nm, P=5.35mW
+  |-- Saved | dneff=7.490826e-04 | T_wg=303.82K | T_max=307.77K | 8.02s
+[RUN]    Sample 1111/1200 | W=492.6nm, H=211.9nm, Hw=1533.6nm, Gap=1428.6nm, P=26.47mW
+  |-- Saved | dneff=3.598620e-03 | T_wg=318.92K | T_max=338.46K | 7.90s
+[RUN]    Sample 1112/1200 | W=555.9nm, H=257.8nm, Hw=1121.7nm, Gap=919.0nm, P=42.53mW
+  |-- Saved | dneff=5.917490e-03 | T_wg=330.50K | T_max=361.81K | 7.96s
+[RUN]    Sample 1113/1200 | W=418.7nm, H=221.6nm, Hw=1557.9nm, Gap=759.6nm, P=43.46mW
+  |-- Saved | dneff=5.954825e-03 | T_wg=331.09K | T_max=363.16K | 7.95s
+[RUN]    Sample 1114/1200 | W=544.1nm, H=238.3nm, Hw=1062.8nm, Gap=1493.9nm, P=6.98mW
+  |-- Saved | dneff=9.626124e-04 | T_wg=304.99K | T_max=310.14K | 7.98s
+[RUN]    Sample 1115/1200 | W=459.6nm, H=218.5nm, Hw=1526.5nm, Gap=1360.6nm, P=29.32mW
+  |-- Saved | dneff=4.022891e-03 | T_wg=320.97K | T_max=342.62K | 7.92s
+[RUN]    Sample 1116/1200 | W=571.3nm, H=242.7nm, Hw=1432.3nm, Gap=1163.4nm, P=46.99mW
+  |-- Saved | dneff=6.483153e-03 | T_wg=333.61K | T_max=368.30K | 8.01s
+[RUN]    Sample 1117/1200 | W=569.4nm, H=221.1nm, Hw=1985.7nm, Gap=1070.5nm, P=49.24mW
+  |-- Saved | dneff=6.705105e-03 | T_wg=335.20K | T_max=371.56K | 7.96s
+[RUN]    Sample 1118/1200 | W=542.8nm, H=222.2nm, Hw=1481.7nm, Gap=803.6nm, P=18.77mW
+  |-- Saved | dneff=2.562736e-03 | T_wg=313.42K | T_max=327.28K | 7.96s
+[RUN]    Sample 1119/1200 | W=543.6nm, H=242.8nm, Hw=832.4nm, Gap=1366.5nm, P=36.69mW
+  |-- Saved | dneff=5.075903e-03 | T_wg=326.24K | T_max=353.32K | 8.01s
+[RUN]    Sample 1120/1200 | W=423.4nm, H=239.4nm, Hw=1670.6nm, Gap=1475.6nm, P=48.11mW
+  |-- Saved | dneff=6.725618e-03 | T_wg=334.41K | T_max=369.92K | 7.93s
+[RUN]    Sample 1121/1200 | W=461.2nm, H=245.0nm, Hw=1292.1nm, Gap=1491.8nm, P=32.52mW
+  |-- Saved | dneff=4.560650e-03 | T_wg=323.26K | T_max=347.26K | 8.09s
+[RUN]    Sample 1122/1200 | W=497.1nm, H=234.9nm, Hw=1006.4nm, Gap=1064.7nm, P=12.39mW
+  |-- Saved | dneff=1.718639e-03 | T_wg=308.86K | T_max=318.01K | 7.99s
+[RUN]    Sample 1123/1200 | W=583.0nm, H=225.5nm, Hw=1631.7nm, Gap=1333.0nm, P=58.05mW
+  |-- Saved | dneff=7.920315e-03 | T_wg=341.51K | T_max=384.36K | 7.93s
+[RUN]    Sample 1124/1200 | W=510.1nm, H=249.8nm, Hw=1052.2nm, Gap=632.5nm, P=28.28mW
+  |-- Saved | dneff=3.954098e-03 | T_wg=320.23K | T_max=341.10K | 7.97s
+[RUN]    Sample 1125/1200 | W=506.4nm, H=209.6nm, Hw=1922.4nm, Gap=855.3nm, P=11.65mW
+  |-- Saved | dneff=1.579734e-03 | T_wg=308.33K | T_max=316.92K | 7.98s
+[RUN]    Sample 1126/1200 | W=462.7nm, H=240.8nm, Hw=1495.2nm, Gap=1102.5nm, P=37.99mW
+  |-- Saved | dneff=5.310588e-03 | T_wg=327.17K | T_max=355.21K | 7.98s
+[RUN]    Sample 1127/1200 | W=464.6nm, H=207.2nm, Hw=1623.6nm, Gap=1133.2nm, P=12.05mW
+  |-- Saved | dneff=1.632788e-03 | T_wg=308.62K | T_max=317.52K | 7.97s
+[RUN]    Sample 1128/1200 | W=588.1nm, H=214.1nm, Hw=1336.3nm, Gap=1089.0nm, P=38.98mW
+  |-- Saved | dneff=5.267427e-03 | T_wg=327.87K | T_max=356.65K | 7.97s
+[RUN]    Sample 1129/1200 | W=576.1nm, H=233.2nm, Hw=879.2nm, Gap=1023.5nm, P=28.48mW
+  |-- Saved | dneff=3.907473e-03 | T_wg=320.37K | T_max=341.40K | 8.00s
+[RUN]    Sample 1130/1200 | W=526.1nm, H=242.3nm, Hw=1463.9nm, Gap=1117.2nm, P=23.55mW
+  |-- Saved | dneff=3.270552e-03 | T_wg=316.85K | T_max=334.23K | 7.95s
+[RUN]    Sample 1131/1200 | W=421.4nm, H=248.2nm, Hw=1287.4nm, Gap=1459.2nm, P=19.47mW
+  |-- Saved | dneff=2.741875e-03 | T_wg=313.93K | T_max=328.30K | 7.92s
+[RUN]    Sample 1132/1200 | W=524.6nm, H=209.1nm, Hw=1084.2nm, Gap=1111.4nm, P=20.18mW
+  |-- Saved | dneff=2.734920e-03 | T_wg=314.43K | T_max=329.33K | 7.95s
+[RUN]    Sample 1133/1200 | W=493.3nm, H=252.2nm, Hw=1869.5nm, Gap=1193.2nm, P=17.23mW
+  |-- Saved | dneff=2.413141e-03 | T_wg=312.32K | T_max=325.04K | 7.89s
+[RUN]    Sample 1134/1200 | W=456.9nm, H=245.8nm, Hw=1648.1nm, Gap=823.0nm, P=52.26mW
+  |-- Saved | dneff=7.336208e-03 | T_wg=337.38K | T_max=375.95K | 7.95s
+[RUN]    Sample 1135/1200 | W=510.7nm, H=245.6nm, Hw=1544.6nm, Gap=695.6nm, P=44.03mW
+  |-- Saved | dneff=6.138583e-03 | T_wg=331.49K | T_max=363.98K | 7.90s
+[RUN]    Sample 1136/1200 | W=573.2nm, H=253.1nm, Hw=1774.4nm, Gap=1248.9nm, P=33.49mW
+  |-- Saved | dneff=4.641527e-03 | T_wg=324.02K | T_max=348.67K | 8.09s
+[RUN]    Sample 1137/1200 | W=533.4nm, H=231.4nm, Hw=1690.8nm, Gap=1141.8nm, P=36.38mW
+  |-- Saved | dneff=5.010385e-03 | T_wg=326.02K | T_max=352.87K | 7.95s
+[RUN]    Sample 1138/1200 | W=403.3nm, H=226.5nm, Hw=1770.8nm, Gap=1484.4nm, P=41.99mW
+  |-- Saved | dneff=5.758250e-03 | T_wg=330.04K | T_max=361.03K | 7.90s
+[RUN]    Sample 1139/1200 | W=581.7nm, H=221.6nm, Hw=1143.5nm, Gap=1401.9nm, P=47.87mW
+  |-- Saved | dneff=6.512932e-03 | T_wg=334.23K | T_max=369.56K | 7.96s
+[RUN]    Sample 1140/1200 | W=407.5nm, H=254.4nm, Hw=1542.1nm, Gap=683.4nm, P=19.53mW
+  |-- Saved | dneff=2.753218e-03 | T_wg=314.01K | T_max=328.38K | 7.93s
+[RUN]    Sample 1141/1200 | W=529.0nm, H=244.9nm, Hw=1150.9nm, Gap=1251.9nm, P=7.31mW
+  |-- Saved | dneff=1.016315e-03 | T_wg=305.23K | T_max=310.63K | 7.92s
+[RUN]    Sample 1142/1200 | W=517.9nm, H=204.0nm, Hw=1005.2nm, Gap=754.5nm, P=27.52mW
+  |-- Saved | dneff=3.712254e-03 | T_wg=319.68K | T_max=340.00K | 7.94s
+[RUN]    Sample 1143/1200 | W=432.0nm, H=253.3nm, Hw=1188.0nm, Gap=614.5nm, P=25.30mW
+  |-- Saved | dneff=3.567817e-03 | T_wg=318.15K | T_max=336.77K | 7.93s
+[RUN]    Sample 1144/1200 | W=519.5nm, H=243.8nm, Hw=1654.0nm, Gap=729.7nm, P=53.21mW
+  |-- Saved | dneff=7.404354e-03 | T_wg=338.06K | T_max=377.33K | 7.96s
+[RUN]    Sample 1145/1200 | W=435.4nm, H=200.5nm, Hw=1709.9nm, Gap=821.3nm, P=16.19mW
+  |-- Saved | dneff=2.155538e-03 | T_wg=311.58K | T_max=323.53K | 7.95s
+[RUN]    Sample 1146/1200 | W=542.7nm, H=241.3nm, Hw=1993.7nm, Gap=1003.6nm, P=45.09mW
+  |-- Saved | dneff=6.234151e-03 | T_wg=332.25K | T_max=365.53K | 7.94s
+[RUN]    Sample 1147/1200 | W=570.3nm, H=240.8nm, Hw=1340.3nm, Gap=1441.6nm, P=29.79mW
+  |-- Saved | dneff=4.105922e-03 | T_wg=321.30K | T_max=343.29K | 7.93s
+[RUN]    Sample 1148/1200 | W=463.8nm, H=213.7nm, Hw=1390.3nm, Gap=1290.1nm, P=50.45mW
+  |-- Saved | dneff=6.891154e-03 | T_wg=336.08K | T_max=373.32K | 7.92s
+[RUN]    Sample 1149/1200 | W=439.4nm, H=230.7nm, Hw=1591.2nm, Gap=1118.3nm, P=25.32mW
+  |-- Saved | dneff=3.505166e-03 | T_wg=318.11K | T_max=336.80K | 7.91s
+[RUN]    Sample 1150/1200 | W=493.0nm, H=210.3nm, Hw=1892.0nm, Gap=909.0nm, P=56.29mW
+  |-- Saved | dneff=7.642427e-03 | T_wg=340.25K | T_max=381.81K | 7.94s
+[RUN]    Sample 1151/1200 | W=476.3nm, H=212.7nm, Hw=1179.2nm, Gap=1369.7nm, P=39.42mW
+  |-- Saved | dneff=5.379098e-03 | T_wg=328.19K | T_max=357.29K | 8.05s
+[RUN]    Sample 1152/1200 | W=460.7nm, H=234.2nm, Hw=982.5nm, Gap=815.8nm, P=58.39mW
+  |-- Saved | dneff=8.131496e-03 | T_wg=341.77K | T_max=384.86K | 7.94s
+[RUN]    Sample 1153/1200 | W=582.7nm, H=204.4nm, Hw=1658.3nm, Gap=1387.6nm, P=46.64mW
+  |-- Saved | dneff=6.254488e-03 | T_wg=333.34K | T_max=367.78K | 7.90s
+[RUN]    Sample 1154/1200 | W=489.3nm, H=226.8nm, Hw=1643.4nm, Gap=1223.7nm, P=25.96mW
+  |-- Saved | dneff=3.579246e-03 | T_wg=318.57K | T_max=337.72K | 7.88s
+[RUN]    Sample 1155/1200 | W=580.7nm, H=206.1nm, Hw=1233.8nm, Gap=1440.4nm, P=18.37mW
+  |-- Saved | dneff=2.468140e-03 | T_wg=313.13K | T_max=326.70K | 7.93s
+[RUN]    Sample 1156/1200 | W=595.2nm, H=210.4nm, Hw=1378.5nm, Gap=1006.0nm, P=59.22mW
+  |-- Saved | dneff=7.960895e-03 | T_wg=342.33K | T_max=386.06K | 7.90s
+[RUN]    Sample 1157/1200 | W=403.3nm, H=213.2nm, Hw=1653.5nm, Gap=685.6nm, P=11.68mW
+  |-- Saved | dneff=1.568854e-03 | T_wg=308.35K | T_max=316.98K | 7.90s
+[RUN]    Sample 1158/1200 | W=433.0nm, H=214.0nm, Hw=1499.2nm, Gap=1272.9nm, P=6.63mW
+  |-- Saved | dneff=9.010340e-04 | T_wg=304.74K | T_max=309.63K | 7.90s
+[RUN]    Sample 1159/1200 | W=506.9nm, H=202.9nm, Hw=1501.9nm, Gap=643.4nm, P=27.15mW
+  |-- Saved | dneff=3.656392e-03 | T_wg=319.41K | T_max=339.45K | 7.97s
+[RUN]    Sample 1160/1200 | W=568.7nm, H=257.9nm, Hw=1241.1nm, Gap=664.0nm, P=25.10mW
+  |-- Saved | dneff=3.487102e-03 | T_wg=318.00K | T_max=336.48K | 7.90s
+[RUN]    Sample 1161/1200 | W=499.6nm, H=225.2nm, Hw=1975.2nm, Gap=826.8nm, P=43.89mW
+  |-- Saved | dneff=6.047315e-03 | T_wg=331.39K | T_max=363.79K | 7.95s
+[RUN]    Sample 1162/1200 | W=481.4nm, H=216.5nm, Hw=918.2nm, Gap=1137.7nm, P=13.03mW
+  |-- Saved | dneff=1.783155e-03 | T_wg=309.32K | T_max=318.94K | 7.93s
+[RUN]    Sample 1163/1200 | W=549.1nm, H=236.3nm, Hw=1437.3nm, Gap=867.2nm, P=7.63mW
+  |-- Saved | dneff=1.052128e-03 | T_wg=305.46K | T_max=311.10K | 7.89s
+[RUN]    Sample 1164/1200 | W=584.0nm, H=237.6nm, Hw=1592.8nm, Gap=1138.2nm, P=42.20mW
+  |-- Saved | dneff=5.796348e-03 | T_wg=330.18K | T_max=361.33K | 7.92s
+[RUN]    Sample 1165/1200 | W=491.6nm, H=249.4nm, Hw=1959.3nm, Gap=665.1nm, P=49.85mW
+  |-- Saved | dneff=6.980412e-03 | T_wg=335.66K | T_max=372.45K | 7.96s
+[RUN]    Sample 1166/1200 | W=445.1nm, H=201.3nm, Hw=937.8nm, Gap=1457.6nm, P=45.80mW
+  |-- Saved | dneff=6.124428e-03 | T_wg=332.75K | T_max=366.56K | 8.03s
+[RUN]    Sample 1167/1200 | W=436.2nm, H=234.8nm, Hw=1408.7nm, Gap=913.0nm, P=17.40mW
+  |-- Saved | dneff=2.418655e-03 | T_wg=312.44K | T_max=325.28K | 7.88s
+[RUN]    Sample 1168/1200 | W=473.5nm, H=206.9nm, Hw=1619.5nm, Gap=619.9nm, P=46.70mW
+  |-- Saved | dneff=6.332360e-03 | T_wg=333.40K | T_max=367.87K | 7.92s
+[RUN]    Sample 1169/1200 | W=433.6nm, H=208.3nm, Hw=943.7nm, Gap=1253.6nm, P=5.25mW
+  |-- Saved | dneff=7.081507e-04 | T_wg=303.76K | T_max=307.64K | 7.87s
+[RUN]    Sample 1170/1200 | W=425.9nm, H=242.0nm, Hw=1104.8nm, Gap=1094.9nm, P=17.16mW
+  |-- Saved | dneff=2.402576e-03 | T_wg=312.27K | T_max=324.93K | 8.03s
+[RUN]    Sample 1171/1200 | W=554.7nm, H=232.1nm, Hw=1080.0nm, Gap=1083.6nm, P=14.07mW
+  |-- Saved | dneff=1.933114e-03 | T_wg=310.07K | T_max=320.45K | 9.75s
+[RUN]    Sample 1172/1200 | W=585.9nm, H=205.2nm, Hw=1661.5nm, Gap=1438.1nm, P=24.93mW
+  |-- Saved | dneff=3.343474e-03 | T_wg=317.82K | T_max=336.23K | 9.30s
+[RUN]    Sample 1173/1200 | W=410.9nm, H=246.8nm, Hw=1272.4nm, Gap=1136.4nm, P=49.38mW
+  |-- Saved | dneff=6.931314e-03 | T_wg=335.32K | T_max=371.77K | 10.12s
+[RUN]    Sample 1174/1200 | W=441.6nm, H=253.2nm, Hw=1083.3nm, Gap=1046.2nm, P=12.46mW
+  |-- Saved | dneff=1.754669e-03 | T_wg=308.94K | T_max=318.11K | 9.95s
+[RUN]    Sample 1175/1200 | W=477.7nm, H=237.6nm, Hw=935.9nm, Gap=1094.1nm, P=53.67mW
+  |-- Saved | dneff=7.481134e-03 | T_wg=338.39K | T_max=378.00K | 8.50s
+[RUN]    Sample 1176/1200 | W=445.6nm, H=236.0nm, Hw=1991.8nm, Gap=753.2nm, P=34.87mW
+  |-- Saved | dneff=4.855006e-03 | T_wg=324.94K | T_max=350.68K | 7.89s
+[RUN]    Sample 1177/1200 | W=533.1nm, H=230.9nm, Hw=1076.2nm, Gap=1218.8nm, P=22.30mW
+  |-- Saved | dneff=3.070628e-03 | T_wg=315.95K | T_max=332.41K | 7.89s
+[RUN]    Sample 1178/1200 | W=502.0nm, H=220.7nm, Hw=882.8nm, Gap=1060.6nm, P=57.93mW
+  |-- Saved | dneff=7.947897e-03 | T_wg=341.43K | T_max=384.20K | 7.88s
+[RUN]    Sample 1179/1200 | W=406.3nm, H=228.2nm, Hw=1821.5nm, Gap=1323.1nm, P=8.89mW
+  |-- Saved | dneff=1.222458e-03 | T_wg=306.36K | T_max=312.93K | 7.89s
+[RUN]    Sample 1180/1200 | W=502.4nm, H=205.3nm, Hw=940.2nm, Gap=1350.4nm, P=47.07mW
+  |-- Saved | dneff=6.361489e-03 | T_wg=333.66K | T_max=368.41K | 8.03s
+[RUN]    Sample 1181/1200 | W=430.9nm, H=228.3nm, Hw=1029.9nm, Gap=714.9nm, P=45.68mW
+  |-- Saved | dneff=6.316543e-03 | T_wg=332.67K | T_max=366.39K | 7.89s
+[RUN]    Sample 1182/1200 | W=482.7nm, H=247.1nm, Hw=1919.4nm, Gap=1475.0nm, P=7.79mW
+  |-- Saved | dneff=1.090654e-03 | T_wg=305.57K | T_max=311.32K | 7.90s
+[RUN]    Sample 1183/1200 | W=419.5nm, H=250.6nm, Hw=1359.5nm, Gap=647.8nm, P=21.85mW
+  |-- Saved | dneff=3.081548e-03 | T_wg=315.63K | T_max=331.76K | 7.90s
+[RUN]    Sample 1184/1200 | W=559.6nm, H=211.1nm, Hw=1884.2nm, Gap=1418.3nm, P=17.36mW
+  |-- Saved | dneff=2.346078e-03 | T_wg=312.41K | T_max=325.23K | 7.92s
+[RUN]    Sample 1185/1200 | W=407.9nm, H=216.1nm, Hw=1227.3nm, Gap=1286.8nm, P=29.50mW
+  |-- Saved | dneff=3.993603e-03 | T_wg=321.09K | T_max=342.87K | 7.87s
+[RUN]    Sample 1186/1200 | W=570.8nm, H=207.8nm, Hw=822.2nm, Gap=1464.8nm, P=31.99mW
+  |-- Saved | dneff=4.307212e-03 | T_wg=322.87K | T_max=346.50K | 7.89s
+[RUN]    Sample 1187/1200 | W=434.8nm, H=224.2nm, Hw=1778.7nm, Gap=622.3nm, P=46.10mW
+  |-- Saved | dneff=6.347085e-03 | T_wg=332.98K | T_max=367.00K | 7.91s
+[RUN]    Sample 1188/1200 | W=436.9nm, H=203.4nm, Hw=816.6nm, Gap=900.3nm, P=9.09mW
+  |-- Saved | dneff=1.216372e-03 | T_wg=306.50K | T_max=313.21K | 7.92s
+[RUN]    Sample 1189/1200 | W=450.4nm, H=201.2nm, Hw=1101.9nm, Gap=686.4nm, P=51.38mW
+  |-- Saved | dneff=6.887036e-03 | T_wg=336.74K | T_max=374.67K | 7.90s
+[RUN]    Sample 1190/1200 | W=597.3nm, H=242.7nm, Hw=1285.3nm, Gap=632.0nm, P=20.46mW
+  |-- Saved | dneff=2.808289e-03 | T_wg=314.63K | T_max=329.74K | 7.92s
+[RUN]    Sample 1191/1200 | W=593.4nm, H=203.7nm, Hw=1170.5nm, Gap=1126.5nm, P=5.07mW
+  |-- Saved | dneff=6.777552e-04 | T_wg=303.63K | T_max=307.37K | 7.92s
+[RUN]    Sample 1192/1200 | W=455.4nm, H=238.3nm, Hw=1274.9nm, Gap=724.7nm, P=32.12mW
+  |-- Saved | dneff=4.483761e-03 | T_wg=322.98K | T_max=346.68K | 7.82s
+[RUN]    Sample 1193/1200 | W=483.5nm, H=224.7nm, Hw=1530.5nm, Gap=1436.8nm, P=22.93mW
+  |-- Saved | dneff=3.161623e-03 | T_wg=316.40K | T_max=333.33K | 7.86s
+[RUN]    Sample 1194/1200 | W=410.1nm, H=220.8nm, Hw=1767.7nm, Gap=1242.3nm, P=52.72mW
+  |-- Saved | dneff=7.194713e-03 | T_wg=337.70K | T_max=376.62K | 7.86s
+[RUN]    Sample 1195/1200 | W=464.9nm, H=208.7nm, Hw=1593.5nm, Gap=1250.3nm, P=12.15mW
+  |-- Saved | dneff=1.648750e-03 | T_wg=308.69K | T_max=317.66K | 8.01s
+[RUN]    Sample 1196/1200 | W=533.8nm, H=210.6nm, Hw=911.7nm, Gap=984.6nm, P=11.48mW
+  |-- Saved | dneff=1.554581e-03 | T_wg=308.21K | T_max=316.68K | 7.92s
+[RUN]    Sample 1197/1200 | W=492.4nm, H=220.6nm, Hw=1365.2nm, Gap=1054.2nm, P=39.44mW
+  |-- Saved | dneff=5.407188e-03 | T_wg=328.20K | T_max=357.31K | 7.85s
+[RUN]    Sample 1198/1200 | W=570.9nm, H=247.7nm, Hw=1706.6nm, Gap=622.5nm, P=12.13mW
+  |-- Saved | dneff=1.678056e-03 | T_wg=308.67K | T_max=317.63K | 7.89s
+[RUN]    Sample 1199/1200 | W=467.6nm, H=217.8nm, Hw=1918.0nm, Gap=906.1nm, P=27.43mW
+  |-- Saved | dneff=3.762563e-03 | T_wg=319.62K | T_max=339.87K | 7.87s
+[RUN]    Sample 1200/1200 | W=551.3nm, H=248.2nm, Hw=1731.2nm, Gap=615.1nm, P=5.79mW
+  |-- Saved | dneff=8.028389e-04 | T_wg=304.14K | T_max=308.41K | 7.91s
+====================================================================
+[DONE]   Sweep complete! 1200 samples saved.
+[LOG]    Saved to: C:\Users\najib\Desktop\silicon-phase-shifter-coopt\log\run_to_sweep_20261125_162714.log
+====================================================================
