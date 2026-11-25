@@ -1,0 +1,25 @@
+========================================================================
+ [PINN] Phase 2: Parametric Field-Level PINN + Perturbation Layer
+========================================================================
+[DEVICE] Running on: cpu
+------------------------------------------------------------------------
+[TRAIN]  Field-PINN training size N = 50 (250 epochs)
+  |-- Field_PINN ( 10.3s, scale=1.588) | ID_Test: MAPE=3.79% (R2=0.9893, T_RMSE=0.47K) | OOD_HighPower: MAPE=3.62% (R2=0.8197, T_RMSE=1.00K) | OOD_GeomExtrap: MAPE=4.36% (R2=0.9879, T_RMSE=0.63K)
+------------------------------------------------------------------------
+[TRAIN]  Field-PINN training size N = 100 (250 epochs)
+  |-- Field_PINN ( 13.7s, scale=1.584) | ID_Test: MAPE=3.11% (R2=0.9927, T_RMSE=0.38K) | OOD_HighPower: MAPE=3.02% (R2=0.8746, T_RMSE=0.78K) | OOD_GeomExtrap: MAPE=2.94% (R2=0.9936, T_RMSE=0.53K)
+------------------------------------------------------------------------
+[TRAIN]  Field-PINN training size N = 200 (250 epochs)
+  |-- Field_PINN ( 24.3s, scale=1.576) | ID_Test: MAPE=2.88% (R2=0.9933, T_RMSE=0.34K) | OOD_HighPower: MAPE=2.93% (R2=0.8948, T_RMSE=0.67K) | OOD_GeomExtrap: MAPE=3.22% (R2=0.9924, T_RMSE=0.47K)
+------------------------------------------------------------------------
+[TRAIN]  Field-PINN training size N = 400 (250 epochs)
+  |-- Field_PINN ( 46.6s, scale=1.567) | ID_Test: MAPE=2.14% (R2=0.9965, T_RMSE=0.34K) | OOD_HighPower: MAPE=2.01% (R2=0.9525, T_RMSE=0.71K) | OOD_GeomExtrap: MAPE=6.62% (R2=0.9222, T_RMSE=0.99K)
+------------------------------------------------------------------------
+[TRAIN]  Field-PINN training size N = 800 (250 epochs)
+  |-- Field_PINN (103.1s, scale=1.575) | ID_Test: MAPE=1.68% (R2=0.9973, T_RMSE=0.33K) | OOD_HighPower: MAPE=1.62% (R2=0.9627, T_RMSE=0.68K) | OOD_GeomExtrap: MAPE=2.64% (R2=0.9940, T_RMSE=0.42K)
+========================================================================
+[DONE]   PINN metrics saved -> C:\Users\najib\Desktop\silicon-phase-shifter-coopt\results\pinn_metrics.csv
+[DONE]   Checkpoint saved   -> C:\Users\najib\Desktop\silicon-phase-shifter-coopt\models\field_pinn_N800.pt
+[DONE]   Field plot saved   -> C:\Users\najib\Desktop\silicon-phase-shifter-coopt\results\pinn_ood_field_comparison.png
+[LOG]    Log saved          -> C:\Users\najib\Desktop\silicon-phase-shifter-coopt\log\train_field_pinn_20261125_225055.log
+========================================================================
