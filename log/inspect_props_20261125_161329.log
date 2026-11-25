@@ -1,0 +1,21 @@
+============================================================
+ [PROPS] Geometry, Source & Monitor Property Inspection
+============================================================
+[HEAT]   Inspecting waveguide_heat.ldev...
+  |-- geometry::wg -> {'x': 0.0, 'x span': 4.5e-07, 'x min': -2.25e-07, 'x max': 2.25e-07, 'y': 1.1e-07, 'y span': 2.2e-07, 'y min': 0.0, 'y max': 2.2e-07, 'z': 0.0, 'z span': 1e-06, 'z min': -5e-07, 'z max': 5e-07}
+  |-- geometry::wire -> {'x': 0.0, 'x span': 2e-06, 'x min': -1e-06, 'x max': 1e-06, 'y': 2.32e-06, 'y span': 1.9999999999999978e-07, 'y min': 2.22e-06, 'y max': 2.4199999999999997e-06, 'z': 0.0, 'z span': 1e-06, 'z min': -5e-07, 'z max': 5e-07}
+  |-- geometry::oxide -> {'x': 0.0, 'x span': 9.999999999999999e-05, 'x min': -4.9999999999999996e-05, 'x max': 4.9999999999999996e-05, 'y': 3.999999999999999e-06, 'y span': 1.2e-05, 'y min': -2.000000000000001e-06, 'y max': 9.999999999999999e-06, 'z': 0.0, 'z span': 1e-06, 'z min': -5e-07, 'z max': 5e-07}
+  |-- geometry::substrate -> {'x': 0.0, 'x span': 9.999999999999999e-05, 'x min': -4.9999999999999996e-05, 'x max': 4.9999999999999996e-05, 'y': -2.1e-05, 'y span': 3.7999999999999995e-05, 'y min': -3.9999999999999996e-05, 'y max': -2.000000000000001e-06, 'z': 0.0, 'z span': 1e-06, 'z min': -5e-07, 'z max': 5e-07}
+  |-- HEAT::uniform heat -> {'total power': 0.02, 'enabled': 1.0}
+  |-- HEAT::wg_monitor -> {'monitor type': '2D z-normal', 'save data': 1.0, 'filename': 'T.mat', 'x': 0.0, 'x span': 2.4999999999999998e-06, 'y': 1.1e-07, 'y span': 2.4999999999999998e-06, 'z': 0.0, 'z span': 3.6e-07}
+  |-- HEAT::wg_monitor_1 -> {'monitor type': '2D z-normal', 'save data': 0.0, 'filename': 'T.mat', 'x': 0.0, 'x span': 4.5e-07, 'y': 1.1e-07, 'y span': 2.2e-07, 'z': 0.0, 'z span': 3.6e-07}
+------------------------------------------------------------
+[MODE]   Inspecting waveguide_fde.lms...
+  |-- wg -> {'x': 0.0, 'x span': 4.5e-07, 'x min': -2.25e-07, 'x max': 2.25e-07, 'y': 1.1e-07, 'y span': 2.2e-07, 'y min': 0.0, 'y max': 2.2e-07, 'z': 0.0, 'z span': 1e-06, 'z min': -5e-07, 'z max': 5e-07}
+  |-- oxide -> {'x': 0.0, 'x span': 0.00011999999999999999, 'x min': -5.9999999999999995e-05, 'x max': 5.9999999999999995e-05, 'y': 2.8499999999999995e-05, 'y span': 6.3e-05, 'y min': -3.000000000000005e-06, 'y max': 5.9999999999999995e-05, 'z': 0.0, 'z span': 1e-06, 'z min': -5e-07, 'z max': 5e-07}
+  |-- silicon -> {'x': 0.0, 'x span': 0.00011999999999999999, 'x min': -5.9999999999999995e-05, 'x max': 5.9999999999999995e-05, 'y': -3.1e-05, 'y span': 5.8e-05, 'y min': -6e-05, 'y max': -2.000000000000001e-06, 'z': 0.0, 'z span': 3.6e-07, 'z min': -1.8e-07, 'z max': 1.8e-07}
+  |-- FDE -> {'solver type': '2D Z normal', 'wavelength': 1.55e-06, 'x': 0.0, 'x span': 2e-06, 'y': 1.1e-07, 'y span': 2e-06, 'z': 0.0, 'z span': 1.6999999999999998e-06}
+  |-- temperature -> {'enabled': 1.0, 'x': 0.0, 'y': 0.0, 'z': 0.0}
+============================================================
+[DONE]   Log saved to: C:\Users\najib\Desktop\silicon-phase-shifter-coopt\log\inspect_props_20261125_161329.log
+============================================================
