@@ -1,0 +1,40 @@
+========================================================================
+ [BASELINES] Phase 2: Surrogate Baselines & Learning Curve Benchmark
+========================================================================
+[SPLIT]  Saved fixed splits -> C:\Users\najib\Desktop\silicon-phase-shifter-coopt\data\processed\split_indices.npz
+  |-- Train pool: 900 | Val: 150 | ID Test: 150 | OOD: 200
+------------------------------------------------------------------------
+[TRAIN]  Training size N = 50
+  |-- Analytic  ( 0.00s) | ID_Test: MAPE=0.39% (R2=0.9999) | OOD_HighPower: MAPE=0.40% (R2=0.9977) | OOD_GeomExtrap: MAPE=1.00% (R2=0.9987)
+  |-- GP        ( 0.12s) | ID_Test: MAPE=0.14% (R2=1.0000) | OOD_HighPower: MAPE=0.24% (R2=0.9992) | OOD_GeomExtrap: MAPE=0.33% (R2=0.9998)
+  |-- GBR       ( 0.13s) | ID_Test: MAPE=4.31% (R2=0.9958) | OOD_HighPower: MAPE=21.13% (R2=-3.6674) | OOD_GeomExtrap: MAPE=4.56% (R2=0.9945)
+  |-- MLP       ( 0.17s) | ID_Test: MAPE=20.25% (R2=0.9075) | OOD_HighPower: MAPE=21.05% (R2=-3.3055) | OOD_GeomExtrap: MAPE=42.91% (R2=0.6368)
+------------------------------------------------------------------------
+[TRAIN]  Training size N = 100
+  |-- Analytic  ( 0.00s) | ID_Test: MAPE=0.39% (R2=0.9999) | OOD_HighPower: MAPE=0.40% (R2=0.9979) | OOD_GeomExtrap: MAPE=1.08% (R2=0.9985)
+  |-- GP        ( 0.14s) | ID_Test: MAPE=0.08% (R2=1.0000) | OOD_HighPower: MAPE=0.19% (R2=0.9991) | OOD_GeomExtrap: MAPE=0.30% (R2=0.9998)
+  |-- GBR       ( 0.12s) | ID_Test: MAPE=1.84% (R2=0.9988) | OOD_HighPower: MAPE=19.77% (R2=-3.2288) | OOD_GeomExtrap: MAPE=2.15% (R2=0.9975)
+  |-- MLP       ( 0.17s) | ID_Test: MAPE=19.15% (R2=0.9047) | OOD_HighPower: MAPE=24.33% (R2=-4.6918) | OOD_GeomExtrap: MAPE=44.71% (R2=0.5690)
+------------------------------------------------------------------------
+[TRAIN]  Training size N = 200
+  |-- Analytic  ( 0.00s) | ID_Test: MAPE=0.35% (R2=0.9999) | OOD_HighPower: MAPE=0.37% (R2=0.9980) | OOD_GeomExtrap: MAPE=0.97% (R2=0.9987)
+  |-- GP        ( 0.64s) | ID_Test: MAPE=0.05% (R2=1.0000) | OOD_HighPower: MAPE=0.07% (R2=0.9999) | OOD_GeomExtrap: MAPE=0.36% (R2=0.9999)
+  |-- GBR       ( 0.16s) | ID_Test: MAPE=1.21% (R2=0.9992) | OOD_HighPower: MAPE=19.81% (R2=-3.2533) | OOD_GeomExtrap: MAPE=1.44% (R2=0.9986)
+  |-- MLP       ( 0.18s) | ID_Test: MAPE=20.73% (R2=0.9104) | OOD_HighPower: MAPE=14.90% (R2=-1.3749) | OOD_GeomExtrap: MAPE=48.83% (R2=0.5781)
+------------------------------------------------------------------------
+[TRAIN]  Training size N = 400
+  |-- Analytic  ( 0.00s) | ID_Test: MAPE=0.35% (R2=0.9999) | OOD_HighPower: MAPE=0.36% (R2=0.9980) | OOD_GeomExtrap: MAPE=0.96% (R2=0.9987)
+  |-- GP        ( 2.92s) | ID_Test: MAPE=0.04% (R2=1.0000) | OOD_HighPower: MAPE=0.07% (R2=0.9999) | OOD_GeomExtrap: MAPE=0.26% (R2=0.9999)
+  |-- GBR       ( 0.23s) | ID_Test: MAPE=0.93% (R2=0.9996) | OOD_HighPower: MAPE=19.66% (R2=-3.2125) | OOD_GeomExtrap: MAPE=1.25% (R2=0.9990)
+  |-- MLP       ( 0.64s) | ID_Test: MAPE=2.82% (R2=0.9980) | OOD_HighPower: MAPE=1.47% (R2=0.9727) | OOD_GeomExtrap: MAPE=6.17% (R2=0.9917)
+------------------------------------------------------------------------
+[TRAIN]  Training size N = 800
+  |-- Analytic  ( 0.00s) | ID_Test: MAPE=0.35% (R2=0.9999) | OOD_HighPower: MAPE=0.37% (R2=0.9980) | OOD_GeomExtrap: MAPE=0.96% (R2=0.9987)
+  |-- GP        ( 7.17s) | ID_Test: MAPE=0.03% (R2=1.0000) | OOD_HighPower: MAPE=0.05% (R2=1.0000) | OOD_GeomExtrap: MAPE=0.24% (R2=0.9999)
+  |-- GBR       ( 0.39s) | ID_Test: MAPE=0.66% (R2=0.9998) | OOD_HighPower: MAPE=19.71% (R2=-3.2280) | OOD_GeomExtrap: MAPE=1.06% (R2=0.9990)
+  |-- MLP       ( 0.57s) | ID_Test: MAPE=2.46% (R2=0.9985) | OOD_HighPower: MAPE=1.17% (R2=0.9829) | OOD_GeomExtrap: MAPE=5.47% (R2=0.9925)
+========================================================================
+[DONE]   Metrics saved -> C:\Users\najib\Desktop\silicon-phase-shifter-coopt\results\baseline_metrics.csv
+[DONE]   Plot saved    -> C:\Users\najib\Desktop\silicon-phase-shifter-coopt\results\baseline_learning_curves.png
+[LOG]    Log saved     -> C:\Users\najib\Desktop\silicon-phase-shifter-coopt\log\run_baselines_20261125_223711.log
+========================================================================
