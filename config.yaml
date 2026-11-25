@@ -13,12 +13,33 @@ dataset:
   fields_h5: "data/raw/to_fields.h5"
   temp_mat_file: "data/raw/tmp_thermal_map.mat"
 
+ood_dataset:
+  samples_per_regime: 100
+  seed: 999
+  scalars_csv: "data/raw/to_ood_scalars.csv"
+  fields_h5: "data/raw/to_ood_fields.h5"
+  temp_mat_file: "data/raw/tmp_ood_thermal_map.mat"
+
 sweep_bounds:
   wg_width_nm: [400.0, 600.0]
   wg_height_nm: [200.0, 260.0]
   heater_width_nm: [800.0, 2000.0]
   heater_gap_nm: [600.0, 1500.0]
   heater_power_mW: [5.0, 60.0]
+
+ood_bounds:
+  high_power:
+    wg_width_nm: [400.0, 600.0]
+    wg_height_nm: [200.0, 260.0]
+    heater_width_nm: [800.0, 2000.0]
+    heater_gap_nm: [600.0, 1500.0]
+    heater_power_mW: [60.0, 90.0]
+  geom_extrap:
+    wg_width_nm: [350.0, 650.0]
+    wg_height_nm: [200.0, 260.0]
+    heater_width_nm: [800.0, 2000.0]
+    heater_gap_nm: [400.0, 600.0]
+    heater_power_mW: [5.0, 60.0]
 
 simulation:
   wavelength_um: 1.55
