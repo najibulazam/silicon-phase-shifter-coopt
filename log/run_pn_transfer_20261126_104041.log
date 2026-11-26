@@ -1,0 +1,21 @@
+========================================================================
+ [PHASE 5] RQ4 Cross-Platform Transfer: PN Carrier-Depletion Shifter
+========================================================================
+[DATA]   PN dataset: 225 samples | Train=162 (18 cases) | Test=63 (7 cases)
+  |-- |delta_neff(-4V)| range: [9.983e-05, 1.215e-04]
+------------------------------------------------------------------------
+  |-- GP Surrogate   : MAPE=0.446% | R2=0.99941
+  |-- GBR            : MAPE=0.704% | R2=0.99824
+  |-- Standard MLP   : MAPE=11.013% | R2=0.63282
+  |-- PN_PhysicsNet  : MAPE=11.644% | R2=-3.47241 (V_bi=0.78V)
+------------------------------------------------------------------------
+[EXPORT] PN Verilog-A -> C:\Users\najib\Desktop\silicon-phase-shifter-coopt\models\silicon_pn_shifter.va
+  |-- GP Inference: 0.0045 ms/eval (Speedup vs Lumerical ~19s/pt = 4,256,621x)
+[CO-OPT] Evaluated 36 PN mesh designs:
+  |-- Min V_pi   : 0.500 V (L=6.37 mm, Loss+Q=6.27 dB)
+  |-- Min Loss+Q : 6.128 dB (V_pi=0.500 V, L=6.38 mm)
+  |-- Min Area   : 2.5726 mm^2 (V_pi=0.500 V)
+========================================================================
+[DONE]   Phase 5 (RQ4) complete -> C:\Users\najib\Desktop\silicon-phase-shifter-coopt\results\pn_transfer_results.png
+[LOG]    Log saved -> C:\Users\najib\Desktop\silicon-phase-shifter-coopt\log\run_pn_transfer_20261126_104041.log
+========================================================================
