@@ -1,0 +1,34 @@
+========================================================================
+ [PN-SWEEP] Phase 5: PN Carrier-Depletion LHS Dataset Generation
+========================================================================
+[PLAN]     Total LHS cases: 25 | Already done: 0 | 9 voltage steps/case
+------------------------------------------------------------------------
+[CASE 01/25] W=522.9nm, P=2.57e23, N=5.70e23, Off=-49.0nm | |dneff(-4V)|=1.176e-04 | 156.3s
+[CASE 02/25] W=493.6nm, P=4.24e23, N=5.40e23, Off=+56.2nm | |dneff(-4V)|=1.098e-04 | 153.1s
+[CASE 03/25] W=489.5nm, P=5.77e23, N=3.06e23, Off=+21.9nm | |dneff(-4V)|=1.077e-04 | 155.0s
+[CASE 04/25] W=475.4nm, P=5.23e23, N=2.57e23, Off=+54.1nm | |dneff(-4V)|=1.049e-04 | 162.0s
+[CASE 05/25] W=535.8nm, P=2.15e23, N=4.91e23, Off=-58.2nm | |dneff(-4V)|=1.213e-04 | 170.7s
+[CASE 06/25] W=539.0nm, P=4.82e23, N=5.04e23, Off=+41.3nm | |dneff(-4V)|=1.215e-04 | 172.5s
+[CASE 07/25] W=478.9nm, P=3.09e23, N=2.41e23, Off= -7.4nm | |dneff(-4V)|=1.050e-04 | 169.0s
+[CASE 08/25] W=521.4nm, P=2.85e23, N=3.96e23, Off=-45.4nm | |dneff(-4V)|=1.176e-04 | 175.2s
+[CASE 09/25] W=496.7nm, P=3.54e23, N=3.52e23, Off=+15.9nm | |dneff(-4V)|=1.099e-04 | 175.1s
+[CASE 10/25] W=469.5nm, P=2.40e23, N=3.88e23, Off=-20.0nm | |dneff(-4V)|=1.026e-04 | 171.2s
+[CASE 11/25] W=516.2nm, P=2.67e23, N=3.33e23, Off=-37.5nm | |dneff(-4V)|=1.150e-04 | 177.5s
+[CASE 12/25] W=454.7nm, P=3.15e23, N=4.82e23, Off=+29.8nm | |dneff(-4V)|=1.001e-04 | 165.4s
+[CASE 13/25] W=511.3nm, P=4.06e23, N=2.93e23, Off=-21.6nm | |dneff(-4V)|=1.146e-04 | 175.1s
+[CASE 14/25] W=462.9nm, P=2.21e23, N=4.13e23, Off=+37.0nm | |dneff(-4V)|=1.024e-04 | 173.2s
+[CASE 15/25] W=528.2nm, P=5.11e23, N=3.74e23, Off=-51.0nm | |dneff(-4V)|=1.179e-04 | 174.7s
+[CASE 16/25] W=507.3nm, P=3.36e23, N=2.71e23, Off= -6.1nm | |dneff(-4V)|=1.124e-04 | 189.2s
+[CASE 17/25] W=531.5nm, P=5.59e23, N=5.91e23, Off=+34.5nm | |dneff(-4V)|=1.179e-04 | 171.0s
+[CASE 18/25] W=485.9nm, P=5.45e23, N=3.25e23, Off=-14.0nm | |dneff(-4V)|=1.077e-04 | 165.6s
+[CASE 19/25] W=542.6nm, P=4.68e23, N=2.31e23, Off= +5.8nm | |dneff(-4V)|=1.214e-04 | 172.6s
+[CASE 20/25] W=504.8nm, P=4.93e23, N=2.07e23, Off=-30.2nm | |dneff(-4V)|=1.122e-04 | 177.1s
+[CASE 21/25] W=547.3nm, P=5.93e23, N=4.43e23, Off=-32.0nm | |dneff(-4V)|=1.215e-04 | 167.2s
+[CASE 22/25] W=461.9nm, P=4.23e23, N=5.56e23, Off= +0.2nm | |dneff(-4V)|=1.024e-04 | 165.0s
+[CASE 23/25] W=501.4nm, P=4.48e23, N=5.34e23, Off= +8.7nm | |dneff(-4V)|=1.123e-04 | 179.1s
+[CASE 24/25] W=472.2nm, P=3.70e23, N=4.35e23, Off=+47.4nm | |dneff(-4V)|=1.049e-04 | 169.2s
+[CASE 25/25] W=452.6nm, P=3.91e23, N=4.70e23, Off=+17.0nm | |dneff(-4V)|=9.983e-05 | 165.7s
+========================================================================
+[DONE]   PN dataset saved (225 rows) -> C:\Users\najib\Desktop\silicon-phase-shifter-coopt\data\raw\pn_depletion_sweep.csv
+[LOG]    Log saved -> C:\Users\najib\Desktop\silicon-phase-shifter-coopt\log\run_pn_sweep_20261125_235832.log
+========================================================================
