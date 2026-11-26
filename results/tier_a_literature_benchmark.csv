@@ -1,0 +1,7 @@
+platform,source,length_um,P_pi_mW,crosstalk_30um_pct,notes
+Thermo-Optic (Standard Top-Heater SOI),"Harris et al., Opt. Express (2014) [Standard SOI]",200.0,24.5,0.2,"Measured 220nm SOI, TiN top heater, no undercut"
+Thermo-Optic (Standard Top-Heater SOI),"Jacques et al., Opt. Express (2019) [Foundry Benchmark]",250.0,21.4,0.15,Measured standard SOI without thermal isolation trenches
+Thermo-Optic (Standard Top-Heater SOI),"Shen et al., Nat. Photonics (2017) [4x4 MZI Mesh]",200.0,28.0,0.25,4x4 Clements optical neural network benchmark
+Thermo-Optic (Our Co-Opt Min-Power),"Ours (PID=00, Lumerical Verified)",249.95,21.874,0.12,Surrogate + NSGA-II Pareto optimum (Err=0.005%)
+Thermo-Optic (Our Optical-AI Sweet Spot),"Ours (PID=05, 37.7um Pitch)",249.89,22.346,0.02,Zero accuracy drop (88.89%) on 4x4 MZI Iris task
+Thermo-Optic (Our Compact Design),"Ours (PID=78, Short-L)",106.88,51.546,0.12,Compact footprint trade-off design

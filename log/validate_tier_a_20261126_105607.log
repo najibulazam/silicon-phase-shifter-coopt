@@ -1,0 +1,19 @@
+========================================================================
+ [PHASE 6] Tier A Published Literature & Foundry PDK Benchmark Validation
+========================================================================
+[TO-BENCH] Comparing Thermo-Optic P_pi against Published Measured Literature:
+  |-- Harris et al., Opt. Express (2014) [Standard SOI]      | L=200.0um | P_pi=24.50 mW
+  |-- Jacques et al., Opt. Express (2019) [Foundry Benchmark] | L=250.0um | P_pi=21.40 mW
+  |-- Shen et al., Nat. Photonics (2017) [4x4 MZI Mesh]      | L=200.0um | P_pi=28.00 mW
+  |-- Ours (PID=00, Lumerical Verified)                      | L=249.9um | P_pi=21.87 mW
+  |-- Ours (PID=05, 37.7um Pitch)                            | L=249.9um | P_pi=22.35 mW
+  |-- Ours (PID=78, Short-L)                                 | L=106.9um | P_pi=51.55 mW
+------------------------------------------------------------------------
+[PN-BENCH] PN Carrier-Depletion Modulation Efficiency (V_pi * L_pi):
+  |-- Literature Lateral PN (1550nm, 220nm SOI) : 1.50 - 2.80 V*cm (Reed et al., Nat. Photon. 2010 / Baehr-Jones et al.)
+  |-- Our Co-Optimized PN Design (PID=00)       : 0.318 V*cm (V_pi=0.50V, L=6.37mm)
+========================================================================
+[DONE]   Benchmark CSV  -> C:\Users\najib\Desktop\silicon-phase-shifter-coopt\results\tier_a_literature_benchmark.csv
+[DONE]   Validation Fig -> C:\Users\najib\Desktop\silicon-phase-shifter-coopt\results\tier_a_validation.png
+[LOG]    Log saved      -> C:\Users\najib\Desktop\silicon-phase-shifter-coopt\log\validate_tier_a_20261126_105607.log
+========================================================================
